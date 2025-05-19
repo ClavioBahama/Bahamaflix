@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Bahama Flix - Assista aos melhores filmes e séries">
+      <!-- Google AdSense Script -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1278895213529416"
+     crossorigin="anonymous"></script>
+    <!-- Header Animado -->
+    <link rel="preconnect" href="https://cdn.jsdelivr.net">
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Bahama Flix - Filmes e Séries</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body class="bg-dark text-light">
+
+    <header class="header-animated">
+        <div class="container-fluid d-flex justify-content-center align-items-center py-3">
+            <h1 class="logo-text m-0">
+                <span class="logo-part">B</span>
+                <span class="logo-part">a</span>
+                <span class="logo-part">h</span>
+                <span class="logo-part">a</span>
+                <span class="logo-part">m</span>
+                <span class="logo-part">a</span>
+                <span class="logo-space"> </span>
+                <span class="logo-part">F</span>
+                <span class="logo-part">l</span>
+                <span class="logo-part">i</span>
+                <span class="logo-part">x</span>
+            </h1>
+        </div>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
+         <div id="no-results" class="alert alert-warning text-center my-4" role="alert" style="display: none;">Nenhum resultado encontrado. Tente procurar em ver Filtrar.</div>
+            <!-- Mantenha -->
+        </nav>
+    </header>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Animação</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarScroll">
+                <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html"><i class="fas fa-home me-1"></i> Casa</a></li>
+                    <li class="nav-item"><a class="nav-link" href="Filmes.html"><i class="fas fa-film me-1"></i> Filmes</a></li>
+                    <li class="nav-item"><a class="nav-link" href="Series.html"><i class="fas fa-tv me-1"></i> Séries</a></li>
+                    <li class="nav-item dropdown">
+
+                    <li class="nav-item">
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Escreva a sua pesquisa" aria-label="search">
+                    <button class="btn btn-outline-light" type="submit"><i class="fas fa-search"></i></button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+ <!-- Catálogo Completo -->
+ <main class="container my-5">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <h2><i class="#"></i>🎬 Animação</h2>
+        <div class="dropdown">
+            <button class="btn btn-outline-light dropdown-toggle" type="button" id="filterDropdown" data-bs-toggle="dropdown">
+                <i class="fas fa-filter me-1"></i> Filtrar
+            </button>
+            <ul class="dropdown-menu dropdown-menu-dark">
+                <li><a class="dropdown-item" href="Filmes.html">Todos</a></li>
+                <li><a class="dropdown-item" href="Terror.html">👻 Terror</a></li>
+                <li><a class="dropdown-item" href="Acao.html">💥 Ação</a></li>
+                <li><a class="dropdown-item" href="Comedia.html">😂 Comédia</a></li>
+                <li><a class="dropdown-item" href="Drama.html">😢 Drama</a></li>
+                <li><a class="dropdown-item" href="Ficcao.html">🚀 Ficção Científica</a></li>
+                <li><a class="dropdown-item" href="Suspense.html">🕵️ Suspense</a></li>
+                <li><a class="dropdown-item" href="Documentario.html">📚 Documentário</a></li>
+                <li><a class="dropdown-item" href="Familia.html">👨👩👧👦 Família </a></li>
+                <li><a class="dropdown-item" href="Musica.html">🎵 Musical</a></li>
+                <li><a class="dropdown-item" href="Historico.html">⚔️ Histórico</a></li>
+                <li><a class="dropdown-item" href="Espote.html">🏆 Esporte</a></li>
+                
+            </ul>
+        </div>
+    </div>
+    <div class="row g-3">
+        <div class="col-6 col-md-4 col-lg-3">
+            <div class="catalog-item h-100">
+                <a href="A Família do Futuro.html" class="d-block">
+                    <img src="Animacao/FT.F/A Família do Futuro.jpg" class="img-fluid" alt="A Família do Futuro" loading="lazy">
+                    <div class="info-box">
+                        <h5>A Família do Futuro</h5>
+                        <div class="d-flex justify-content-between">
+                            <span class="badge bg-primary">HD</span>
+                            <span class="text-warning"><i class="fas fa-star"></i> 3.5</span>
+                        </div>
+                        <small class="text-muted">2007 • Animação, Aventura</small>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3">
+            <div class="catalog-item h-100">
+                <a href="A pequena sereia.html" class="d-block">
+                    <img src="Animacao/FT.F/A Pequena Sereia 1.jpg" class="img-fluid" alt="A Pequena Sereia" loading="lazy">
+                    <div class="info-box">
+                        <h5>A Pequena Sereia I - III</h5>
+                        <div class="d-flex justify-content-between">
+                            <span class="badge bg-primary">HD</span>
+                            <span class="text-warning"><i class="fas fa-star"></i> 4.0</span>
+                        </div>
+                        <small class="text-muted">1989-2008 • Animação, Fantasia</small>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3">
+            <div class="catalog-item h-100">
+                <a href="A Princesa e o Sapo.html" class="d-block">
+                    <img src="Animacao/FT.F/A Princesa e o Sapo.jpg" class="img-fluid" alt="A Princesa e o Sapo" loading="lazy">
+                    <div class="info-box">
+                        <h5>A Princesa e o Sapo</h5>
+                        <div class="d-flex justify-content-between">
+                            <span class="badge bg-primary">HD</span>
+                            <span class="text-warning"><i class="fas fa-star"></i> 3.5</span>
+                        </div>
+                        <small class="text-muted">2009 • Animação, Fantasia</small>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3">
+            <div class="catalog-item h-100">
+                <a href="Ben 10 Contra o Universo - O Filme.html" class="d-block">
+                    <img src="Animacao/FT.F/Ben 10 Contra o Universo - O Filme.jpg" class="img-fluid" alt="Ben 10 Contra o Universo - O Filme" loading="lazy">
+                    <div class="info-box">
+                        <h5>Ben 10 Contra o Universo - O Filme</h5>
+                        <div class="d-flex justify-content-between">
+                            <span class="badge bg-primary">HD</span>
+                            <span class="text-warning"><i class="fas fa-star"></i> 3.0</span>
+                        </div>
+                        <small class="text-muted">2020 • Animação, Ação</small>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3">
+            <div class="catalog-item h-100">
+                <a href="Carros 3.html" class="d-block">
+                    <img src="Animacao/FT.F/Carros 3.jpg" class="img-fluid" alt="Carros 3" loading="lazy">
+                    <div class="info-box">
+                        <h5>Carros 3</h5>
+                        <div class="d-flex justify-content-between">
+                            <span class="badge bg-primary">HD</span>
+                            <span class="text-warning"><i class="fas fa-star"></i> 3.5</span>
+                        </div>
+                        <small class="text-muted">2017 • Animação, Esporte</small>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3">
+            <div class="catalog-item h-100">
+                <a href="Cinderela.html" class="d-block">
+                    <img src="Animacao/FT.F/Cinderela.jpg" class="img-fluid" alt="Cinderela" loading="lazy">
+                    <div class="info-box">
+                        <h5>Cinderela</h5>
+                        <div class="d-flex justify-content-between">
+                            <span class="badge bg-primary">HD</span>
+                            <span class="text-warning"><i class="fas fa-star"></i> 4.0</span>
+                        </div>
+                        <small class="text-muted">1950 • Animação, Fantasia</small>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3">
+            <div class="catalog-item h-100">
+                <a href="Fantasia.html" class="d-block">
+                    <img src="Animacao/FT.F/Fantasia.jpg" class="img-fluid" alt="Fantasia" loading="lazy">
+                    <div class="info-box">
+                        <h5>Fantasia</h5>
+                        <div class="d-flex justify-content-between">
+                            <span class="badge bg-primary">HD</span>
+                            <span class="text-warning"><i class="fas fa-star"></i> 4.0</span>
+                        </div>
+                        <small class="text-muted">1940 • Animação, Musical</small>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3">
+            <div class="catalog-item h-100">
+                <a href="FormiguinhaZ.html" class="d-block">
+                    <img src="Animacao/FT.F/FormiguinhaZ.jpg" class="img-fluid" alt="FormiguinhaZ" loading="lazy">
+                    <div class="info-box">
+                        <h5>FormiguinhaZ</h5>
+                        <div class="d-flex justify-content-between">
+                            <span class="badge bg-primary">HD</span>
+                            <span class="text-warning"><i class="fas fa-star"></i> 3.5</span>
+                        </div>
+                        <small class="text-muted">1998 • Animação, Comédia</small>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3">
+            <div class="catalog-item h-100">
+                <a href="Mulan 2.html" class="d-block">
+                    <img src="Animacao/FT.F/Mulan 2.jpg" class="img-fluid" alt="Mulan 2" loading="lazy">
+                    <div class="info-box">
+                        <h5>Mulan 2</h5>
+                        <div class="d-flex justify-content-between">
+                            <span class="badge bg-primary">HD</span>
+                            <span class="text-warning"><i class="fas fa-star"></i> 3.0</span>
+                        </div>
+                        <small class="text-muted">2004 • Animação, Aventura</small>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3">
+            <div class="catalog-item h-100">
+                <a href="Monstros vs. Alienígenas.html" class="d-block">
+                    <img src="Animacao/FT.F/Monstros vs. Alienígenas.jpg" class="img-fluid" alt="Monstros vs. Alienígenas" loading="lazy">
+                    <div class="info-box">
+                        <h5>Monstros vs. Alienígenas</h5>
+                        <div class="d-flex justify-content-between">
+                            <span class="badge bg-primary">HD</span>
+                            <span class="text-warning"><i class="fas fa-star"></i> 3.5</span>
+                        </div>
+                        <small class="text-muted">2009 • Animação, Comédia</small>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3">
+            <div class="catalog-item h-100">
+                <a href="O Corcunda de Notre Dame.html" class="d-block">
+                    <img src="Animacao/FT.F/O Corcunda de Notre Dame.jpg" class="img-fluid" alt="O Corcunda de Notre Dame" loading="lazy">
+                    <div class="info-box">
+                        <h5>O Corcunda de Notre Dame</h5>
+                        <div class="d-flex justify-content-between">
+                            <span class="badge bg-primary">HD</span>
+                            <span class="text-warning"><i class="fas fa-star"></i> 4.0</span>
+                        </div>
+                        <small class="text-muted">1996 • Animação, Drama</small>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3">
+            <div class="catalog-item h-100">
+                <a href="O Poderoso Chefinho.html" class="d-block">
+                    <img src="Animacao/FT.F/O Poderoso Chefinho.jpg" class="img-fluid" alt="O Poderoso Chefinho" loading="lazy">
+                    <div class="info-box">
+                        <h5>O Poderoso Chefinho</h5>
+                        <div class="d-flex justify-content-between">
+                            <span class="badge bg-primary">HD</span>
+                            <span class="text-warning"><i class="fas fa-star"></i> 3.5</span>
+                        </div>
+                        <small class="text-muted">2017 • Animação, Comédia</small>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3">
+            <div class="catalog-item h-100">
+                <a href="Os Incríveis.html" class="d-block">
+                    <img src="Animacao/FT.F/Os Incríveis.jpg" class="img-fluid" alt="Os Incríveis" loading="lazy">
+                    <div class="info-box">
+                        <h5>Os Incríveis</h5>
+                        <div class="d-flex justify-content-between">
+                            <span class="badge bg-primary">HD</span>
+                            <span class="text-warning"><i class="fas fa-star"></i> 4.5</span>
+                        </div>
+                        <small class="text-muted">2004 • Animação, Ação</small>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3">
+            <div class="catalog-item h-100">
+                <a href="Smurfs.html" class="d-block">
+                    <img src="Animacao/FT.F/Smurfs.jpg" class="img-fluid" alt="Os Smurfs" loading="lazy">
+                    <div class="info-box">
+                        <h5>Os Smurfs I - III</h5>
+                        <div class="d-flex justify-content-between">
+                            <span class="badge bg-primary">HD</span>
+                            <span class="text-warning"><i class="fas fa-star"></i> 3.0</span>
+                        </div>
+                        <small class="text-muted">2011-2017 • Animação, Comédia</small>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3">
+            <div class="catalog-item h-100">
+                <a href="Peter Pan 2 De Volta à Terra do Nunca.html" class="d-block">
+                    <img src="Animacao/FT.F/Peter Pan 2 De Volta à Terra do Nunca.jpg" class="img-fluid" alt="Peter Pan 2 De Volta à Terra do Nunca" loading="lazy">
+                    <div class="info-box">
+                        <h5>Peter Pan 2 De Volta à Terra do Nunca</h5>
+                        <div class="d-flex justify-content-between">
+                            <span class="badge bg-primary">HD</span>
+                            <span class="text-warning"><i class="fas fa-star"></i> 3.0</span>
+                        </div>
+                        <small class="text-muted">2002 • Animação, Aventura</small>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3">
+            <div class="catalog-item h-100">
+                <a href="Pocahontas.html" class="d-block">
+                    <img src="Animacao/FT.F/Pocahontas.jpg" class="img-fluid" alt="Pocahontas" loading="lazy">
+                    <div class="info-box">
+                        <h5>Pocahontas</h5>
+                        <div class="d-flex justify-content-between">
+                            <span class="badge bg-primary">HD</span>
+                            <span class="text-warning"><i class="fas fa-star"></i> 3.5</span>
+                        </div>
+                        <small class="text-muted">1995 • Animação, Romance</small>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3">
+            <div class="catalog-item h-100">
+                <a href="Pokémon O Filme - O Poder de Todos.html" class="d-block">
+                    <img src="Animacao/FT.F/Pokémon O Filme - O Poder de Todos.jpg" class="img-fluid" alt="Pokémon O Filme - O Poder de Todos" loading="lazy">
+                    <div class="info-box">
+                        <h5>Pokémon O Filme - O Poder de Todos</h5>
+                        <div class="d-flex justify-content-between">
+                            <span class="badge bg-primary">HD</span>
+                            <span class="text-warning"><i class="fas fa-star"></i> 3.5</span>
+                        </div>
+                        <small class="text-muted">2018 • Animação, Aventura</small>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3">
+            <div class="catalog-item h-100">
+                <a href="Procurando Dory.html" class="d-block">
+                    <img src="Animacao/FT.F/Procurando Dory.jpg" class="img-fluid" alt="Procurando Dory" loading="lazy">
+                    <div class="info-box">
+                        <h5>Procurando Dory</h5>
+                        <div class="d-flex justify-content-between">
+                            <span class="badge bg-primary">HD</span>
+                            <span class="text-warning"><i class="fas fa-star"></i> 4.0</span>
+                        </div>
+                        <small class="text-muted">2016 • Animação, Aventura</small>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3">
+            <div class="catalog-item h-100">
+                <a href="Spirit O Corcel Indomável.html" class="d-block">
+                    <img src="Animacao/FT.F/Spirit O Corcel Indomável.jpg" class="img-fluid" alt="Spirit O Corcel Indomável" loading="lazy">
+                    <div class="info-box">
+                        <h5>Spirit O Corcel Indomável</h5>
+                        <div class="d-flex justify-content-between">
+                            <span class="badge bg-primary">HD</span>
+                            <span class="text-warning"><i class="fas fa-star"></i> 4.0</span>
+                        </div>
+                        <small class="text-muted">2002 • Animação, Aventura</small>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3">
+            <div class="catalog-item h-100">
+                <a href="Tinker Bell.html" class="d-block">
+                    <img src="Animacao/FT.F/Tinker Bell.jpg" class="img-fluid" alt="Tinker Bell 6: O Monstro da Terra do Nunca" loading="lazy">
+                    <div class="info-box">
+                        <h5>Tinker Bell II - VI</h5>
+                        <div class="d-flex justify-content-between">
+                            <span class="badge bg-primary">HD</span>
+                            <span class="text-warning"><i class="fas fa-star"></i> 3.5</span>
+                        </div>
+                        <small class="text-muted">2009-2014 • Animação, Fantasia</small>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3">
+            <div class="catalog-item h-100">
+                <a href="Tito e os Pássaros.html" class="d-block">
+                    <img src="Animacao/FT.F/tito-e-os-passaros-2018-orig-poster.jpg" class="img-fluid" alt="Tito e os Pássaros" loading="lazy">
+                    <div class="info-box">
+                        <h5>Tito e os Pássaros</h5>
+                        <div class="d-flex justify-content-between">
+                            <span class="badge bg-primary">HD</span>
+                            <span class="text-warning"><i class="fas fa-star"></i> 3.5</span>
+                        </div>
+                        <small class="text-muted">2018 • Animação, Drama</small>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3">
+            <div class="catalog-item h-100">
+                <a href="Valente.html" class="d-block">
+                    <img src="Animacao/FT.F/Valente.jpg" class="img-fluid" alt="Valente" loading="lazy">
+                    <div class="info-box">
+                        <h5>Valente</h5>
+                        <div class="d-flex justify-content-between">
+                            <span class="badge bg-primary">HD</span>
+                            <span class="text-warning"><i class="fas fa-star"></i> 4.0</span>
+                        </div>
+                        <small class="text-muted">2012 • Animação, Aventura</small>
+                    </div>
+                </a>
+            </div>
+        </div>
+          
+    <!-- Modal de Login -->
+    <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content bg-dark text-light">
+                <div class="modal-header border-secondary">
+                    <h5 class="modal-title" id="loginModalLabel"><i class="fas fa-sign-in-alt me-2"></i> Login</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="mb-3">
+                            <label for="username" class="form-label">Usuário</label>
+                            <input type="text" class="form-control bg-secondary text-light" id="username" placeholder="Digite seu usuário" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="password" class="form-label">Senha</label>
+                            <input type="password" class="form-control bg-secondary text-light" id="password" placeholder="Digite sua senha" required>
+                        </div>
+                        <button type="submit" class="btn btn-primary w-100">Logar</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="text-center py-4 bg-black mt-4">
+        <div class="container">
+
+           <p><i class="fas fa-envelope me-2"></i> claviochitsulete@icloud.com</p>
+            <p><i class="fas fa-phone me-2"></i> (+258) 83 384 6565</p>
+            <div class="social-links mt-3">
+                <a href="https://www.facebook.com/ranilde.paulo?mibextid=LQQJ4d" class="text-light me-3" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://twitter.com/seuperfil" class="text-light me-3" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.instagram.com/claviochitsulete?igsh=N2hvOWE0aWQyanht&utm_source=qr" class="text-light me-3" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://wa.me/258847944630" class="text-light" target="_blank"><i class="fab fa-whatsapp"></i></a>
+            </div>
+            <hr class="my-3 bg-secondary">
+            <p class="mb-0">&copy; 2025 Bahama Flix. Todos os direitos reservados Na sua cabeça.</p>
+        </div>
+    </footer>
+
+    <script src="javascript/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
