@@ -1,0 +1,144 @@
+<script type="text/javascript">
+        var gk_isXlsx = false;
+        var gk_xlsxFileLookup = {};
+        var gk_fileData = {};
+        function filledCell(cell) {
+          return cell !== '' && cell != null;
+        }
+        function loadFileData(filename) {
+        if (gk_isXlsx && gk_xlsxFileLookup[filename]) {
+            try {
+                var workbook = XLSX.read(gk_fileData[filename], { type: 'base64' });
+                var firstSheetName = workbook.SheetNames[0];
+                var worksheet = workbook.Sheets[firstSheetName];
+
+                // Convert sheet to JSON to filter blank rows
+                var jsonData = XLSX.utils.sheet_to_json(worksheet, { header: 1, blankrows: false, defval: '' });
+                // Filter out blank rows (rows where all cells are empty, null, or undefined)
+                var filteredData = jsonData.filter(row => row.some(filledCell));
+
+                // Heuristic to find the header row by ignoring rows with fewer filled cells than the next row
+                var headerRowIndex = filteredData.findIndex((row, index) =>
+                  row.filter(filledCell).length >= filteredData[index + 1]?.filter(filledCell).length
+                );
+                // Fallback
+                if (headerRowIndex === -1 || headerRowIndex > 25) {
+                  headerRowIndex = 0;
+                }
+
+                // Convert filtered JSON back to CSV
+                var csv = XLSX.utils.aoa_to_sheet(filteredData.slice(headerRowIndex)); // Create a new sheet from filtered array of arrays
+                csv = XLSX.utils.sheet_to_csv(csv, { header: 1 });
+                return csv;
+            } catch (e) {
+                console.error(e);
+                return "";
+            }
+        }
+        return gk_fileData[filename] || "";
+        }
+        </script><!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Lilo & Stitch - Bahama Flix">
+    <link rel="preconnect" href="https://cdn.jsdelivr.net">
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>Lilo & Stitch - Bahama Flix</title>
+</head>
+<body class="bg-dark text-light">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">Bahama Flix</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarScroll">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html"><i class="fas fa-home me-1"></i> Casa</a></li>
+                    <li class="nav-item"><a class="nav-link" href="Filmes.html"><i class="fas fa-film me-1"></i> Filmes</a></li>
+                    <li class="nav-item"><a class="nav-link" href="Series.html"><i class="fas fa-tv me-1"></i> Séries</a></li>
+                    <li class="nav-item"><a class="nav-link" href="Familia.html" onclick="history.back()"><i class="fas fa-arrow-left me-1"></i>Voltar</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Movie Content -->
+    <div class="container mt-4">
+        <div class="row">
+            <div class="col-md-4">
+                <img src="Familia/FT.F/Lilo & Stitch.jpg" alt="Lilo & Stitch" class="img-fluid rounded shadow mb-4">
+            </div>
+            <div class="col-md-8">
+                <div class="bg-secondary p-4 rounded">
+                    <h1>Lilo & Stitch</h1>
+                    <p class="lead">2002 • Animação, Família</p>
+                    
+                    <h2 class="mt-4">Sinopse</h2>
+                    <p>Lilo, uma menina havaiana, adota Stitch, uma criatura alienígena que parece um cãozinho. Juntos, eles formam uma amizade improvável, enfrentando desafios e aprendendo o significado de 'ohana' (família). Esta animação emocionante combina humor, aventura e coração.</p>
+                    
+                    <div class="mt-4">
+                        <h3>Informações</h3>
+                        <p><strong>Ano:</strong> 2002</p>
+                        <p><strong>Gênero:</strong> Animação, Família</p>
+                        <p><strong>Classificação:</strong> <span class="text-warning"><i class="fas fa-star"></i> 4.2</span></p>
+                    </div>
+
+                    <a href="https://drive.google.com/file/d/1bqgo3Ha0YUiYKM5G4GMLGjZOOYvXyVjU/view" class="btn btn-primary btn-lg mt-3">
+                        <i class="fas fa-play me-2"></i> Assistir Agora
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal de Login -->
+    <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content bg-dark text-light">
+                <div class="modal-header border-secondary">
+                    <h5 class="modal-title" id="loginModalLabel"><i class="fas fa-sign-in-alt me-2"></i> Login</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="mb-3">
+                            <label for="username" class="form-label">Usuário</label>
+                            <input type="text" class="form-control bg-secondary text-light" id="username" placeholder="Digite seu usuário" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="password" class="form-label">Senha</label>
+                            <input type="password" class="form-control bg-secondary text-light" id="password" placeholder="Digite sua senha" required>
+                        </div>
+                        <button type="submit" class="btn btn-primary w-100">Logar</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-secondary text-light mt-5 py-3">
+        <div class="container text-center">
+            <p><i class="fas fa-envelope me-2"></i> claviochitsulete@icloud.com</p>
+            <p><i class="fas fa-phone me-2"></i> (+258) 83 384 6565</p>
+            <div class="social-links mt-3">
+                <a href="https://www.facebook.com/ranilde.paulo?mibextid=LQQJ4d" class="text-light me-3" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://twitter.com/seuperfil" class="text-light me-3" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.instagram.com/claviochitsulete?igsh=N2hvOWE0aWQyanht&utm_source=qr" class="text-light me-3" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://wa.me/258847944630" class="text-light" target="_blank"><i class="fab fa-whatsapp"></i></a>
+            </div>
+            <hr class="my-3 bg-secondary">
+            <p>© 2025 Bahama Flix. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
