@@ -1,0 +1,782 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Bahama Flix - Assista aos melhores filmes e séries">
+    <!-- Google AdSense Script -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1278895213529416"
+     crossorigin="anonymous"></script>
+    <!-- Header Animado -->
+    <link rel="preconnect" href="https://cdn.jsdelivr.net">
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Bahama Flix - Filmes e Séries</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body class="bg-dark text-light">
+
+    <header class="header-animated">
+        <div class="container-fluid d-flex justify-content-center align-items-center py-3">
+            <h1 class="logo-text m-0">
+                <span class="logo-part">B</span>
+                <span class="logo-part">a</span>
+                <span class="logo-part">h</span>
+                <span class="logo-part">a</span>
+                <span class="logo-part">m</span>
+                <span class="logo-part">a</span>
+                <span class="logo-space"> </span>
+                <span class="logo-part">F</span>
+                <span class="logo-part">l</span>
+                <span class="logo-part">i</span>
+                <span class="logo-part">x</span>
+            </h1>
+        </div>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
+             <div id="no-results" class="alert alert-warning text-center my-4" role="alert" style="display: none;">Nenhum resultado encontrado. Tente procurar em ver Filtrar.</div>
+            <!-- Mantenha -->
+        </nav>
+    </header>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Terror</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarScroll">
+                <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="https://bahamaflix.netlify.app/"><i class="fas fa-home me-1"></i> Casa</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#filmes"><i class="fas fa-film me-1"></i> Filmes</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#series"><i class="fas fa-tv me-1"></i> Séries</a></li>
+                    <li class="nav-item dropdown">
+
+                    <li class="nav-item">
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Escreva a sua pesquisa" aria-label="search">
+                    <button class="btn btn-outline-light" type="submit"><i class="fas fa-search"></i></button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+ <!-- Catálogo Completo -->
+ <main class="container my-5">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <h2><i class="#"></i>👻 Terror</h2>
+        <div class="dropdown">
+            <button class="btn btn-outline-light dropdown-toggle" type="button" id="filterDropdown" data-bs-toggle="dropdown">
+                <i class="fas fa-filter me-1"></i> Filtrar
+            </button>
+            <ul class="dropdown-menu dropdown-menu-dark">
+              <li><a class="dropdown-item" href="Filmes.html">Todos</a></li>
+              <li><a class="dropdown-item" href="Animacao.html">🎬 Animação</a></li>
+              <li><a class="dropdown-item" href="Terror.html">👻 Terror</a></li>
+              <li><a class="dropdown-item" href="Acao.html">💥 Ação</a></li>
+              <li><a class="dropdown-item" href="Comedia.html">😂 Comédia</a></li>
+              <li><a class="dropdown-item" href="Drama.html">😢 Drama</a></li>
+              <li><a class="dropdown-item" href="Ficcao.html">🚀 Ficção Científica</a></li>
+              <li><a class="dropdown-item" href="Suspense.html">🕵️ Suspense</a></li>
+              <li><a class="dropdown-item" href="Documentario.html">📚 Documentário</a></li>
+              <li><a class="dropdown-item" href="Familia.html">👨👩👧👦 Família </a></li>
+              <li><a class="dropdown-item" href="Musica.html">🎵 Musical</a></li>
+              <li><a class="dropdown-item" href="Historico.html">⚔️ Histórico</a></li>
+              <li><a class="dropdown-item" href="Espote.html">🏆 Esporte</a></li>  
+            </ul>
+        </div>
+    </div>
+    <div class="row g-3">
+        <div class="row">
+          <div class="col-6 col-md-4 col-lg-3">
+            <div class="catalog-item h-100">
+                <a href="A Arvore da Maldicao.html" class="d-block">
+                    <img src="Terror/FT.F/A Árvore da Maldição.jpg" class="img-fluid" alt="A Árvore da Maldição" loading="lazy">
+                    <div class="info-box">
+                        <h5>A Árvore da Maldição</h5>
+                        <div class="d-flex justify-content-between">
+                            <span class="badge bg-primary">HD</span>
+                            <span class="text-warning"><i class="fas fa-star"></i> 3.0</span>
+                        </div>
+                        <small class="text-muted">2020 • Terror, Suspense</small>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3">
+            <div class="catalog-item h-100">
+                <a href="O Acougueiro.html" class="d-block">
+                    <img src="Terror/FT.F/O Açougueiro.jpg" class="img-fluid" alt="O Açougueiro" loading="lazy">
+                    <div class="info-box">
+                        <h5>O Açougueiro</h5>
+                        <div class="d-flex justify-content-between">
+                            <span class="badge bg-primary">HD</span>
+                            <span class="text-warning"><i class="fas fa-star"></i> 3.2</span>
+                        </div>
+                        <small class="text-muted">2019 • Terror, Suspense</small>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3">
+            <div class="catalog-item h-100">
+                <a href="A Caverna Time Trap.html" class="d-block">
+                    <img src="Terror/FT.F/A Caverna Time Trap.jpg" class="img-fluid" alt="A Caverna: Time Trap" loading="lazy">
+                    <div class="info-box">
+                        <h5>A Caverna: Time Trap</h5>
+                        <div class="d-flex justify-content-between">
+                            <span class="badge bg-primary">HD</span>
+                            <span class="text-warning"><i class="fas fa-star"></i> 3.8</span>
+                        </div>
+                        <small class="text-muted">2017 • Aventura, Ficção Científica</small>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3">
+            <div class="catalog-item h-100">
+                <a href="A Gruta.html" class="d-block">
+                    <img src="Terror/FT.F/A Gruta.jpg" class="img-fluid" alt="A Gruta" loading="lazy">
+                    <div class="info-box">
+                        <h5>A Gruta</h5>
+                        <div class="d-flex justify-content-between">
+                            <span class="badge bg-primary">HD</span>
+                            <span class="text-warning"><i class="fas fa-star"></i> 3.4</span>
+                        </div>
+                        <small class="text-muted">2020 • Terror, Suspense</small>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3">
+            <div class="catalog-item h-100">
+                <a href="A Hora Da Sua Morte.html" class="d-block">
+                    <img src="Terror/FT.F/A Hora Da Sua Morte.jpg" class="img-fluid" alt="A Hora Da Sua Morte" loading="lazy">
+                    <div class="info-box">
+                        <h5>A Hora Da Sua Morte</h5>
+                        <div class="d-flex justify-content-between">
+                            <span class="badge bg-primary">HD</span>
+                            <span class="text-warning"><i class="fas fa-star"></i> 3.6</span>
+                        </div>
+                        <small class="text-muted">2019 • Terror, Suspense</small>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3">
+            <div class="catalog-item h-100">
+                <a href="A Baba Rainha da Morte.html" class="d-block">
+                    <img src="Terror/FT.F/A Baba Rainha da Morte.jpg" class="img-fluid" alt="A Baba: Rainha da Morte" loading="lazy">
+                    <div class="info-box">
+                        <h5>A Baba: Rainha da Morte</h5>
+                        <div class="d-flex justify-content-between">
+                            <span class="badge bg-primary">HD</span>
+                            <span class="text-warning"><i class="fas fa-star"></i> 3.7</span>
+                        </div>
+                        <small class="text-muted">2020 • Terror, Comédia</small>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3">
+            <div class="catalog-item h-100">
+                <a href="Arraste-me para o Inferno.html" class="d-block">
+                    <img src="Terror/FT.F/Arraste-me para o Inferno.jpg" class="img-fluid" alt="Arraste-me para o Inferno" loading="lazy">
+                    <div class="info-box">
+                        <h5>Arraste-me para o Inferno</h5>
+                        <div class="d-flex justify-content-between">
+                            <span class="badge bg-primary">HD</span>
+                            <span class="text-warning"><i class="fas fa-star"></i> 3.9</span>
+                        </div>
+                        <small class="text-muted">2009 • Terror, Suspense</small>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3">
+            <div class="catalog-item h-100">
+                <a href="Assombrada pelo Passado.html" class="d-block">
+                    <img src="Terror/FT.F/Assombrada pelo Passado.jpg" class="img-fluid" alt="Assombrada pelo Passado" loading="lazy">
+                    <div class="info-box">
+                        <h5>Assombrada pelo Passado</h5>
+                        <div class="d-flex justify-content-between">
+                            <span class="badge bg-primary">HD</span>
+                            <span class="text-warning"><i class="fas fa-star"></i> 3.3</span>
+                        </div>
+                        <small class="text-muted">2018 • Terror, Suspense</small>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3">
+            <div class="catalog-item h-100">
+                <a href="Cemiterio Maldito 2.html" class="d-block">
+                    <img src="Terror/FT.F/Cemitério Maldito 2.jpg" class="img-fluid" alt="Cemitério Maldito 2" loading="lazy">
+                    <div class="info-box">
+                        <h5>Cemitério Maldito 2</h5>
+                        <div class="d-flex justify-content-between">
+                            <span class="badge bg-primary">HD</span>
+                            <span class="text-warning"><i class="fas fa-star"></i> 3.5</span>
+                        </div>
+                        <small class="text-muted">1992 • Terror</small>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3">
+            <div class="catalog-item h-100">
+                <a href="Convencao das Bruxas.html" class="d-block">
+                    <img src="Terror/FT.F/Convenção das Bruxas.jpg" class="img-fluid" alt="Convenção das Bruxas" loading="lazy">
+                    <div class="info-box">
+                        <h5>Convenção das Bruxas</h5>
+                        <div class="d-flex justify-content-between">
+                            <span class="badge bg-primary">HD</span>
+                            <span class="text-warning"><i class="fas fa-star"></i> 3.8</span>
+                        </div>
+                        <small class="text-muted">2020 • Fantasia, Terror</small>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3">
+            <div class="catalog-item h-100">
+                <a href="Doces ou Travessuras.html" class="d-block">
+                    <img src="Terror/FT.F/Doces ou Travessuras.jpg" class="img-fluid" alt="Doces ou Travessuras" loading="lazy">
+                    <div class="info-box">
+                        <h5>Doces ou Travessuras</h5>
+                        <div class="d-flex justify-content-between">
+                            <span class="badge bg-primary">HD</span>
+                            <span class="text-warning"><i class="fas fa-star"></i> 3.4</span>
+                        </div>
+                        <small class="text-muted">2019 • Terror, Suspense</small>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3">
+            <div class="catalog-item h-100">
+                <a href="Espiritos 2 Voce Nunca Esta Sozinho.html" class="d-block">
+                    <img src="Terror/FT.F/Espíritos 2 Você Nunca Está Sozinho.jpg" class="img-fluid" alt="Espíritos 2: Você Nunca Está Sozinho" loading="lazy">
+                    <div class="info-box">
+                        <h5>Espíritos 2: Você Nunca Está Sozinho</h5>
+                        <div class="d-flex justify-content-between">
+                            <span class="badge bg-primary">HD</span>
+                            <span class="text-warning"><i class="fas fa-star"></i> 3.6</span>
+                        </div>
+                        <small class="text-muted">2008 • Terror</small>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3">
+            <div class="catalog-item h-100">
+                <a href="Estranha Presenca.html" class="d-block">
+                    <img src="Terror/FT.F/Estranha Presença.jpg" class="img-fluid" alt="Estranha Presença" loading="lazy">
+                    <div class="info-box">
+                        <h5>Estranha Presença</h5>
+                        <div class="d-flex justify-content-between">
+                            <span class="badge bg-primary">HD</span>
+                            <span class="text-warning"><i class="fas fa-star"></i> 3.5</span>
+                        </div>
+                        <small class="text-muted">2018 • Terror, Suspense</small>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3">
+            <div class="catalog-item h-100">
+                <a href="Freaks Um de Nos.html" class="d-block">
+                    <img src="Terror/FT.F/Freaks Um de Nós.jpg" class="img-fluid" alt="Freaks: Um de Nós" loading="lazy">
+                    <div class="info-box">
+                        <h5>Freaks: Um de Nós</h5>
+                        <div class="d-flex justify-content-between">
+                            <span class="badge bg-primary">HD</span>
+                            <span class="text-warning"><i class="fas fa-star"></i> 3.7</span>
+                        </div>
+                        <small class="text-muted">2020 • Ficção Científica, Suspense</small>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3">
+            <div class="catalog-item h-100">
+                <a href="Halloween A Lenda de Jack.html" class="d-block">
+                    <img src="Terror/FT.F/Halloween - A Lenda de Jack.jpg" class="img-fluid" alt="Halloween: A Lenda de Jack" loading="lazy">
+                    <div class="info-box">
+                        <h5>Halloween: A Lenda de Jack</h5>
+                        <div class="d-flex justify-content-between">
+                            <span class="badge bg-primary">HD</span>
+                            <span class="text-warning"><i class="fas fa-star"></i> 3.5</span>
+                        </div>
+                        <small class="text-muted">2018 • Terror, Suspense</small>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3">
+            <div class="catalog-item h-100">
+                <a href="Historias de Alem-Tumulo.html" class="d-block">
+                    <img src="Terror/FT.F/Histórias de Além-Túmulo.jpg" class="img-fluid" alt="Histórias de Além-Túmulo" loading="lazy">
+                    <div class="info-box">
+                        <h5>Histórias de Além-Túmulo</h5>
+                        <div class="d-flex justify-content-between">
+                            <span class="badge bg-primary">HD</span>
+                            <span class="text-warning"><i class="fas fa-star"></i> 3.8</span>
+                        </div>
+                        <small class="text-muted">2017 • Terror, Suspense</small>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3">
+            <div class="catalog-item h-100">
+                <a href="Inatividade Paranormal.html" class="d-block">
+                    <img src="Terror/FT.F/Inatividade Paranormal.jpg" class="img-fluid" alt="Inatividade Paranormal" loading="lazy">
+                    <div class="info-box">
+                        <h5>Inatividade Paranormal</h5>
+                        <div class="d-flex justify-content-between">
+                            <span class="badge bg-primary">HD</span>
+                            <span class="text-warning"><i class="fas fa-star"></i> 3.2</span>
+                        </div>
+                        <small class="text-muted">2013 • Comédia, Terror</small>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3">
+            <div class="catalog-item h-100">
+                <a href="Inatividade Paranormal 2.html" class="d-block">
+                    <img src="Terror/FT.F/Inatividade Paranormal 2.jpg" class="img-fluid" alt="Inatividade Paranormal 2" loading="lazy">
+                    <div class="info-box">
+                        <h5>Inatividade Paranormal 2</h5>
+                        <div class="d-flex justify-content-between">
+                            <span class="badge bg-primary">HD</span>
+                            <span class="text-warning"><i class="fas fa-star"></i> 3.3</span>
+                        </div>
+                        <small class="text-muted">2014 • Comédia, Terror</small>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3">
+            <div class="catalog-item h-100">
+                <a href="Kadaver.html" class="d-block">
+                    <img src="Terror/FT.F/Kadaver.jpg" class="img-fluid" alt="Kadaver" loading="lazy">
+                    <div class="info-box">
+                        <h5>Kadaver</h5>
+                        <div class="d-flex justify-content-between">
+                            <span class="badge bg-primary">HD</span>
+                            <span class="text-warning"><i class="fas fa-star"></i> 3.4</span>
+                        </div>
+                        <small class="text-muted">2020 • Terror, Suspense</small>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3">
+            <div class="catalog-item h-100">
+                <a href="Lenda_Urbana.html" class="d-block">
+                    <img src="Terror/FT.F/Lenda Urbana.jpg" class="img-fluid" alt="Lenda Urbana" loading="lazy">
+                    <div class="info-box">
+                        <h5>Lenda Urbana</h5>
+                        <div class="d-flex justify-content-between">
+                            <span class="badge bg-primary">HD</span>
+                            <span class="text-warning"><i class="fas fa-star"></i> 3.5</span>
+                        </div>
+                        <small class="text-muted">1998 • Terror, Suspense</small>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3">
+            <div class="catalog-item h-100">
+                <a href="O_Lobisomem_Sem_Cortes.html" class="d-block">
+                    <img src="Terror/FT.F/O Lobisomem - Sem Cortes.jpg" class="img-fluid" alt="O Lobisomem: Sem Cortes" loading="lazy">
+                    <div class="info-box">
+                        <h5>O Lobisomem: Sem Cortes</h5>
+                        <div class="d-flex justify-content-between">
+                            <span class="badge bg-primary">HD</span>
+                            <span class="text-warning"><i class="fas fa-star"></i> 3.7</span>
+                        </div>
+                        <small class="text-muted">2010 • Terror, Suspense</small>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3">
+            <div class="catalog-item h-100">
+                <a href="O_Mal_Entre_Nós.html" class="d-block">
+                    <img src="Terror/FT.F/O Mal Entre Nós.jpg" class="img-fluid" alt="O Mal Entre Nós" loading="lazy">
+                    <div class="info-box">
+                        <h5>O Mal Entre Nós</h5>
+                        <div class="d-flex justify-content-between">
+                            <span class="badge bg-primary">HD</span>
+                            <span class="text-warning"><i class="fas fa-star"></i> 3.6</span>
+                        </div>
+                        <small class="text-muted">2019 • Terror, Suspense</small>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3">
+            <div class="catalog-item h-100">
+                <a href="Maligna.html" class="d-block">
+                    <img src="Terror/FT.F/Maligna.jpg" class="img-fluid" alt="Maligna" loading="lazy">
+                    <div class="info-box">
+                        <h5>Maligna</h5>
+                        <div class="d-flex justify-content-between">
+                            <span class="badge bg-primary">HD</span>
+                            <span class="text-warning"><i class="fas fa-star"></i> 3.5</span>
+                        </div>
+                        <small class="text-muted">2019 • Terror, Suspense</small>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3">
+            <div class="catalog-item h-100">
+                <a href="Maria_E_João_O_Conto_Das_Bruxas.html" class="d-block">
+                    <img src="Terror/FT.F/Maria E João O Conto Das Bruxas.jpg" class="img-fluid" alt="Maria E João: O Conto Das Bruxas" loading="lazy">
+                    <div class="info-box">
+                        <h5>Maria E João: O Conto Das Bruxas</h5>
+                        <div class="d-flex justify-content-between">
+                            <span class="badge bg-primary">HD</span>
+                            <span class="text-warning"><i class="fas fa-star"></i> 3.6</span>
+                        </div>
+                        <small class="text-muted">2020 • Terror, Fantasia</small>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3">
+            <div class="catalog-item h-100">
+                <a href="Mau_Olhado.html" class="d-block">
+                    <img src="Terror/FT.F/Mau Olhado.jpg" class="img-fluid" alt="Mau Olhado" loading="lazy">
+                    <div class="info-box">
+                        <h5>Mau Olhado</h5>
+                        <div class="d-flex justify-content-between">
+                            <span class="badge bg-primary">HD</span>
+                            <span class="text-warning"><i class="fas fa-star"></i> 3.4</span>
+                        </div>
+                        <small class="text-muted">2020 • Terror, Suspense</small>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3">
+            <div class="catalog-item h-100">
+                <a href="No_Vale_das_Sombras.html" class="d-block">
+                    <img src="Terror/FT.F/No Vale das Sombras.jpg" class="img-fluid" alt="No Vale das Sombras" loading="lazy">
+                    <div class="info-box">
+                        <h5>No Vale das Sombras</h5>
+                        <div class="d-flex justify-content-between">
+                            <span class="badge bg-primary">HD</span>
+                            <span class="text-warning"><i class="fas fa-star"></i> 3.8</span>
+                        </div>
+                        <small class="text-muted">2007 • Suspense, Guerra</small>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3">
+            <div class="catalog-item h-100">
+                <a href="O_Olho_do_Demónio.html" class="d-block">
+                    <img src="Terror/FT.F/O Olho do Demónio.jpg" class="img-fluid" alt="O Olho do Demónio" loading="lazy">
+                    <div class="info-box">
+                        <h5>O Olho do Demónio</h5>
+                        <div class="d-flex justify-content-between">
+                            <span class="badge bg-primary">HD</span>
+                            <span class="text-warning"><i class="fas fa-star"></i> 3.3</span>
+                        </div>
+                        <small class="text-muted">2020 • Terror, Suspense</small>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3">
+            <div class="catalog-item h-100">
+                <a href="O_Grito.html" class="d-block">
+                    <img src="Terror/FT.F/O Grito.jpg" class="img-fluid" alt="O Grito" loading="lazy">
+                    <div class="info-box">
+                        <h5>O Grito</h5>
+                        <div class="d-flex justify-content-between">
+                            <span class="badge bg-primary">HD</span>
+                            <span class="text-warning"><i class="fas fa-star"></i> 3.5</span>
+                        </div>
+                        <small class="text-muted">2020 • Terror, Suspense</small>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3">
+            <div class="catalog-item h-100">
+                <a href="O_Silêncio_de_Melinda.html" class="d-block">
+                    <img src="Terror/FT.F/O Silêncio de Melinda.jpg" class="img-fluid" alt="O Silêncio de Melinda" loading="lazy">
+                    <div class="info-box">
+                        <h5>O Silêncio de Melinda</h5>
+                        <div class="d-flex justify-content-between">
+                            <span class="badge bg-primary">HD</span>
+                            <span class="text-warning"><i class="fas fa-star"></i> 3.4</span>
+                        </div>
+                        <small class="text-muted">2019 • Terror, Suspense</small>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3">
+            <div class="catalog-item h-100">
+                <a href="Olhos_Famintos_2.html" class="d-block">
+                    <img src="Terror/FT.F/Olhos Famintos 2.jpg" class="img-fluid" alt="Olhos Famintos 2" loading="lazy">
+                    <div class="info-box">
+                        <h5>Olhos Famintos 2</h5>
+                        <div class="d-flex justify-content-between">
+                            <span class="badge bg-primary">HD</span>
+                            <span class="text-warning"><i class="fas fa-star"></i> 3.6</span>
+                        </div>
+                        <small class="text-muted">2003 • Terror</small>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3">
+            <div class="catalog-item h-100">
+                <a href="Olhos_Famintos_3.html" class="d-block">
+                    <img src="Terror/FT.F/Olhos Famintos 3.jpg" class="img-fluid" alt="Olhos Famintos 3" loading="lazy">
+                    <div class="info-box">
+                        <h5>Olhos Famintos 3</h5>
+                        <div class="d-flex justify-content-between">
+                            <span class="badge bg-primary">HD</span>
+                            <span class="text-warning"><i class="fas fa-star"></i> 3.5</span>
+                        </div>
+                        <small class="text-muted">2017 • Terror</small>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3">
+            <div class="catalog-item h-100">
+                <a href="Parque_do_Inferno.html" class="d-block">
+                    <img src="Terror/FT.F/Parque do Inferno.jpg" class="img-fluid" alt="Parque do Inferno" loading="lazy">
+                    <div class="info-box">
+                        <h5>Parque do Inferno</h5>
+                        <div class="d-flex justify-content-between">
+                            <span class="badge bg-primary">HD</span>
+                            <span class="text-warning"><i class="fas fa-star"></i> 3.7</span>
+                        </div>
+                        <small class="text-muted">2018 • Terror, Suspense</small>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3">
+            <div class="catalog-item h-100">
+                <a href="População_426.html" class="d-block">
+                    <img src="Terror/FT.F/População 426.jpg" class="img-fluid" alt="População 426" loading="lazy">
+                    <div class="info-box">
+                        <h5>População 426</h5>
+                        <div class="d-flex justify-content-between">
+                            <span class="badge bg-primary">HD</span>
+                            <span class="text-warning"><i class="fas fa-star"></i> 3.3</span>
+                        </div>
+                        <small class="text-muted">2019 • Terror, Suspense</small>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3">
+            <div class="catalog-item h-100">
+                <a href="Quando_os_Anjos_Dormem.html" class="d-block">
+                    <img src="Terror/FT.F/Quando os Anjos Dormem.jpg" class="img-fluid" alt="Quando os Anjos Dormem" loading="lazy">
+                    <div class="info-box">
+                        <h5>Quando os Anjos Dormem</h5>
+                        <div class="d-flex justify-content-between">
+                            <span class="badge bg-primary">HD</span>
+                            <span class="text-warning"><i class="fas fa-star"></i> 3.5</span>
+                        </div>
+                        <small class="text-muted">2018 • Suspense, Drama</small>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3">
+            <div class="catalog-item h-100">
+                <a href="Rogue_(2020).html" class="d-block">
+                    <img src="Terror/FT.F/Rogue (2020).jpg" class="img-fluid" alt="Rogue (2020)" loading="lazy">
+                    <div class="info-box">
+                        <h5>Rogue (2020)</h5>
+                        <div class="d-flex justify-content-between">
+                            <span class="badge bg-primary">HD</span>
+                            <span class="text-warning"><i class="fas fa-star"></i> 3.6</span>
+                        </div>
+                        <small class="text-muted">2020 • Ação, Suspense</small>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3">
+            <div class="catalog-item h-100">
+                <a href="Sobrenatural_A_Origem.html" class="d-block">
+                    <img src="Terror/FT.F/Sobrenatural A Origem.jpg" class="img-fluid" alt="Sobrenatural: A Origem" loading="lazy">
+                    <div class="info-box">
+                        <h5>Sobrenatural: A Origem</h5>
+                        <div class="d-flex justify-content-between">
+                            <span class="badge bg-primary">HD</span>
+                            <span class="text-warning"><i class="fas fa-star"></i> 3.8</span>
+                        </div>
+                        <small class="text-muted">2015 • Terror, Suspense</small>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3">
+            <div class="catalog-item h-100">
+                <a href="Terror_em_Mercy_Falls.html" class="d-block">
+                    <img src="Terror/FT.F/Terror em Mercy Falls.jpg" class="img-fluid" alt="Terror em Mercy Falls" loading="lazy">
+                    <div class="info-box">
+                        <h5>Terror em Mercy Falls</h5>
+                        <div class="d-flex justify-content-between">
+                            <span class="badge bg-primary">HD</span>
+                            <span class="text-warning"><i class="fas fa-star"></i> 3.5</span>
+                        </div>
+                        <small class="text-muted">2005 • Terror, Suspense</small>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3">
+            <div class="catalog-item h-100">
+                <a href="The_Lodgers.html" class="d-block">
+                    <img src="Terror/FT.F/The Lodgers.jpg" class="img-fluid" alt="The Lodgers" loading="lazy">
+                    <div class="info-box">
+                        <h5>The Lodgers</h5>
+                        <div class="d-flex justify-content-between">
+                            <span class="badge bg-primary">HD</span>
+                            <span class="text-warning"><i class="fas fa-star"></i> 3.4</span>
+                        </div>
+                        <small class="text-muted">2017 • Terror, Suspense</small>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3">
+            <div class="catalog-item h-100">
+                <a href="Uma_Noite_de_Crime_1.html" class="d-block">
+                    <img src="Terror/FT.F/Uma Noite de Crime 1.jpg" class="img-fluid" alt="Uma Noite de Crime 1" loading="lazy">
+                    <div class="info-box">
+                        <h5>Uma Noite de Crime 1</h5>
+                        <div class="d-flex justify-content-between">
+                            <span class="badge bg-primary">HD</span>
+                            <span class="text-warning"><i class="fas fa-star"></i> 3.7</span>
+                        </div>
+                        <small class="text-muted">2013 • Suspense, Terror</small>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3">
+            <div class="catalog-item h-100">
+                <a href="Uma_Noite_de_Crime_2.html" class="d-block">
+                    <img src="Terror/FT.F/Uma Noite de Crime 2.jpg" class="img-fluid" alt="Uma Noite de Crime 2" loading="lazy">
+                    <div class="info-box">
+                        <h5>Uma Noite de Crime 2</h5>
+                        <div class="d-flex justify-content-between">
+                            <span class="badge bg-primary">HD</span>
+                            <span class="text-warning"><i class="fas fa-star"></i> 3.8</span>
+                        </div>
+                        <small class="text-muted">2014 • Suspense, Terror</small>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3">
+            <div class="catalog-item h-100">
+                <a href="Os_Vampiros_Que_Se_Mordam.html" class="d-block">
+                    <img src="Terror/FT.F/Os Vampiros Que Se Mordam.jpg" class="img-fluid" alt="Os Vampiros Que Se Mordam" loading="lazy">
+                    <div class="info-box">
+                        <h5>Os Vampiros Que Se Mordam</h5>
+                        <div class="d-flex justify-content-between">
+                            <span class="badge bg-primary">HD</span>
+                            <span class="text-warning"><i class="fas fa-star"></i> 3.4</span>
+                        </div>
+                        <small class="text-muted">2010 • Comédia, Terror</small>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3">
+            <div class="catalog-item h-100">
+                <a href="Vampiros_vs_The_Bronx.html" class="d-block">
+                    <img src="Terror/FT.F/Vampiros vs The Bronx.jpg" class="img-fluid" alt="Vampiros vs The Bronx" loading="lazy">
+                    <div class="info-box">
+                        <h5>Vampiros vs The Bronx</h5>
+                        <div class="d-flex justify-content-between">
+                            <span class="badge bg-primary">HD</span>
+                            <span class="text-warning"><i class="fas fa-star"></i> 3.6</span>
+                        </div>
+                        <small class="text-muted">2020 • Comédia, Terror</small>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3">
+            <div class="catalog-item h-100">
+                <a href="A Vizinhanca Assombrada.html" class="d-block">
+                    <img src="Terror/FT.F/A Vizinhança Assombrada.jpg" class="img-fluid" alt="A Vizinhança Assombrada" loading="lazy">
+                    <div class="info-box">
+                        <h5>A Vizinhança Assombrada</h5>
+                        <div class="d-flex justify-content-between">
+                            <span class="badge bg-primary">HD</span>
+                            <span class="text-warning"><i class="fas fa-star"></i> 3.5</span>
+                        </div>
+                        <small class="text-muted">2019 • Terror, Suspense</small>
+                    </div>
+                </a>
+            </div>
+        </div>
+    <!-- Modal de Login -->
+    <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content bg-dark text-light">
+                <div class="modal-header border-secondary">
+                    <h5 class="modal-title" id="loginModalLabel"><i class="fas fa-sign-in-alt me-2"></i> Login</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="mb-3">
+                            <label for="username" class="form-label">Usuário</label>
+                            <input type="text" class="form-control bg-secondary text-light" id="username" placeholder="Digite seu usuário" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="password" class="form-label">Senha</label>
+                            <input type="password" class="form-control bg-secondary text-light" id="password" placeholder="Digite sua senha" required>
+                        </div>
+                        <button type="submit" class="btn btn-primary w-100">Logar</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="text-center py-4 bg-black mt-4">
+        <div class="container">
+
+           <p><i class="fas fa-envelope me-2"></i> claviochitsulete@icloud.com</p>
+            <p><i class="fas fa-phone me-2"></i> (+258) 83 384 6565</p>
+            <div class="social-links mt-3">
+                <a href="https://www.facebook.com/ranilde.paulo?mibextid=LQQJ4d" class="text-light me-3" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://twitter.com/seuperfil" class="text-light me-3" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.instagram.com/claviochitsulete?igsh=N2hvOWE0aWQyanht&utm_source=qr" class="text-light me-3" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://wa.me/258847944630" class="text-light" target="_blank"><i class="fab fa-whatsapp"></i></a>
+            </div>
+            <hr class="my-3 bg-secondary">
+            <p class="mb-0">&copy; 2025 Bahama Flix. Todos os direitos reservados Na sua cabeça.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="javascript/script.js"></script>
+</body>
+</html>
