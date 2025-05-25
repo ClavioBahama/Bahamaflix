@@ -36,8 +36,8 @@ class AdsManager {
         // Adiciona o segundo anúncio na sidebar
         if (this.adContainers.sidebar) {
             this.adContainers.sidebar.innerHTML = this.adScripts.second;
-        }
-        
+    }
+
         // Adiciona o primeiro anúncio no rodapé
         if (this.adContainers.bottom) {
             this.adContainers.bottom.innerHTML = this.adScripts.first;
@@ -54,10 +54,10 @@ class AdsManager {
         } else if (width < 992) {
             // Tablet: Layout intermediário
             this.adjustForTablet();
-        } else {
+                    } else {
             // Desktop: Layout completo
             this.adjustForDesktop();
-        }
+                    }
     }
     
     adjustForMobile() {
