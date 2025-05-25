@@ -1,0 +1,60 @@
+/* Estilos para containers de anúncios */
+.ad-container-top,
+.ad-container-sidebar,
+.ad-container-bottom {
+    width: 100%;
+    min-height: 100px;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+/* Estilos específicos para cada container */
+.ad-container-top {
+    margin-bottom: 20px;
+}
+
+.ad-container-sidebar {
+    position: sticky;
+    top: 20px;
+}
+
+.ad-container-bottom {
+    margin-top: 20px;
+}
+
+/* Responsividade */
+@media (max-width: 767px) {
+    .ad-container-top,
+    .ad-container-sidebar,
+    .ad-container-bottom {
+        margin: 10px 0;
+        min-height: 80px;
+    }
+    
+    .ad-container-sidebar {
+        position: static;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .ad-container-top,
+    .ad-container-sidebar,
+    .ad-container-bottom {
+        margin: 15px 0;
+        min-height: 90px;
+    }
+}
+
+@media (min-width: 992px) {
+    .ad-container-top,
+    .ad-container-sidebar,
+    .ad-container-bottom {
+        margin: 20px 0;
+    }
+    
+    .ad-container-sidebar {
+        max-width: 300px;
+    }
+} 
