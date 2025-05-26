@@ -1,8 +1,251 @@
+
+<script type="text/javascript">
+        var gk_isXlsx = false;
+        var gk_xlsxFileLookup = {};
+        var gk_fileData = {};
+        function filledCell(cell) {
+          return cell !== '' && cell != null;
+        }
+        function loadFileData(filename) {
+        if (gk_isXlsx && gk_xlsxFileLookup[filename]) {
+            try {
+                var workbook = XLSX.read(gk_fileData[filename], { type: 'base64' });
+                var firstSheetName = workbook.SheetNames[0];
+                var worksheet = workbook.Sheets[firstSheetName];
+
+                // Convert sheet to JSON to filter blank rows
+                var jsonData = XLSX.utils.sheet_to_json(worksheet, { header: 1, blankrows: false, defval: '' });
+                // Filter out blank rows (rows where all cells are empty, null, or undefined)
+                var filteredData = jsonData.filter(row => row.some(filledCell));
+
+                // Heuristic to find the header row by ignoring rows with fewer filled cells than the next row
+                var headerRowIndex = filteredData.findIndex((row, index) =>
+                  row.filter(filledCell).length >= filteredData[index + 1]?.filter(filledCell).length
+                );
+                // Fallback
+                if (headerRowIndex === -1 || headerRowIndex > 25) {
+                  headerRowIndex = 0;
+                }
+
+                // Convert filtered JSON back to CSV
+                var csv = XLSX.utils.aoa_to_sheet(filteredData.slice(headerRowIndex)); // Create a new sheet from filtered array of arrays
+                csv = XLSX.utils.sheet_to_csv(csv, { header: 1 });
+                return csv;
+            } catch (e) {
+                console.error(e);
+                return "";
+            }
+        }
+        return gk_fileData[filename] || "";
+        }
+        </script><!DOCTYPE html>
+
 <!DOCTYPE html>
+
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Termos de Uso - Bahama Flix">
+    <!-- Google AdSense Script (for consistency with index.html) -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1278895213529416" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://cdn.jsdelivr.net">
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- CookieConsent -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js"></script>
+    <title>Termos de Uso - Bahama Flix</title>
+</head>
+<body class="bg-dark text-light">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">Bahama Flix</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarScroll">
+                <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                    <li class="nav-item"><a class="nav-link" href="index.html"><i class="fas fa-home me-1"></i> Casa</a></li>
+                    <li class="nav-item"><a class="nav-link" href="Filmes.html"><i class="fas fa-film me-1"></i> Filmes</a></li>
+                    <li class="nav-item"><a class="nav-link" href="Series.html"><i class="fas fa-tv me-1"></i> Séries</a></li>
+                    <li class="nav-item"><a class="nav-link" href="javascript:history.back()"><i class="fas fa-arrow-left me-1"></i> Voltar</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Terms of Use Content -->
+    <div class="container my-4">
+        <div class="bg-secondary p-4 rounded">
+            <h1><i class="fas fa-file-contract me-2"></i> Termos de Uso</h1>
+            <p class="lead">Última atualização: 24 de maio de 2025</p>
+            <p>Bem-vindo ao Bahama Flix! Estes Termos de Uso regem o uso do nosso site e serviços. Ao acessar ou utilizar o Bahama Flix, você concorda em cumprir estes termos. Se não concordar, por favor, não utilize o site.</p>
+
+            <h2 class="mt-4">1. Aceitação dos Termos</h2>
+            <p>Ao acessar o Bahama Flix, você confirma que leu, entendeu e aceita estes Termos de Uso, bem como nossa <a href="privacidade.html" class="text-light">Política de Privacidade</a>. Estes termos podem ser atualizados periodicamente, e a versão mais recente estará sempre disponível nesta página.</p>
+
+            <h2 class="mt-4">2. Uso do Site</h2>
+            <p>O Bahama Flix oferece acesso a catálogos de filmes e séries, com links para streaming em plataformas externas, como o Google Drive. Você concorda em:</p>
+            <ul>
+                <li>Usar o site apenas para fins pessoais e não comerciais.</li>
+                <li>Não realizar atividades ilegais, como distribuir conteúdo protegido por direitos autorais sem permissão.</li>
+                <li>Não tentar acessar áreas restritas do site, como servidores ou bancos de dados, sem autorização.</li>
+                <li>Não usar o site para enviar spam, malware ou qualquer conteúdo prejudicial.</li>
+            </ul>
+
+            <h2 class="mt-4">3. Conta de Usuário</h2>
+            <p>Algumas funcionalidades do site podem exigir a criação de uma conta. Você é responsável por:</p>
+            <ul>
+                <li>Fornecer informações precisas e atualizadas ao criar sua conta.</li>
+                <li>Manter a confidencialidade de sua senha e notificar-nos imediatamente em caso de acesso não autorizado.</li>
+                <li>Todo o uso da sua conta, incluindo atividades realizadas por terceiros com suas credenciais.</li>
+            </ul>
+
+            <h2 class="mt-4">4. Propriedade Intelectual</h2>
+            <p>Todo o conteúdo do Bahama Flix, incluindo logotipos, textos, imagens e design, é propriedade do Bahama Flix ou de seus licenciadores, salvo indicação em contrário. Você não pode copiar, modificar, distribuir ou criar trabalhos derivados sem permissão prévia. Os links para streaming (e.g., Google Drive) são fornecidos por terceiros, e o Bahama Flix não reivindica propriedade sobre esse conteúdo.</p>
+
+            <h2 class="mt-4">5. Links para Terceiros</h2>
+            <p>O Bahama Flix pode incluir links para sites ou serviços de terceiros, como Google Drive para streaming ou Google AdSense para anúncios. Não somos responsáveis pelo conteúdo, políticas ou práticas desses terceiros. Recomendamos revisar as políticas de privacidade e termos de uso desses serviços, como a <a href="https://policies.google.com/privacy" target="_blank" class="text-light">Política de Privacidade do Google</a>.</p>
+
+            <h2 class="mt-4">6. Limitação de Responsabilidade</h2>
+            <p>O Bahama Flix fornece o site "no estado em que se encontra", sem garantias de qualquer tipo. Não nos responsabilizamos por:</p>
+            <ul>
+                <li>Interrupções, erros ou indisponibilidade do site.</li>
+                <li>Precisão, qualidade ou legalidade do conteúdo acessado via links externos (e.g., filmes e séries no Google Drive).</li>
+                <li>Perdas ou danos decorrentes do uso do site, incluindo problemas técnicos ou violações de segurança.</li>
+            </ul>
+
+            <h2 class="mt-4">7. Publicidade</h2>
+            <p>Algumas páginas do Bahama Flix exibem anúncios fornecidos pelo Google AdSense. Esses anúncios podem usar cookies para personalização, conforme descrito na nossa <a href="privacidade.html" class="text-light">Política de Privacidade</a>. Você pode gerenciar suas preferências de anúncios nas <a href="https://adssettings.google.com" target="_blank" class="text-light">Configurações de Anúncios do Google</a>.</p>
+
+            <h2 class="mt-4">8. Término de Acesso</h2>
+            <p>Podemos suspender ou encerrar seu acesso ao Bahama Flix a qualquer momento, sem aviso prévio, se você violar estes Termos de Uso ou se necessário para proteger o site, outros usuários ou nossos direitos.</p>
+
+            <h2 class="mt-4">9. Alterações aos Termos</h2>
+            <p>Podemos atualizar estes Termos de Uso periodicamente. Notificaremos mudanças significativas por meio de um aviso no site ou por e-mail. O uso contínuo do site após as alterações implica aceitação dos novos termos.</p>
+
+            <h2 class="mt-4">10. Lei Aplicável</h2>
+            <p>Estes Termos de Uso são regidos pelas leis de Moçambique. Qualquer disputa será resolvida nos tribunais competentes de Moçambique, salvo disposições legais em contrário.</p>
+
+            <h2 class="mt-4">11. Contato</h2>
+            <p>Se você tiver dúvidas ou preocupações sobre estes Termos de Uso, entre em contato conosco:</p>
+            <ul>
+                <li><strong>E-mail:</strong> <a href="mailto:claviochitsulete@icloud.com" class="text-light">claviochitsulete@icloud.com</a></li>
+                <li><strong>Telefone:</strong> (+258) 83 384 6565</li>
+                <li><strong>WhatsApp:</strong> <a href="https://wa.me/258847944630" class="text-light" target="_blank">+258 84 794 4630</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    
+    <!-- Footer -->
+    <footer class="bg-dark text-light py-4 mt-5">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-4 mb-4 mb-md-0 text-center">
+                    <h5 class="mb-3">Contato</h5>
+                    <p class="mb-1">
+                        <a href="mailto:claviochitsulete@icloud.com" class="text-light text-decoration-none">
+                            <i class="fas fa-envelope me-2"></i>claviochitsulete@icloud.com
+                        </a>
+                    </p>
+                    <p>
+                        <a href="tel:+25883384656" class="text-light text-decoration-none">
+                            <i class="fas fa-phone me-2"></i>(+258) 83 384 6565
+                        </a>
+                    </p>
+                </div>
+                
+                <div class="col-md-4 mb-4 mb-md-0 text-center">
+                    <h5 class="mb-3">Redes Sociais</h5>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/ranilde.paulo?mibextid=LQQJ4d" class="text-light mx-2" target="_blank">
+                            <i class="fab fa-facebook-f fa-lg"></i>
+                        </a>
+                        <a href="https://www.instagram.com/claviochitsulete?igsh=N2hvOWE0aWQyanht&utm_source=qr" class="text-light mx-2" target="_blank">
+                            <i class="fab fa-instagram fa-lg"></i>
+                        </a>
+                        <a href="https://wa.me/258847944630" class="text-light mx-2" target="_blank">
+                            <i class="fab fa-whatsapp fa-lg"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-md-4 text-center">
+                    <h5 class="mb-3">Links Úteis</h5>
+                    <p class="mb-1">
+                        <a href="privacidade.html" class="text-light text-decoration-none">Política de Privacidade</a>
+                    </p>
+                    <p>
+                        <a href="termos.html" class="text-light text-decoration-none">Termos de Uso</a>
+                    </p>
+                </div>
+            </div>
+
+            <hr class="my-4 bg-secondary">
+            
+            <div class="row">
+                <div class="col text-center">
+                    <p class="mb-0 text-muted">© 2025 Bahama Flix. Todos os direitos reservados.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- CookieConsent Script -->
+    <script>
+    window.cookieconsent.initialise({
+        "palette": {
+            "popup": { "background": "#1a1a1a" },
+            "button": { "background": "#dc3545", "text": "#ffffff" }
+        },
+        "theme": "classic",
+        "position": "bottom-right",
+        "content": {
+            "message": "Este site usa cookies para melhorar sua experiência e exibir anúncios personalizados.",
+            "dismiss": "Entendi",
+            "link": "Saiba mais",
+            "href": "privacidade.html"
+        }
+    });
+    </script>
+
+    <!-- Adiciona hover effect nos links do footer -->
+    <style>
+    footer a:hover {
+        opacity: 0.8;
+        transition: opacity 0.3s ease;
+    }
+    
+    footer .social-links a {
+        display: inline-block;
+        width: 35px;
+        height: 35px;
+        line-height: 35px;
+        border-radius: 50%;
+        background-color: rgba(255, 255, 255, 0.1);
+        transition: all 0.3s ease;
+    }
+    
+    footer .social-links a:hover {
+        background-color: rgba(255, 255, 255, 0.2);
+        transform: translateY(-3px);
+    }
+    </style>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+<script type='text/javascript' src='//pl26742386.profitableratecpm.com/55/0b/50/550b50e6d03ac93a807c12fafc884d89.js'></script>
+<script type='text/javascript' src='//www.profitableratecpm.com/huexcf8fte?key=17b7ff2b0406db4058d9a4f74cb2ea96'></script>
+<script async="async" data-cfasync="false" src="//pl26742415.profitableratecpm.com/2a9dcac609e77d65882802826a4496c7/invoke.js"></script>
+<div id="container-2a9dcac609e77d65882802826a4496c7"></div></body>
+</html>
+
     <meta name="description" content="Termos de Uso do Bahama Flix - Leia nossas políticas e condições de uso do serviço">
     <title>Termos de Uso | Bahama Flix</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -143,5 +386,15 @@
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    
+    <!-- Nosso script -->
+    <script src="javascript/script.js"></script>
+    
+    <!-- CookieConsent -->
+    <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js"></script>
+
 </body>
+
 </html>
