@@ -3,311 +3,130 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Feedback - Bahama Flix</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        }
-
-        body {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
-            background: linear-gradient(135deg, #1a1a2e, #16213e);
-            overflow: hidden;
-        }
-
-        .box {
-            position: relative;
-            color: white;
-            height: 300px;
-            width: 400px;
-            border-radius: 15px;
-            background: rgba(25, 25, 25, 0.8);
-            backdrop-filter: blur(10px);
-            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            padding: 30px;
-            text-align: center;
-            border: 1px solid rgba(255, 255, 255, 0.1);
-            transform: scale(0.95);
-            opacity: 0;
-            animation: fadeIn 0.5s ease-out forwards;
-            overflow: hidden;
-        }
-
-        .box::before {
-            content: '';
-            position: absolute;
-            top: -50%;
-            left: -50%;
-            width: 200%;
-            height: 200%;
-            background: linear-gradient(
-                to bottom right,
-                rgba(229, 9, 20, 0.1),
-                rgba(229, 9, 20, 0),
-                rgba(229, 9, 20, 0.1)
-            );
-            transform: rotate(30deg);
-            z-index: -1;
-        }
-
-        .box p {
-            font-size: 24px;
-            margin-bottom: 30px;
-            font-weight: 500;
-            color: #f8f8f8;
-            text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
-        }
-
-        .buttons-container {
-            display: flex;
-            justify-content: space-around;
-            width: 100%;
-            max-width: 250px;
-            gap: 20px;
-        }
-
-        .btn {
-            height: 45px;
-            width: 100px;
-            border-radius: 8px;
-            font-weight: 600;
-            font-size: 16px;
-            cursor: pointer;
-            transition: all 0.3s ease;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            position: relative;
-            overflow: hidden;
-            border: none;
-        }
-
-        .btn-yes {
-            background: linear-gradient(135deg, #4CAF50, #2E7D32);
-            color: white;
-            box-shadow: 0 4px 15px rgba(76, 175, 80, 0.3);
-        }
-
-        .btn-yes:hover {
-            transform: translateY(-3px);
-            box-shadow: 0 6px 20px rgba(76, 175, 80, 0.4);
-        }
-
-        .btn-yes:active {
-            transform: translateY(1px);
-        }
-
-        .btn-no {
-            background: linear-gradient(135deg, #f44336, #c62828);
-            color: white;
-            box-shadow: 0 4px 15px rgba(244, 67, 54, 0.3);
-            position: relative;
-        }
-
-        .btn-no:hover {
-            transform: translateY(-3px);
-            box-shadow: 0 6px 20px rgba(244, 67, 54, 0.4);
-        }
-
-        .btn-no:active {
-            transform: translateY(1px);
-        }
-
-        .btn-back {
-            position: absolute;
-            bottom: 20px;
-            left: 50%;
-            transform: translateX(-50%);
-            background: rgba(255, 255, 255, 0.1);
-            color: white;
-            border: 1px solid rgba(255, 255, 255, 0.2);
-            padding: 8px 20px;
-            border-radius: 20px;
-            font-size: 14px;
-            transition: all 0.3s ease;
-        }
-
-        .btn-back:hover {
-            background: rgba(255, 255, 255, 0.2);
-        }
-
-        @keyframes fadeIn {
-            to {
-                opacity: 1;
-                transform: scale(1);
-            }
-        }
-
-        @keyframes pulse {
-            0% { transform: scale(1); }
-            50% { transform: scale(1.05); }
-            100% { transform: scale(1); }
-        }
-
-        .confetti {
-            position: absolute;
-            width: 10px;
-            height: 10px;
-            background-color: #f00;
-            border-radius: 50%;
-            animation: confetti-fall 3s ease-in-out forwards;
-        }
-
-        @keyframes confetti-fall {
-            0% {
-                transform: translateY(-100px) rotate(0deg);
-                opacity: 1;
-            }
-            100% {
-                transform: translateY(500px) rotate(360deg);
-                opacity: 0;
-            }
-        }
-
-        .heart {
-            position: absolute;
-            font-size: 20px;
-            color: #e91e63;
-            animation: float 4s ease-in-out infinite;
-            opacity: 0;
-        }
-
-        @keyframes float {
-            0% {
-                transform: translateY(0) rotate(0deg);
-                opacity: 1;
-            }
-            100% {
-                transform: translateY(-100px) rotate(360deg);
-                opacity: 0;
-            }
-        }
-    </style>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
+    <meta name="description" content="Avalie o Bahama Flix - Sua opinião é importante para nós">
+    <title>Avaliar o Site - Bahama Flix</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
 </head>
-<body>
-    <div class="box">
-        <p>Gostou do Bahama Flix?</p>
-        <div class="buttons-container">
-            <button class="btn btn-yes" id="yes">
-                Sim 😊
-            </button>
-            <button class="btn btn-no" id="no">
-                Não 😞
-            </button>
+<body class="bg-dark text-light">
+    <!-- Header -->
+    <header class="header-animated">
+        <div class="container-fluid d-flex justify-content-center align-items-center py-3">
+            <h1 class="logo-text m-0">
+                <span class="logo-part">B</span>
+                <span class="logo-part">a</span>
+                <span class="logo-part">h</span>
+                <span class="logo-part">a</span>
+                <span class="logo-part">m</span>
+                <span class="logo-part">a</span>
+                <span class="logo-space"> </span>
+                <span class="logo-part">F</span>
+                <span class="logo-part">l</span>
+                <span class="logo-part">i</span>
+                <span class="logo-part">x</span>
+            </h1>
         </div>
-        <a href="index.html" class="btn btn-back">Voltar ao site</a>
-    </div>
+    </header>
 
-    <script>
-        const noBtn = document.getElementById('no');
-        const yesBtn = document.getElementById('yes');
-        const box = document.querySelector('.box');
-        
-        // Configurações de animação para o botão "Não"
-        noBtn.addEventListener('mouseover', function() {
-            const boxRect = box.getBoundingClientRect();
-            const maxX = boxRect.width - this.offsetWidth;
-            const maxY = boxRect.height - this.offsetHeight;
-            
-            this.style.position = 'absolute';
-            this.style.left = Math.random() * maxX + 'px';
-            this.style.top = Math.random() * maxY + 'px';
-            
-            // Adiciona efeito de balanço
-            this.style.transform = 'translateY(-3px) rotate(' + (Math.random() * 20 - 10) + 'deg)';
-        });
-        
-        noBtn.addEventListener('mouseout', function() {
-            // Volta à posição normal quando o mouse sai
-            setTimeout(() => {
-                this.style.position = 'relative';
-                this.style.left = 'auto';
-                this.style.top = 'auto';
-                this.style.transform = 'none';
-            }, 300);
-        });
-        
-        // Efeito especial quando clica em "Sim"
-        yesBtn.addEventListener('click', function() {
-            // Animação de pulsação
-            this.style.animation = 'pulse 0.5s ease 2';
-            
-            // Cria confetes
-            createConfetti();
-            createHearts();
-            
-            // Mensagem de agradecimento
-            setTimeout(() => {
-                box.innerHTML = `
-                    <p>Obrigado pelo feedback! ❤️</p>
-                    <p style="font-size: 16px; margin-top: 10px;">Volte sempre ao Bahama Flix!</p>
-                    <a href="index.html" class="btn btn-back" style="margin-top: 30px;">Voltar ao site</a>
-                `;
-            }, 1000);
-        });
-        
-        function createConfetti() {
-            const colors = ['#e91e63', '#00bcd4', '#ffeb3b', '#4caf50', '#2196f3'];
-            
-            for (let i = 0; i < 50; i++) {
-                const confetti = document.createElement('div');
-                confetti.className = 'confetti';
-                confetti.style.left = Math.random() * 100 + '%';
-                confetti.style.backgroundColor = colors[Math.floor(Math.random() * colors.length)];
-                confetti.style.width = Math.random() * 10 + 5 + 'px';
-                confetti.style.height = confetti.style.width;
-                confetti.style.animationDelay = Math.random() * 2 + 's';
-                box.appendChild(confetti);
-                
-                // Remove após a animação
-                setTimeout(() => {
-                    confetti.remove();
-                }, 3000);
-            }
-        }
-        
-        function createHearts() {
-            for (let i = 0; i < 10; i++) {
-                const heart = document.createElement('div');
-                heart.className = 'heart';
-                heart.innerHTML = '❤️';
-                heart.style.left = Math.random() * 100 + '%';
-                heart.style.bottom = '20px';
-                heart.style.animationDelay = i * 0.2 + 's';
-                box.appendChild(heart);
-                
-                // Remove após a animação
-                setTimeout(() => {
-                    heart.remove();
-                }, 4000);
-            }
-        }
-    </script>
-<script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js"></script>
-    <!-- Footer -->
-    
-    <!-- Footer -->
-    
-    <!-- Footer -->
-    
-    <!-- Footer -->
-        <!-- Container de anúncio inferior -->
-    <div class="ad-container-bottom my-3 text-center"><div id="container-2a9dcac609e77d65882802826a4496c7"></div></div>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">Bahama Flix</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarScroll">
+                <ul class="navbar-nav me-auto my-2 my-lg-0">
+                    <li class="nav-item"><a class="nav-link" href="index.html"><i class="fas fa-home me-1"></i> Casa</a></li>
+                    <li class="nav-item"><a class="nav-link" href="Filmes.html"><i class="fas fa-film me-1"></i> Filmes</a></li>
+                    <li class="nav-item"><a class="nav-link" href="Series.html"><i class="fas fa-tv me-1"></i> Séries</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
-        <!-- Container de anúncio inferior -->
-    <div class="ad-container-bottom my-3 text-center"></div>
+    <!-- Conteúdo Principal -->
+    <main class="container my-5">
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <div class="card bg-dark border-secondary">
+                    <div class="card-body">
+                        <h2 class="card-title text-center mb-4">
+                            <i class="fas fa-star text-warning me-2"></i>
+                            Avalie o Bahama Flix
+                        </h2>
+                        
+                        <form id="avaliacaoForm" class="needs-validation" novalidate>
+                            <!-- Avaliação Geral -->
+                            <div class="mb-4">
+                                <label class="form-label">Avaliação Geral</label>
+                                <div class="rating-stars d-flex justify-content-center mb-2">
+                                    <i class="fas fa-star fa-2x mx-1 text-warning" data-rating="1"></i>
+                                    <i class="fas fa-star fa-2x mx-1 text-warning" data-rating="2"></i>
+                                    <i class="fas fa-star fa-2x mx-1 text-warning" data-rating="3"></i>
+                                    <i class="fas fa-star fa-2x mx-1 text-warning" data-rating="4"></i>
+                                    <i class="fas fa-star fa-2x mx-1 text-warning" data-rating="5"></i>
+                                </div>
+                                <input type="hidden" id="rating" name="rating" required>
+                            </div>
 
+                            <!-- Categorias de Avaliação -->
+                            <div class="row mb-4">
+                                <div class="col-md-6 mb-3">
+                                    <label class="form-label">Qualidade do Conteúdo</label>
+                                    <select class="form-select bg-secondary text-light" name="qualidade" required>
+                                        <option value="">Selecione...</option>
+                                        <option value="5">Excelente</option>
+                                        <option value="4">Muito Bom</option>
+                                        <option value="3">Bom</option>
+                                        <option value="2">Regular</option>
+                                        <option value="1">Ruim</option>
+                                    </select>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <label class="form-label">Interface do Site</label>
+                                    <select class="form-select bg-secondary text-light" name="interface" required>
+                                        <option value="">Selecione...</option>
+                                        <option value="5">Excelente</option>
+                                        <option value="4">Muito Bom</option>
+                                        <option value="3">Bom</option>
+                                        <option value="2">Regular</option>
+                                        <option value="1">Ruim</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <!-- Comentários -->
+                            <div class="mb-4">
+                                <label for="comentario" class="form-label">Comentários</label>
+                                <textarea class="form-control bg-secondary text-light" id="comentario" name="comentario" rows="4" placeholder="Conte-nos sua experiência com o site..."></textarea>
+                            </div>
+
+                            <!-- Sugestões -->
+                            <div class="mb-4">
+                                <label for="sugestoes" class="form-label">Sugestões de Melhorias</label>
+                                <textarea class="form-control bg-secondary text-light" id="sugestoes" name="sugestoes" rows="3" placeholder="O que podemos melhorar?"></textarea>
+                            </div>
+
+                            <!-- Botão de Envio -->
+                            <div class="text-center">
+                                <button type="submit" class="btn btn-primary btn-lg">
+                                    <i class="fas fa-paper-plane me-2"></i>
+                                    Enviar Avaliação
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
     <footer class="bg-dark text-light py-4 mt-5">
         <div class="container">
             <div class="row justify-content-center">
@@ -361,7 +180,65 @@
         </div>
     </footer>
 
-    <!-- CookieConsent Script -->
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="javascript/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js"></script>
+
+    <!-- Script para a Avaliação -->
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        // Sistema de estrelas
+        const stars = document.querySelectorAll('.rating-stars i');
+        const ratingInput = document.getElementById('rating');
+        
+        stars.forEach(star => {
+            star.addEventListener('mouseover', function() {
+                const rating = this.getAttribute('data-rating');
+                updateStars(rating);
+            });
+            
+            star.addEventListener('click', function() {
+                const rating = this.getAttribute('data-rating');
+                ratingInput.value = rating;
+                updateStars(rating);
+            });
+        });
+        
+        document.querySelector('.rating-stars').addEventListener('mouseout', function() {
+            const currentRating = ratingInput.value || 0;
+            updateStars(currentRating);
+        });
+        
+        function updateStars(rating) {
+            stars.forEach(star => {
+                const starRating = star.getAttribute('data-rating');
+                if (starRating <= rating) {
+                    star.style.color = '#ffc107';
+                } else {
+                    star.style.color = '#6c757d';
+                }
+            });
+        }
+
+        // Validação do formulário
+        const form = document.getElementById('avaliacaoForm');
+        form.addEventListener('submit', function(event) {
+            if (!form.checkValidity()) {
+                event.preventDefault();
+                event.stopPropagation();
+            } else {
+                event.preventDefault();
+                alert('Obrigado pela sua avaliação!');
+                form.reset();
+                updateStars(0);
+            }
+            form.classList.add('was-validated');
+        });
+    });
+    </script>
+
+    <!-- CookieConsent -->
     <script>
     window.cookieconsent.initialise({
         "palette": {
@@ -378,33 +255,5 @@
         }
     });
     </script>
-
-    <!-- Adiciona hover effect nos links do footer -->
-    <style>
-    footer a:hover {
-        opacity: 0.8;
-        transition: opacity 0.3s ease;
-    }
-    
-    footer .social-links a {
-        display: inline-block;
-        width: 35px;
-        height: 35px;
-        line-height: 35px;
-        border-radius: 50%;
-        background-color: rgba(255, 255, 255, 0.1);
-        transition: all 0.3s ease;
-    }
-    
-    footer .social-links a:hover {
-        background-color: rgba(255, 255, 255, 0.2);
-        transform: translateY(-3px);
-    }
-    </style>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
-</html>
-</html>
-</html>
 </html>
