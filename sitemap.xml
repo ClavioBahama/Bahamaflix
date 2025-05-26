@@ -19,8 +19,6 @@
     <priority>0.9</priority>
   </url>
   <url>
-<<<<<<< HEAD
-=======
     <loc>https://bahamaflix.com/blog.html</loc>
     <lastmod>2024-03-20</lastmod>
     <changefreq>daily</changefreq>
@@ -39,7 +37,6 @@
     <priority>0.5</priority>
   </url>
   <url>
->>>>>>> 5ae4f346fb986c0576a1e407452cbdb6a9c525b9
     <loc>https://bahamaflix.com/comedia.html</loc>
     <lastmod>2024-03-20</lastmod>
     <changefreq>weekly</changefreq>
@@ -75,8 +72,6 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
-<<<<<<< HEAD
-=======
   <!-- Blog Posts -->
   <url>
     <loc>https://bahamaflix.com/blog/oscar-2024.html</loc>
@@ -122,5 +117,4 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
->>>>>>> 5ae4f346fb986c0576a1e407452cbdb6a9c525b9
 </urlset> 
