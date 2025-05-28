@@ -1,253 +1,182 @@
-<script type="text/javascript">
-        var gk_isXlsx = false;
-        var gk_xlsxFileLookup = {};
-        var gk_fileData = {};
-        function filledCell(cell) {
-          return cell !== '' && cell != null;
-        }
-        function loadFileData(filename) {
-        if (gk_isXlsx && gk_xlsxFileLookup[filename]) {
-            try {
-                var workbook = XLSX.read(gk_fileData[filename], { type: 'base64' });
-                var firstSheetName = workbook.SheetNames[0];
-                var worksheet = workbook.Sheets[firstSheetName];
+<!DOCTYPE html>
+ <html lang="pt-br">
 
-                // Convert sheet to JSON to filter blank rows
-                var jsonData = XLSX.utils.sheet_to_json(worksheet, { header: 1, blankrows: false, defval: '' });
-                // Filter out blank rows (rows where all cells are empty, null, or undefined)
-                var filteredData = jsonData.filter(row => row.some(filledCell));
+ <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Terapia de Casais para Amantes - Bahama Flix">
+  <link rel="preconnect" href="https://cdn.jsdelivr.net">
+  <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/ads.css">
+  <link rel="stylesheet" href="css/ads.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <title>Terapia de Casais para Amantes - Bahama Flix</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
+ </head>
 
-                // Heuristic to find the header row by ignoring rows with fewer filled cells than the next row
-                var headerRowIndex = filteredData.findIndex((row, index) =>
-                  row.filter(filledCell).length >= filteredData[index + 1]?.filter(filledCell).length
-                );
-                // Fallback
-                if (headerRowIndex === -1 || headerRowIndex > 25) {
-                  headerRowIndex = 0;
-                }
+ <body class="bg-dark text-light">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
+   <div class="container-fluid">
+    <div class="col-lg-3">
+     <div class="ad-container-sidebar sticky-top pt-3">
+      <div id="container-2a9dcac609e77d65882802826a4496c7"></div>
+     </div>
+    </div>
+    <div class="col-lg-3">
+     <div class="ad-container-sidebar sticky-top pt-3"></div>
+    </div>
+    <a class="navbar-brand" href="index.html">Bahama Flix</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll">
+     <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarScroll">
+     <ul class="navbar-nav me-auto">
+      <li class="nav-item"><a class="nav-link" href="index.html"><i class="fas fa-home me-1"></i> Casa</a></li>
+      <li class="nav-item"><a class="nav-link" href="Filmes.html"><i class="fas fa-film me-1"></i> Filmes</a></li>
+      <li class="nav-item"><a class="nav-link" href="Series.html"><i class="fas fa-tv me-1"></i> Séries</a></li>
+      <li class="nav-item"><a class="nav-link" href="Comedia.html" onclick="history.back()"><i
+         class="fas fa-arrow-left me-1"></i>Voltar</a></li>
+     </ul>
+    </div>
+   </div>
+  </nav>
 
-                // Convert filtered JSON back to CSV
-                var csv = XLSX.utils.aoa_to_sheet(filteredData.slice(headerRowIndex)); // Create a new sheet from filtered array of arrays
-                csv = XLSX.utils.sheet_to_csv(csv, { header: 1 });
-                return csv;
-            } catch (e) {
-                console.error(e);
-                return "";
-            }
-        }
-        return gk_fileData[filename] || "";
-        }
-        </script><!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Terapia de Casais para Amantes - Bahama Flix">
-    <link rel="preconnect" href="https://cdn.jsdelivr.net">
-    <link rel="preconnect" href="https://cdnjs.cloudflare.com">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/ads.css">
-    <link rel="stylesheet" href="css/ads.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <title>Terapia de Casais para Amantes - Bahama Flix</title>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
-</head>
-<body class="bg-dark text-light">
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
-        <div class="container-fluid">
-        <!-- Sidebar com anúncios -->
-        <div class="col-lg-3">
-            <div class="ad-container-sidebar sticky-top pt-3"><div id="container-2a9dcac609e77d65882802826a4496c7"></div></div>
-        </div>
-        <!-- Sidebar com anúncios -->
-        <div class="col-lg-3">
-            <div class="ad-container-sidebar sticky-top pt-3"></div>
-        </div>
-            <a class="navbar-brand" href="index.html">Bahama Flix</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarScroll">
-                <ul class="navbar-nav me-auto">
-                    <li class="nav-item"><a class="nav-link" href="index.html"><i class="fas fa-home me-1"></i> Casa</a></li>
-                    <li class="nav-item"><a class="nav-link" href="Filmes.html"><i class="fas fa-film me-1"></i> Filmes</a></li>
-                    <li class="nav-item"><a class="nav-link" href="Series.html"><i class="fas fa-tv me-1"></i> Séries</a></li>
-                    <li class="nav-item"><a class="nav-link" href="Drama.html" onclick="history.back()"><i class="fas fa-arrow-left me-1"></i>Voltar</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+  <div class="container mt-4">
+   <div class="row">
+    <div class="col-md-4">
+     <img src="Comedia/FT.F/Terapia de Casais para Amantes.jpg" alt="Terapia de Casais para Amantes"
+      class="img-fluid rounded shadow mb-4">
+    </div>
+    <div class="col-md-8">
+     <div class="bg-secondary p-4 rounded">
+      <h1>Terapia de Casais para Amantes</h1>
+      <p class="lead">2010 • Comédia, Romance</p>
+      <h2 class="mt-4">Sinopse</h2>
+      <p>Quatro casais em diferentes estágios de seus relacionamentos participam de uma terapia de casais em uma ilha
+       tropical. O que começa como uma tentativa de salvar um casamento em crise se transforma em uma análise hilária e
+       reveladora de todos os relacionamentos.</p>
+      <div class="mt-4">
+       <h3>Informações</h3>
+       <p><strong>Ano:</strong> 2010</p>
+       <p><strong>Gênero:</strong> Comédia, Romance</p>
+       <p><strong>Classificação:</strong> <span class="text-warning"><i class="fas fa-star"></i> 4.0</span></p>
+      </div>
+      <a href="https://drive.google.com/file/d/1X5bm8_pGT_09wrocwbyK7mX9eEwH0W6F/view" class="btn btn-primary btn-lg mt-3">
+       <i class="fas fa-play me-2"></i> Assistir Agora
+      </a>
+     </div>
+    </div>
+   </div>
+  </div>
 
-    <!-- Movie Content -->
-    <div class="container mt-4">
-        <div class="row">
-            <div class="col-md-4">
-                <img src="Drama/FT.F/Terapia de Casais para Amantes.jpg" alt="Terapia de Casais para Amantes" class="img-fluid rounded shadow mb-4">
-            </div>
-            <div class="col-md-8">
-                <div class="bg-secondary p-4 rounded">
-                    <h1>Terapia de Casais para Amantes</h1>
-                    <p class="lead">2017 • Comédia, Romance</p>
-                    
-                    <h2 class="mt-4">Sinopse</h2>
-                    <p>Dois amantes, ambos casados com outras pessoas, buscam terapia de casais para salvar seu relacionamento secreto. Entre sessões cômicas e revelações inesperadas, eles enfrentam verdades sobre amor, lealdade e desejo. Esta comédia romântica explora as complexidades das relações modernas com humor e emoção.</p>
-                    
-                    <div class="mt-4">
-                        <h3>Informações</h3>
-                        <p><strong>Ano:</strong> 2017</p>
-                        <p><strong>Gênero:</strong> Comédia, Romance</p>
-                        <p><strong>Classificação:</strong> <span class="text-warning"><i class="fas fa-star"></i> 3.7</span></p>
-                    </div>
+  <div class="ad-container-bottom my-3 text-center">
+   <div id="container-2a9dcac609e77d65882802826a4496c7"></div>
+  </div>
 
-                    <a href="https://drive.google.com/file/d/1GPTQC7xPwMENVthmbbvG5dcxZE8ocotE/view" class="btn btn-primary btn-lg mt-3">
-                        <i class="fas fa-play me-2"></i> Assistir Agora
-                    </a>
-                </div>
-            </div>
-        </div>
+  <div class="ad-container-bottom my-3 text-center"></div>
+
+  <footer class="bg-dark text-light py-4 mt-5">
+   <div class="container">
+    <div class="row justify-content-center">
+     <div class="col-md-4 mb-4 mb-md-0 text-center">
+      <h5 class="mb-3">Contato</h5>
+      <p class="mb-1">
+       <a href="mailto:claviochitsulete@icloud.com" class="text-light text-decoration-none">
+        <i class="fas fa-envelope me-2"></i>claviochitsulete@icloud.com
+       </a>
+      </p>
+      <p>
+       <a href="tel:+25883384656" class="text-light text-decoration-none">
+        <i class="fas fa-phone me-2"></i>(+258) 83 384 6565
+       </a>
+      </p>
+     </div>
+
+     <div class="col-md-4 mb-4 mb-md-0 text-center">
+      <h5 class="mb-3">Redes Sociais</h5>
+      <div class="social-links">
+       <a href="https://www.facebook.com/ranilde.paulo?mibextid=LQQJ4d" class="text-light mx-2" target="_blank">
+        <i class="fab fa-facebook-f fa-lg"></i>
+       </a>
+       <a href="https://www.instagram.com/claviochitsulete?igsh=N2hvOWE0aWQyanht&utm_source=qr" class="text-light mx-2"
+        target="_blank">
+        <i class="fab fa-instagram fa-lg"></i>
+       </a>
+       <a href="https://wa.me/258847944630" class="text-light mx-2" target="_blank">
+        <i class="fab fa-whatsapp fa-lg"></i>
+       </a>
+      </div>
+     </div>
+
+     <div class="col-md-4 text-center">
+      <h5 class="mb-3">Links Úteis</h5>
+      <p class="mb-1">
+       <a href="privacidade.html" class="text-light text-decoration-none">Política de Privacidade</a>
+      </p>
+      <p>
+       <a href="termos.html" class="text-light text-decoration-none">Termos de Uso</a>
+      </p>
+     </div>
     </div>
 
-    <!-- Modal de Login -->
-    <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content bg-dark text-light">
-                <div class="modal-header border-secondary">
-                    <h5 class="modal-title" id="loginModalLabel"><i class="fas fa-sign-in-alt me-2"></i> Login</h5>
-                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    <form>
-                        <div class="mb-3">
-                            <label for="username" class="form-label">Usuário</label>
-                            <input type="text" class="form-control bg-secondary text-light" id="username" placeholder="Digite seu usuário" required>
-                        </div>
-                        <div class="mb-3">
-                            <label for="password" class="form-label">Senha</label>
-                            <input type="password" class="form-control bg-secondary text-light" id="password" placeholder="Digite sua senha" required>
-                        </div>
-                        <button type="submit" class="btn btn-primary w-100">Logar</button>
-                    </form>
-                </div>
-            </div>
-        </div>
+    <hr class="my-4 bg-secondary">
+
+    <div class="row">
+     <div class="col text-center">
+      <p class="mb-0 text-muted">© 2025 Bahama Flix. Todos os direitos reservados.</p>
+     </div>
     </div>
+   </div>
+  </footer>
 
-    <!-- Footer -->
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js"></script>
-    <!-- Footer -->
-    
-    <!-- Footer -->
-    
-    <!-- Footer -->
-    
-    <!-- Footer -->
-        <!-- Container de anúncio inferior -->
-    <div class="ad-container-bottom my-3 text-center"><div id="container-2a9dcac609e77d65882802826a4496c7"></div></div>
-
-        <!-- Container de anúncio inferior -->
-    <div class="ad-container-bottom my-3 text-center"></div>
-
-    <footer class="bg-dark text-light py-4 mt-5">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-md-4 mb-4 mb-md-0 text-center">
-                    <h5 class="mb-3">Contato</h5>
-                    <p class="mb-1">
-                        <a href="mailto:claviochitsulete@icloud.com" class="text-light text-decoration-none">
-                            <i class="fas fa-envelope me-2"></i>claviochitsulete@icloud.com
-                        </a>
-                    </p>
-                    <p>
-                        <a href="tel:+25883384656" class="text-light text-decoration-none">
-                            <i class="fas fa-phone me-2"></i>(+258) 83 384 6565
-                        </a>
-                    </p>
-                </div>
-                
-                <div class="col-md-4 mb-4 mb-md-0 text-center">
-                    <h5 class="mb-3">Redes Sociais</h5>
-                    <div class="social-links">
-                        <a href="https://www.facebook.com/ranilde.paulo?mibextid=LQQJ4d" class="text-light mx-2" target="_blank">
-                            <i class="fab fa-facebook-f fa-lg"></i>
-                        </a>
-                        <a href="https://www.instagram.com/claviochitsulete?igsh=N2hvOWE0aWQyanht&utm_source=qr" class="text-light mx-2" target="_blank">
-                            <i class="fab fa-instagram fa-lg"></i>
-                        </a>
-                        <a href="https://wa.me/258847944630" class="text-light mx-2" target="_blank">
-                            <i class="fab fa-whatsapp fa-lg"></i>
-                        </a>
-                    </div>
-                </div>
-
-                <div class="col-md-4 text-center">
-                    <h5 class="mb-3">Links Úteis</h5>
-                    <p class="mb-1">
-                        <a href="privacidade.html" class="text-light text-decoration-none">Política de Privacidade</a>
-                    </p>
-                    <p>
-                        <a href="termos.html" class="text-light text-decoration-none">Termos de Uso</a>
-                    </p>
-                </div>
-            </div>
-
-            <hr class="my-4 bg-secondary">
-            
-            <div class="row">
-                <div class="col text-center">
-                    <p class="mb-0 text-muted">© 2025 Bahama Flix. Todos os direitos reservados.</p>
-                </div>
-            </div>
-        </div>
-    </footer>
-
-    <!-- CookieConsent Script -->
-    <script>
-    window.cookieconsent.initialise({
-        "palette": {
-            "popup": { "background": "#1a1a1a" },
-            "button": { "background": "#dc3545", "text": "#ffffff" }
-        },
-        "theme": "classic",
-        "position": "bottom-right",
-        "content": {
-            "message": "Este site usa cookies para melhorar sua experiência e exibir anúncios personalizados.",
-            "dismiss": "Entendi",
-            "link": "Saiba mais",
-            "href": "privacidade.html"
-        }
-    });
-    </script>
-
-    <!-- Adiciona hover effect nos links do footer -->
-    <style>
-    footer a:hover {
-        opacity: 0.8;
-        transition: opacity 0.3s ease;
+  <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js"></script>
+  <script>
+   window.cookieconsent.initialise({
+    "palette": {
+     "popup": {
+      "background": "#1a1a1a"
+     },
+     "button": {
+      "background": "#dc3545",
+      "text": "#ffffff"
+     }
+    },
+    "theme": "classic",
+    "position": "bottom-right",
+    "content": {
+     "message": "Este site usa cookies para melhorar sua experiência e exibir anúncios personalizados.",
+     "dismiss": "Entendi",
+     "link": "Saiba mais",
+     "href": "privacidade.html"
     }
-    
-    footer .social-links a {
-        display: inline-block;
-        width: 35px;
-        height: 35px;
-        line-height: 35px;
-        border-radius: 50%;
-        background-color: rgba(255, 255, 255, 0.1);
-        transition: all 0.3s ease;
-    }
-    
-    footer .social-links a:hover {
-        background-color: rgba(255, 255, 255, 0.2);
-        transform: translateY(-3px);
-    }
-    </style>
+   });
+  </script>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
-</body>
-</html>
-</html>
-</html>
-</html>
+  <style>
+   footer a:hover {
+    opacity: 0.8;
+    transition: opacity 0.3s ease;
+   }
+
+   footer .social-links a {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.1);
+    transition: all 0.3s ease;
+   }
+
+   footer .social-links a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    transform: translateY(-3px);
+   }
+  </style>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+ </body>
+
+ </html>
