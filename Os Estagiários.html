@@ -1,43 +1,4 @@
-<script type="text/javascript">
-        var gk_isXlsx = false;
-        var gk_xlsxFileLookup = {};
-        var gk_fileData = {};
-        function filledCell(cell) {
-          return cell !== '' && cell != null;
-        }
-        function loadFileData(filename) {
-        if (gk_isXlsx && gk_xlsxFileLookup[filename]) {
-            try {
-                var workbook = XLSX.read(gk_fileData[filename], { type: 'base64' });
-                var firstSheetName = workbook.SheetNames[0];
-                var worksheet = workbook.Sheets[firstSheetName];
-
-                // Convert sheet to JSON to filter blank rows
-                var jsonData = XLSX.utils.sheet_to_json(worksheet, { header: 1, blankrows: false, defval: '' });
-                // Filter out blank rows (rows where all cells are empty, null, or undefined)
-                var filteredData = jsonData.filter(row => row.some(filledCell));
-
-                // Heuristic to find the header row by ignoring rows with fewer filled cells than the next row
-                var headerRowIndex = filteredData.findIndex((row, index) =>
-                  row.filter(filledCell).length >= filteredData[index + 1]?.filter(filledCell).length
-                );
-                // Fallback
-                if (headerRowIndex === -1 || headerRowIndex > 25) {
-                  headerRowIndex = 0;
-                }
-
-                // Convert filtered JSON back to CSV
-                var csv = XLSX.utils.aoa_to_sheet(filteredData.slice(headerRowIndex)); // Create a new sheet from filtered array of arrays
-                csv = XLSX.utils.sheet_to_csv(csv, { header: 1 });
-                return csv;
-            } catch (e) {
-                console.error(e);
-                return "";
-            }
-        }
-        return gk_fileData[filename] || "";
-        }
-        </script><!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
@@ -48,23 +9,32 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/ads.css">
-    <link rel="stylesheet" href="css/ads.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <title>Os Estagiários - Bahama Flix</title>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
+    
+    <script type="text/javascript">
+        atOptions = {
+            'key' : '3112502e6a2563aff326830903a94b9b',
+            'format' : 'iframe',
+            'height' : 90,
+            'width' : 728,
+            'params' : {}
+        };
+    </script>
+    <script type="text/javascript" src="//www.highperformanceformat.com/3112502e6a2563aff326830903a94b9b/invoke.js"></script>
+    
+    <script type='text/javascript' src='//pl26763802.profitableratecpm.com/db/01/f8/db01f8dba23b90c9790f5c8b918426ae.js'></script>
 </head>
 <body class="bg-dark text-light">
-    <!-- Navbar -->
+    <div class="container-fluid text-center mt-2">
+        <div class="ad-container-top">
+            <script type="text/javascript" src="//www.highperformanceformat.com/3112502e6a2563aff326830903a94b9b/invoke.js"></script>
+        </div>
+    </div>
+
     <nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
         <div class="container-fluid">
-        <!-- Sidebar com anúncios -->
-        <div class="col-lg-3">
-            <div class="ad-container-sidebar sticky-top pt-3"><div id="container-2a9dcac609e77d65882802826a4496c7"></div></div>
-        </div>
-        <!-- Sidebar com anúncios -->
-        <div class="col-lg-3">
-            <div class="ad-container-sidebar sticky-top pt-3"></div>
-        </div>
             <a class="navbar-brand" href="index.html">Bahama Flix</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll">
                 <span class="navbar-toggler-icon"></span>
@@ -80,19 +50,33 @@
         </div>
     </nav>
 
-    <!-- Movie Content -->
     <div class="container mt-4">
         <div class="row">
             <div class="col-md-4">
                 <img src="comedia/FT.F/Os Estagiários.jpg" alt="Os Estagiários" class="img-fluid rounded shadow mb-4">
+                
+                <div class="mb-4 text-center">
+                    <script async="async" data-cfasync="false" src="//pl26742415.profitableratecpm.com/2a9dcac609e77d65882802826a4496c7/invoke.js"></script>
+                    <div id="container-2a9dcac609e77d65882802826a4496c7"></div>
+                </div>
             </div>
+            
             <div class="col-md-8">
                 <div class="bg-secondary p-4 rounded">
                     <h1>Os Estagiários</h1>
                     <p class="lead">2013 • Comédia</p>
                     
+                    <div class="text-center mb-3">
+                        <a href="https://www.profitableratecpm.com/huexcf8fte?key=17b7ff2b0406db4058d9a4f74cb2ea96" target="_blank" class="btn btn-outline-light">Conheça nossas ofertas especiais</a>
+                    </div>
+                    
                     <h2 class="mt-4">Sinopse</h2>
                     <p>Billy e Nick, dois vendedores quarentões, perdem seus empregos e decidem se reinventar como estagiários no Google. Competindo com jovens prodígios da tecnologia, eles enfrentam desafios hilários, formam laços inesperados e provam que nunca é tarde para aprender. Esta comédia moderna mistura humor com uma mensagem inspiradora sobre resiliência e trabalho em equipe.</p>
+                    
+                    <div class="my-4 text-center">
+                        <script async="async" data-cfasync="false" src="//pl26742415.profitableratecpm.com/2a9dcac609e77d65882802826a4496c7/invoke.js"></script>
+                        <div id="container-2a9dcac609e77d65882802826a4496c7"></div>
+                    </div>
                     
                     <div class="mt-4">
                         <h3>Informações</h3>
@@ -101,7 +85,11 @@
                         <p><strong>Classificação:</strong> <span class="text-warning"><i class="fas fa-star"></i> 3.9</span></p>
                     </div>
 
-                    <a href="https://drive.google.com/file/d/1vSPL37ZUajayy9Bi1E_QyXGp5VvEg8hK/view" class="btn btn-primary btn-lg mt-3">
+                    <div class="text-center my-3">
+                        <a href="https://www.profitableratecpm.com/huexcf8fte?key=17b7ff2b0406db4058d9a4f74cb2ea96" target="_blank" class="btn btn-outline-light">Ofertas exclusivas para assinantes</a>
+                    </div>
+
+                    <a href="https://drive.google.com/file/d/1vSPL37ZUajayy9Bi1E_QyXGp5VvEg8hK/view" class="btn btn-primary btn-lg mt-3 w-100">
                         <i class="fas fa-play me-2"></i> Assistir Agora
                     </a>
                 </div>
@@ -109,47 +97,20 @@
         </div>
     </div>
 
-    <!-- Modal de Login -->
-    <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content bg-dark text-light">
-                <div class="modal-header border-secondary">
-                    <h5 class="modal-title" id="loginModalLabel"><i class="fas fa-sign-in-alt me-2"></i> Login</h5>
-                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    <form>
-                        <div class="mb-3">
-                            <label for="username" class="form-label">Usuário</label>
-                            <input type="text" class="form-control bg-secondary text-light" id="username" placeholder="Digite seu usuário" required>
-                        </div>
-                        <div class="mb-3">
-                            <label for="password" class="form-label">Senha</label>
-                            <input type="password" class="form-control bg-secondary text-light" id="password" placeholder="Digite sua senha" required>
-                        </div>
-                        <button type="submit" class="btn btn-primary w-100">Logar</button>
-                    </form>
-                </div>
-            </div>
+    <div class="container-fluid text-center my-3">
+        <div class="ad-container-bottom">
+            <script type="text/javascript">
+                atOptions = {
+                    'key' : '53d7ec1456f78138913ffe2ad8c879e0',
+                    'format' : 'iframe',
+                    'height' : 60,
+                    'width' : 468,
+                    'params' : {}
+                };
+            </script>
+            <script type="text/javascript" src="//www.highperformanceformat.com/53d7ec1456f78138913ffe2ad8c879e0/invoke.js"></script>
         </div>
     </div>
-
-    <!-- Footer -->
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js"></script>
-    <!-- Footer -->
-    
-    <!-- Footer -->
-    
-    <!-- Footer -->
-    
-    <!-- Footer -->
-        <!-- Container de anúncio inferior -->
-    <div class="ad-container-bottom my-3 text-center"><div id="container-2a9dcac609e77d65882802826a4496c7"></div></div>
-
-        <!-- Container de anúncio inferior -->
-    <div class="ad-container-bottom my-3 text-center"></div>
 
     <footer class="bg-dark text-light py-4 mt-5">
         <div class="container">
@@ -204,7 +165,7 @@
         </div>
     </footer>
 
-    <!-- CookieConsent Script -->
+    <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js"></script>
     <script>
     window.cookieconsent.initialise({
         "palette": {
@@ -222,8 +183,23 @@
     });
     </script>
 
-    <!-- Adiciona hover effect nos links do footer -->
     <style>
+    /* Estilos para os anúncios */
+    .ad-container-top {
+        margin: 0 auto;
+        padding: 10px;
+        background: rgba(255,255,255,0.05);
+        border-radius: 5px;
+    }
+    
+    .ad-container-bottom {
+        margin: 20px auto;
+        padding: 10px;
+        background: rgba(255,255,255,0.05);
+        border-radius: 5px;
+    }
+    
+    /* Estilos para os links do rodapé */
     footer a:hover {
         opacity: 0.8;
         transition: opacity 0.3s ease;
@@ -247,7 +223,4 @@
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
-</html>
-</html>
-</html>
 </html>
