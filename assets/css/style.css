@@ -510,6 +510,45 @@ main { min-height: 60vh; }
 .info-card { padding: 20px; margin: 14px 0; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); }
 .info-card h3 { margin: 0 0 6px; font-size: 16px; }
 
+/* ========================= Instalação (iOS) ========================= */
+.install-modal {
+  position: fixed;
+  inset: 0;
+  z-index: 400;
+  display: grid;
+  place-items: center;
+  padding: 20px;
+  background: rgba(0, 0, 0, .72);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+}
+.install-modal[hidden] { display: none; }
+.install-modal-card {
+  position: relative;
+  width: min(100%, 420px);
+  padding: 26px;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+}
+.install-modal-card h2 { margin: 0 0 10px; font-size: 20px; }
+.install-modal-card p, .install-modal-card li { color: #c9c9d1; font-size: 14px; }
+.install-modal-card ol { padding-left: 20px; margin: 12px 0 20px; }
+.install-modal-card li { margin-bottom: 6px; }
+.install-modal-close {
+  position: absolute;
+  top: 8px;
+  right: 10px;
+  width: 32px;
+  height: 32px;
+  background: transparent;
+  border: 0;
+  color: var(--muted);
+  font-size: 26px;
+  line-height: 1;
+}
+
 /* ========================= Toast / Footer ========================= */
 .toast {
   position: fixed;
@@ -709,6 +748,56 @@ main { min-height: 60vh; }
 .provider-group strong { color: var(--text); }
 .watch-note { margin: 12px 0 0; color: var(--muted); font-size: 12px; }
 
+/* ========================= Coleções ========================= */
+.collection-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 14px; }
+.collection-tile {
+  position: relative;
+  min-height: 150px;
+  display: flex;
+  align-items: flex-end;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: linear-gradient(135deg, var(--surface-2), var(--surface));
+  transition: border-color .25s, transform .25s var(--ease);
+}
+.collection-tile:hover { border-color: var(--accent); transform: translateY(-3px); }
+.collection-tile-bg {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 30%;
+  opacity: .3;
+  filter: saturate(.8);
+}
+.collection-tile::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(0deg, rgba(11,11,15,.96), rgba(11,11,15,.25));
+}
+.collection-tile-body { position: relative; z-index: 1; display: block; padding: 16px; }
+.collection-tile-body .eyebrow { font-size: 10px; letter-spacing: 1px; }
+.collection-tile-body strong { display: block; margin-top: 6px; font-size: 17px; font-weight: 800; }
+.collection-tile-body small { display: block; margin-top: 2px; color: var(--muted); font-size: 11px; }
+.actor-group { margin-top: 34px; }
+.actor-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 6px 16px;
+  margin-bottom: 16px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid var(--line);
+}
+.actor-head h2 { margin: 0; font-size: 21px; letter-spacing: -.4px; }
+.actor-head .section-intro { margin: 2px 0 0; }
+.back-link { display: inline-block; margin-bottom: 14px; color: var(--muted); font-size: 13px; font-weight: 700; }
+.back-link:hover { color: var(--accent); }
+
 /* ========================= Responsivo ========================= */
 @media (max-width: 1100px) {
   .header-inner { gap: 14px; }
@@ -764,6 +853,9 @@ main { min-height: 60vh; }
   .series-head { flex-direction: column; gap: 14px; }
   .series-cover { width: 120px; }
   .season-grid { grid-template-columns: 1fr; }
+  .collection-grid { grid-template-columns: 1fr; }
+  .collection-tile { min-height: 120px; }
+  .actor-head h2 { font-size: 18px; }
   .platform-grid { grid-template-columns: 1fr; }
   .platform-search { flex-basis: 100%; }
   .episode-grid { grid-template-columns: 1fr; }

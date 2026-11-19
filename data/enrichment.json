@@ -2559,6 +2559,11 @@
       "letterboxd": "https://letterboxd.com/search/films/The%20Kingdom%20Of%20The%20Fairies%20(1903)%20Directed%20By%20Georges%20M%C3%A9li%C3%A8s/",
       "source": "Internet Archive",
       "license": "Domínio público (CC0/CC Mark)"
+    },
+    "o-homem-aranha-1977": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=The%20Amazing%20Spider-Man%201977",
+      "justWatch": "https://www.justwatch.com/br/busca?q=The%20Amazing%20Spider-Man%201977",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=The%20Amazing%20Spider-Man%201977"
     }
   }
 }

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 600" role="img" aria-label="O Homem-Aranha, 1977">
+  <defs>
+    <linearGradient id="fundo" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1b1b26"/>
+      <stop offset="1" stop-color="#0b0b0f"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="600" fill="url(#fundo)"/>
+  <rect width="400" height="12" fill="#e50914"/>
+  <g fill="none" stroke="#e50914" stroke-width="3" stroke-linecap="round" opacity=".65">
+    <path d="M200 118v34M170 128l14 26M230 128l-14 26M145 148l22 18M255 148l-22 18M128 176l26 8M272 176l-26 8"/>
+    <ellipse cx="200" cy="176" rx="12" ry="16"/>
+  </g>
+  <text x="200" y="300" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="38" font-weight="800" fill="#f5f5f7">O HOMEM-</text>
+  <text x="200" y="342" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="38" font-weight="800" fill="#f5f5f7">ARANHA</text>
+  <text x="200" y="396" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="800" fill="#e50914">1977</text>
+  <line x1="120" y1="424" x2="280" y2="424" stroke="#2c2c38" stroke-width="2"/>
+  <text x="200" y="464" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#b8b8c2">NICHOLAS HAMMOND</text>
+  <text x="200" y="492" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#96969f">Série live-action</text>
+</svg>

@@ -139,6 +139,12 @@
           <div class="row-scroll">${series.map(s => seriesCard(s)).join('')}</div>
         </section>` : ''}
 
+        ${BahamaCatalog.collections.length ? `
+        <section class="section">
+          <div class="section-head"><h2>Coleções</h2><a href="#/colecoes">Ver todas →</a></div>
+          <div class="collection-grid">${BahamaCatalog.collections.map(collectionTile).join('')}</div>
+        </section>` : ''}
+
         <section class="section">
           <div class="section-head"><h2>Explore por gênero</h2><a href="#/generos">Todos os gêneros →</a></div>
           <div class="category-cloud">
@@ -266,6 +272,63 @@
           }).join('')}
         </div>
       </div>`;
+  }
+
+  /* ======================== Coleções ======================== */
+  function collectionTile(c) {
+    const total = (c.groups || []).reduce((n, g) => n + g.items.length, 0);
+    const groupCount = (c.groups || []).length;
+    return `
+      <a class="collection-tile" href="#/colecao/${esc(c.slug)}">
+        ${c.image ? `<img class="collection-tile-bg" src="${esc(c.image)}" alt="" loading="lazy" decoding="async">` : ''}
+        <span class="collection-tile-body">
+          <span class="eyebrow">${esc(c.eyebrow || 'Coleção')}</span>
+          <strong>${esc(c.title)}</strong>
+          <small>${total} títulos · ${groupCount} ${groupCount === 1 ? 'grupo' : 'grupos'}</small>
+        </span>
+      </a>`;
+  }
+
+  function renderCollections() {
+    app.innerHTML = `
+      <div class="container page">
+        <span class="eyebrow">Navegue</span>
+        <h1 class="page-title">Coleções</h1>
+        <p class="section-intro">Sagas e versões de um mesmo herói, agrupadas para você não perder nenhum título.</p>
+        <div class="collection-grid">${BahamaCatalog.collections.map(collectionTile).join('')}</div>
+      </div>`;
+    bindPosters();
+  }
+
+  function renderCollection(slug) {
+    const collection = BahamaCatalog.getCollection(slug);
+    if (!collection) return renderNotFound('Coleção não encontrada.');
+
+    const groups = (collection.groups || []).map(group => {
+      const items = (group.items || []).map(s => BahamaCatalog.getBySlug(s)).filter(Boolean);
+      if (!items.length) return '';
+      return `
+        <section class="actor-group">
+          <div class="actor-head">
+            <div>
+              <h2>${esc(group.name)}</h2>
+              ${group.note ? `<p class="section-intro">${esc(group.note)}</p>` : ''}
+            </div>
+            <span class="episode-source">${items.length} ${items.length === 1 ? 'título' : 'títulos'}</span>
+          </div>
+          <div class="grid">${items.map((it, i) => card(it, i)).join('')}</div>
+        </section>`;
+    }).join('');
+
+    app.innerHTML = `
+      <div class="container page">
+        <a class="back-link" href="#/colecoes">← Todas as coleções</a>
+        <span class="eyebrow">${esc(collection.eyebrow || 'Coleção')}</span>
+        <h1 class="page-title">${esc(collection.title)}</h1>
+        <p class="series-synopsis">${esc(collection.description || '')}</p>
+        ${groups}
+      </div>`;
+    bindPosters();
   }
 
   /* ==================== Séries e episódios ==================== */
@@ -694,6 +757,14 @@
       renderSeriesPage(slug);
       title = (BahamaCatalog.getSeries(slug)?.name || 'Série') + ' — Bahama Flix';
       nav = 'series';
+    } else if (section === 'colecoes') {
+      renderCollections();
+      title = 'Coleções — Bahama Flix'; nav = 'colecoes';
+    } else if (section === 'colecao' && value) {
+      const slug = decodeURIComponent(value);
+      renderCollection(slug);
+      title = (BahamaCatalog.getCollection(slug)?.title || 'Coleção') + ' — Bahama Flix';
+      nav = 'colecoes';
     } else if (section === 'desenhos') {
       renderCatalogPage({ eyebrow: 'Catálogo', title: 'Desenhos e animações', type: 'Desenho' });
       title = 'Desenhos — Bahama Flix'; nav = 'desenhos';

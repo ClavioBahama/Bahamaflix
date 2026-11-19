@@ -6790,6 +6790,27 @@
       "watchUrl": "https://drive.google.com/file/d/1Box7b3JERia4Q680wxisiNJ6DUDtXUUg/view",
       "legacyFile": "archive/Zumbilênio O Parque dos Monstros.html",
       "quality": "HD"
+    },
+    {
+      "title": "O Homem-Aranha (1977)",
+      "slug": "o-homem-aranha-1977",
+      "type": "Série",
+      "year": 1977,
+      "duration": "13 episódios",
+      "genres": [
+        "Ação",
+        "Aventura",
+        "Ficção científica"
+      ],
+      "categories": [
+        "Ação",
+        "Aventura",
+        "Ficção científica"
+      ],
+      "synopsis": "A primeira adaptação live-action do Homem-Aranha. Nicholas Hammond vive Peter Parker, um estudante que ganha poderes após ser picado por uma aranha radioativa e protege Nova York enquanto trabalha como repórter.",
+      "image": "media/Series/FT.F/O Homem-Aranha 1977.svg",
+      "watchUrl": "https://www.justwatch.com/br/busca?q=The%20Amazing%20Spider-Man%201977",
+      "quality": "SD"
     }
   ]
 }

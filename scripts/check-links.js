@@ -18,6 +18,7 @@ const enrichment = read('enrichment.json', { items: {} });
 const seriesData = read('series.json', { series: [] });
 const episodes = read('episodes.json', { series: {} });
 const available = read('available-episodes.json', { series: {} });
+const collections = read('collections.json', { collections: [] });
 
 const problems = [];
 const warnings = [];
@@ -141,6 +142,17 @@ for (const file of fs.readdirSync(path.join(ROOT, 'data')).filter(f => f.endsWit
 for (const [image, refs] of imageRefs) {
   if (!exactExists(image)) {
     problems.push(`imagem ausente ou com caixa incorreta: ${image} (${[...refs].slice(0, 3).join(', ')})`);
+  }
+}
+
+// 3c. Coleções e seus grupos de títulos.
+for (const c of collections.collections || []) {
+  if (!c.slug || !c.title) problems.push('coleção sem slug/título');
+  for (const group of c.groups || []) {
+    if (!group.name) problems.push(`grupo sem nome na coleção ${c.slug}`);
+    for (const slug of group.items || []) {
+      if (!slugs.has(slug)) problems.push(`título inexistente na coleção ${c.slug}: ${slug}`);
+    }
   }
 }
 

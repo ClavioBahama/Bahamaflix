@@ -15,6 +15,7 @@ const read = (file, fallback) => {
 const catalog = read('catalog.json', { items: [], categories: [] });
 const legal = read('public-domain.json', { items: [] });
 const series = read('series.json', { series: [] });
+const collections = read('collections.json', { collections: [] });
 
 const esc = (s) => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 const today = new Date().toISOString().slice(0, 10);
@@ -27,6 +28,7 @@ const staticRoutes = [
   ['/#/', '1.0', 'daily'],
   ['/#/filmes', '0.9', 'weekly'],
   ['/#/series', '0.9', 'weekly'],
+  ['/#/colecoes', '0.8', 'weekly'],
   ['/#/desenhos', '0.8', 'weekly'],
   ['/#/plataformas', '0.7', 'monthly'],
   ['/#/generos', '0.8', 'weekly'],
@@ -42,13 +44,14 @@ const categories = [...new Set([...(catalog.categories || []), ...(legal.items |
 const genreRoutes = categories.map(c => [`${SITE}/#/genero/${encodeURIComponent(c)}`, '0.7', 'weekly']);
 
 const seriesRoutes = (series.series || []).map(s => [`${SITE}/#/serie/${encodeURIComponent(s.slug)}`, '0.7', 'weekly']);
+const collectionRoutes = (collections.collections || []).map(c => [`${SITE}/#/colecao/${encodeURIComponent(c.slug)}`, '0.7', 'weekly']);
 
 const seen = new Set();
 const titleRoutes = [...(catalog.items || []), ...(legal.items || [])]
   .filter(i => i.slug && !seen.has(i.slug) && seen.add(i.slug))
   .map(i => [`${SITE}/#/titulo/${encodeURIComponent(i.slug)}`, '0.6', 'monthly']);
 
-const all = [...staticRoutes, ...genreRoutes, ...seriesRoutes, ...titleRoutes];
+const all = [...staticRoutes, ...genreRoutes, ...seriesRoutes, ...collectionRoutes, ...titleRoutes];
 
 const xml = `<?xml version="1.0" encoding="UTF-8"?>\n` +
   `<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n` +

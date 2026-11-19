@@ -10,13 +10,14 @@
  *  - episodes.json      → guias de episódios (metadados da TVmaze)
  *  - available-episodes.json → nomes de arquivos visíveis nas pastas públicas
  *  - platforms.json     → diretório de plataformas legais
+ *  - collections.json   → coleções agrupadas por ator/franquia
  */
 (function () {
   'use strict';
 
   const state = {
     items: [], categories: [], years: [], platforms: [], series: [], episodes: {},
-    available: {}, loaded: false
+    available: {}, collections: [], loaded: false
   };
 
   const norm = (s) => (s || '').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
@@ -52,7 +53,7 @@
     async load() {
       if (state.loaded) return state.items;
 
-      const [base, legal, enrichment, seriesData, episodeData, availableData, platformData] = await Promise.all([
+      const [base, legal, enrichment, seriesData, episodeData, availableData, platformData, collectionData] = await Promise.all([
         fetch('data/catalog.json', { cache: 'no-cache' }).then((res) => {
           if (!res.ok) throw new Error(`Falha ao carregar catálogo (${res.status}).`);
           return res.json();
@@ -62,13 +63,15 @@
         optionalJson('data/series.json', { series: [] }),
         optionalJson('data/episodes.json', { series: {} }),
         optionalJson('data/available-episodes.json', { series: {} }),
-        optionalJson('data/platforms.json', { platforms: [] })
+        optionalJson('data/platforms.json', { platforms: [] }),
+        optionalJson('data/collections.json', { collections: [] })
       ]);
 
       state.series = seriesData.series || [];
       state.episodes = episodeData.series || {};
       state.available = availableData.series || {};
       state.platforms = platformData.platforms || [];
+      state.collections = collectionData.collections || [];
 
       const seasonToSeries = new Map();
       state.series.forEach(s => (s.seasons || []).forEach(season => seasonToSeries.set(season.slug, s.slug)));
@@ -91,6 +94,7 @@
     get categories() { return state.categories; },
     get years() { return state.years; },
     get platforms() { return state.platforms; },
+    get collections() { return state.collections; },
     get series() { return state.series; },
     get episodes() { return state.episodes; },
     get available() { return state.available; },
@@ -168,7 +172,8 @@
       return state.items.filter(i => i.year && i.year >= 2016 && i.image).slice(0, limit);
     },
 
-    getPlatform(id) { return state.platforms.find(p => p.id === id) || null; }
+    getPlatform(id) { return state.platforms.find(p => p.id === id) || null; },
+    getCollection(slug) { return state.collections.find(c => c.slug === slug) || null; }
   };
 
   window.BahamaCatalog = api;

@@ -1,12 +1,28 @@
 /**
- * Bahama Flix — registro do service worker e prompt de instalação do PWA.
+ * Bahama Flix — registro do service worker e instalação do PWA.
+ * No iPhone o Safari não dispara `beforeinstallprompt`; mostramos instruções.
  */
 (function () {
   'use strict';
 
   const installBtn = document.getElementById('install-btn');
+  const installModal = document.getElementById('install-modal');
+  const isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent) ||
+    (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
+  const inStandalone = window.navigator.standalone === true ||
+    (window.matchMedia && window.matchMedia('(display-mode: standalone)').matches);
   let deferredPrompt = null;
   let updateAvailable = false;
+
+  function showInstallButton(label) {
+    if (!installBtn) return;
+    if (label) installBtn.textContent = label;
+    installBtn.hidden = false;
+  }
+
+  function closeModal() {
+    if (installModal) installModal.hidden = true;
+  }
 
   if ('serviceWorker' in navigator) {
     window.addEventListener('load', () => {
@@ -37,14 +53,21 @@
     });
   }
 
+  // Safari/iOS nunca emite beforeinstallprompt: oferecemos o passo a passo.
+  if (isIOS && !inStandalone) showInstallButton('Adicionar à tela inicial');
+
   window.addEventListener('beforeinstallprompt', (event) => {
     event.preventDefault();
     deferredPrompt = event;
-    if (installBtn) installBtn.hidden = false;
+    showInstallButton();
   });
 
   if (installBtn) {
     installBtn.addEventListener('click', async () => {
+      if (isIOS) {
+        installModal.hidden = false;
+        return;
+      }
       if (!deferredPrompt) return;
       deferredPrompt.prompt();
       const choice = await deferredPrompt.userChoice;
@@ -56,8 +79,18 @@
     });
   }
 
+  document.getElementById('install-modal-close')?.addEventListener('click', closeModal);
+  document.getElementById('install-modal-ok')?.addEventListener('click', closeModal);
+  installModal?.addEventListener('click', (event) => {
+    if (event.target === installModal) closeModal();
+  });
+  document.addEventListener('keydown', (event) => {
+    if (event.key === 'Escape' && installModal && !installModal.hidden) closeModal();
+  });
+
   window.addEventListener('appinstalled', () => {
     deferredPrompt = null;
     if (installBtn) installBtn.hidden = true;
+    closeModal();
   });
 })();

@@ -1,0 +1,84 @@
+{
+  "collections": [
+    {
+      "slug": "homens-aranha",
+      "title": "Homens-Aranha",
+      "eyebrow": "Coleção",
+      "description": "Todas as versões do herói aranha, organizadas por quem vestiu o traje — do primeiro live-action ao multiverso.",
+      "image": "media/Filmes/Homem Aranha 1.jpg",
+      "groups": [
+        {
+          "name": "Tobey Maguire",
+          "note": "A trilogia original · 2002–2007",
+          "items": [
+            "homem-aranha-i",
+            "homem-aranha-ii",
+            "homem-aranha-iii"
+          ]
+        },
+        {
+          "name": "Andrew Garfield",
+          "note": "O Espetacular Homem-Aranha · 2012–2014",
+          "items": [
+            "o-espetacular-homem-aranha-1",
+            "o-espetacular-homem-aranha-2"
+          ]
+        },
+        {
+          "name": "Nicholas Hammond",
+          "note": "A primeira série live-action · 1977",
+          "items": [
+            "o-homem-aranha-1977"
+          ]
+        },
+        {
+          "name": "Tom Holland",
+          "note": "O Homem-Aranha do MCU · 2017–2021",
+          "items": [
+            "homem-aranha-de-volta-ao-lar",
+            "homem-aranha-longe-de-casa",
+            "homem-aranha-sem-volta-para-casa"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "star-wars",
+      "title": "Star Wars",
+      "eyebrow": "Coleção",
+      "description": "A saga Skywalker em ordem episódica, da Ameaça Fantasma aos Últimos Jedi.",
+      "image": "media/Ficcao/FT.F/Star Wars Episódio IV - Uma Nova Esperança.jpg",
+      "groups": [
+        {
+          "name": "Saga Skywalker",
+          "note": "Episódios I a VIII",
+          "items": [
+            "star-wars-episodio-i-a-ameaca-fantasma",
+            "star-wars-episodio-ii-ataque-dos-clones",
+            "star-wars-episodio-iii-a-vinganca-dos-sith",
+            "star-wars-episodio-iv-uma-nova-esperanca",
+            "star-wars-episodio-v-o-imperio-contra-ataca",
+            "star-wars-episodio-vi-o-retorno-de-jedi",
+            "star-wars-episodio-viii-os-ultimos-jedi"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "kamui",
+      "title": "Kamui, o Ninja Solitário",
+      "eyebrow": "Coleção",
+      "description": "O ninja desertor em sua jornada épica de vingança e redenção.",
+      "image": "media/Ficcao/FT.F/Kamui o Ninja Solitário - A Lenda de Kamui.jpg",
+      "groups": [
+        {
+          "name": "A lenda de Kamui",
+          "note": "Filme único",
+          "items": [
+            "kamui-o-ninja-solitario-a-lenda-de-kamui"
+          ]
+        }
+      ]
+    }
+  ]
+}
