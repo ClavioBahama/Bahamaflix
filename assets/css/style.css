@@ -749,7 +749,7 @@ main { min-height: 60vh; }
   .grid { grid-template-columns: repeat(auto-fill, minmax(132px, 1fr)); gap: 18px 12px; }
   .row-scroll { grid-auto-columns: minmax(146px, 44%); gap: 10px; }
   .detail-hero {
-    margin: -22px -16px 24px;
+    margin: 0 0 24px;
     padding: 24px 16px;
     min-height: 0;
     border-radius: 0 0 16px 16px;

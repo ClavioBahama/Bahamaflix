@@ -2,7 +2,7 @@
  * Bahama Flix — service worker (PWA offline e instalação).
  * Cache-first para arquivos estáticos, com atualização em segundo plano.
  */
-const CACHE = 'bahamaflix-v4';
+const CACHE = 'bahamaflix-v5';
 const ROOT = self.registration.scope;
 const asset = (path) => new URL(path, ROOT).href;
 
