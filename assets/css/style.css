@@ -73,9 +73,10 @@ button { cursor: pointer; }
   backdrop-filter: blur(18px);
   -webkit-backdrop-filter: blur(18px);
   border-bottom: 1px solid var(--line);
-  transition: background .3s, box-shadow .3s;
+  transition: background .3s, box-shadow .3s, transform .25s var(--ease);
 }
 .site-header.scrolled { background: rgba(11, 11, 15, .96); box-shadow: 0 8px 30px rgba(0, 0, 0, .5); }
+.site-header.is-hidden { transform: translateY(-100%); }
 
 .header-inner {
   max-width: var(--maxw);
@@ -720,6 +721,9 @@ main { min-height: 60vh; }
 }
 
 @media (max-width: 700px) {
+  .header-inner { height: 56px; }
+  .brand-mark { width: 30px; height: 30px; font-size: 18px; }
+  .brand-name { font-size: 18px; }
   .main-nav { display: none; }
   .menu-btn { display: grid; }
   .search-form { width: min(100%, 320px); }

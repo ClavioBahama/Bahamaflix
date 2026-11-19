@@ -738,14 +738,31 @@
   async function init() {
     yearEl.textContent = new Date().getFullYear();
 
+    const mobileViewport = window.matchMedia('(max-width: 700px)');
+    const showHeader = () => header.classList.remove('is-hidden');
+    let lastScrollY = window.scrollY;
+
     window.addEventListener('scroll', () => {
-      header.classList.toggle('scrolled', window.scrollY > 12);
+      const y = window.scrollY;
+      header.classList.toggle('scrolled', y > 12);
+
+      // No celular, o cabeçalho sai da tela ao descer e volta ao subir.
+      if (mobileViewport.matches && mobileNav.hidden) {
+        if (y > 120 && y > lastScrollY) header.classList.add('is-hidden');
+        else if (y < lastScrollY || y <= 12) header.classList.remove('is-hidden');
+      } else {
+        header.classList.remove('is-hidden');
+      }
+      lastScrollY = y;
     }, { passive: true });
+
+    mobileViewport.addEventListener('change', showHeader);
 
     menuBtn.addEventListener('click', () => {
       const open = mobileNav.hidden;
       mobileNav.hidden = !open;
       menuBtn.setAttribute('aria-expanded', String(open));
+      if (open) showHeader();
     });
     mobileNav.addEventListener('click', (e) => {
       if (e.target.tagName === 'A') {

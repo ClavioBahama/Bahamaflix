@@ -141,7 +141,7 @@ O site pode ser instalado como aplicativo em celulares, tablets e computadores:
 
 Para testar localmente, use `http://localhost:3000` (service workers exigem origem segura; `localhost` é considerado seguro). A instalação aparece no menu do navegador ou pelo botão do rodapé.
 
-Ao alterar os JSON de `data/`, incremente a versão da constante `CACHE` em `sw.js` para que os visitantes recebam a nova versão.
+Ao alterar os JSON de `data/` ou os arquivos de `assets/`, incremente a versão da constante `CACHE` em `sw.js` para que os visitantes recebam a nova versão.
 
 ## 7. Observações
 
