@@ -145,6 +145,7 @@ $env:SITE_URL="https://meu-dominio.com"; node scripts/generate-sitemap.js
 - **Erro de JavaScript**: o `script.js` antigo referenciava `#search-btn`, inexistente em 36 páginas, e lançava `TypeError`.
 - **Séries organizadas**: temporadas agrupadas em páginas de série, com guia de episódios e acesso direto à pasta de cada temporada.
 - **Coleções restauradas**: Homens-Aranha organizado por Tobey Maguire, Andrew Garfield, Nicholas Hammond e Tom Holland, além das abas de Star Wars e Kamui.
+- **Estatísticas de visitas**: contador invisível (imagem de 1 pixel, sem cookies e sem JavaScript) com relatório privado para o mantenedor. O link de acesso não é público e fica apenas com o dono do projeto.
 - **Links e imagens quebrados**: 59 referências locais com problemas foram eliminadas. Os dados são extraídos e validados antes de entrar no catálogo.
 - **Anúncios intrusivos removidos**: popunder, social bar e scripts de redes de anúncios foram descartados da nova interface (o arquivo `ads.txt` foi mantido na raiz).
 - **Tudo em português**: interface, textos institucionais e os 1.967 títulos de episódios do guia.
