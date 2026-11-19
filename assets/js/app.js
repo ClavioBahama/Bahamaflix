@@ -52,12 +52,15 @@
   }
 
   function bindPosters(root = app) {
-    root.querySelectorAll('.poster img, .hero-bg, .detail-bg, .season-card img, .series-cover').forEach(img => {
-      img.addEventListener('error', () => {
-        const fallback = img.parentElement.querySelector('.poster-fallback, .season-placeholder');
+    root.querySelectorAll('.poster img, .hero-bg, .detail-bg, .season-card img, .series-cover, .suggestion img').forEach(img => {
+      const fail = () => {
+        const fallback = img.parentElement?.querySelector('.poster-fallback, .season-placeholder');
         if (fallback) fallback.style.display = 'grid';
         img.style.display = 'none';
-      }, { once: true });
+      };
+      // Imagem pode falhar antes do listener ser anexado (cache/erro imediato).
+      if (img.complete && img.naturalWidth === 0) fail();
+      else img.addEventListener('error', fail, { once: true });
     });
   }
 
@@ -105,7 +108,7 @@
       <div class="container page">
         ${hero ? `
         <section class="hero" aria-label="Destaque">
-          ${hero.image ? `<img class="hero-bg" src="${esc(hero.image)}" alt="" decoding="async">` : ''}
+          ${hero.image ? `<img class="hero-bg" src="${esc(hero.image)}" alt="" decoding="async" fetchpriority="high">` : ''}
           <div class="hero-content">
             <span class="eyebrow">Destaque do catálogo</span>
             <h1>${esc(hero.title)}</h1>
@@ -182,7 +185,7 @@
     app.innerHTML = `
       <div class="container page">
         <span class="eyebrow">${esc(eyebrow)}</span>
-        <h1 style="font-size:34px;letter-spacing:-1px;margin:10px 0 24px">${esc(title)}</h1>
+        <h1 class="page-title">${esc(title)}</h1>
 
         <div class="filter-bar">
           ${catChips.map(c => `
@@ -255,7 +258,7 @@
     app.innerHTML = `
       <div class="container page">
         <span class="eyebrow">Navegue</span>
-        <h1 style="font-size:34px;letter-spacing:-1px;margin:10px 0 24px">Gêneros</h1>
+        <h1 class="page-title">Gêneros</h1>
         <div class="category-cloud">
           ${BahamaCatalog.categories.map(c => {
             const n = BahamaCatalog.count({ category: c });
@@ -411,7 +414,7 @@
     app.innerHTML = `
       <div class="container page">
         <span class="eyebrow">Catálogo</span>
-        <h1 style="font-size:34px;letter-spacing:-1px;margin:10px 0 8px">Séries</h1>
+        <h1 class="page-title">Séries</h1>
         <p class="section-intro">${all.length} séries organizadas por temporada. Abra uma série para ver os episódios disponíveis.</p>
         <div class="grid">${all.map(s => seriesCard(s)).join('')}</div>
       </div>`;
@@ -432,7 +435,7 @@
         <div class="series-head">
           ${series.poster ? `<img class="series-cover" src="${esc(series.poster)}" alt="${esc(series.name)}">` : ''}
           <div>
-            <h1 style="font-size:34px;letter-spacing:-1px;margin:8px 0 10px">${esc(series.name)}</h1>
+            <h1 class="page-title">${esc(series.name)}</h1>
             <p class="series-stats">${series.seasonCount} ${series.seasonCount === 1 ? 'temporada' : 'temporadas'} no catálogo${availableTotal ? ` · ${availableTotal} episódios disponíveis` : ''}</p>
             <p class="series-synopsis">${esc(series.synopsis)}</p>
           </div>
@@ -484,7 +487,7 @@
     app.innerHTML = `
       <div class="container page">
         <span class="eyebrow">Onde assistir</span>
-        <h1 style="font-size:34px;letter-spacing:-1px;margin:10px 0 8px">Onde assistir</h1>
+        <h1 class="page-title">Onde assistir</h1>
         <p class="section-intro">Serviços licenciados e projetos de código aberto com licença declarada. A disponibilidade pode variar conforme o país.</p>
         <div class="platform-grid">
           ${platforms.map(p => `
@@ -572,7 +575,7 @@
     app.innerHTML = `
       <article class="detail">
         <div class="detail-hero">
-          ${item.image ? `<img class="detail-bg" src="${esc(item.image)}" alt="" decoding="async">` : ''}
+          ${item.image ? `<img class="detail-bg" src="${esc(item.image)}" alt="" decoding="async" fetchpriority="high">` : ''}
           <div class="detail-layout">
             ${item.image
               ? `<img class="detail-poster" src="${esc(item.image)}" alt="${esc(item.title)}">`

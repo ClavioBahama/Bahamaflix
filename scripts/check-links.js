@@ -22,6 +22,37 @@ const available = read('available-episodes.json', { series: {} });
 const problems = [];
 const warnings = [];
 
+// O GitHub Pages é sensível a maiúsculas, mesmo em Windows. fs.existsSync não é.
+function exactExists(rel) {
+  let dir = ROOT;
+  for (const part of String(rel).split(/[\\/]+/).filter(Boolean)) {
+    let names;
+    try { names = fs.readdirSync(dir); } catch (_) { return false; }
+    if (!names.includes(part)) return false;
+    dir = path.join(dir, part);
+  }
+  return fs.existsSync(dir);
+}
+
+const IMAGE_KEYS = new Set(['image', 'poster', 'cover', 'hero', 'thumb', 'background', 'logo']);
+const imageRefs = new Map();
+function collectImages(value, source) {
+  if (!value || typeof value !== 'object') return;
+  if (Array.isArray(value)) { value.forEach(v => collectImages(v, source)); return; }
+  for (const [key, val] of Object.entries(value)) {
+    if (typeof val === 'string' && IMAGE_KEYS.has(key)) {
+      if (/^(https?:|data:)/i.test(val)) continue;
+      const clean = val.split(/[?#]/)[0].replace(/^\.\//, '').replace(/^\//, '');
+      if (clean) {
+        if (!imageRefs.has(clean)) imageRefs.set(clean, new Set());
+        imageRefs.get(clean).add(`${source}:${key}`);
+      }
+    } else {
+      collectImages(val, source);
+    }
+  }
+}
+
 // 1. Arquivos estáticos referenciados pelos HTML de entrada
 for (const file of ['index.html', '404.html']) {
   const html = fs.readFileSync(path.join(ROOT, file), 'utf8');
@@ -40,10 +71,8 @@ for (const item of allItems) {
   slugs.add(item.slug);
 
   if (!item.image) problems.push(`sem imagem: ${item.title}`);
-  else if (item.isLegal) {
-    if (!/^https?:\/\//i.test(item.image)) problems.push(`imagem remota inválida: ${item.image} (${item.title})`);
-  } else if (!fs.existsSync(path.join(ROOT, item.image))) {
-    problems.push(`imagem ausente: ${item.image} (${item.title})`);
+  if (item.isLegal && item.image && !/^https?:\/\//i.test(item.image)) {
+    problems.push(`imagem remota inválida: ${item.image} (${item.title})`);
   }
 
   if (!item.watchUrl) warnings.push(`sem link de acesso: ${item.title}`);
@@ -103,6 +132,16 @@ for (const file of ['assets/css/style.css', 'assets/js/app.js', 'assets/js/catal
   'assets/icons/icon-maskable-512.png', 'assets/icons/apple-touch-icon.png',
   'sitemap.xml', 'robots.txt', 'netlify.toml']) {
   if (!fs.existsSync(path.join(ROOT, file))) problems.push(`arquivo esperado ausente: ${file}`);
+}
+
+// 3b. Todas as imagens locais de todos os datasets, comparando a caixa exata.
+for (const file of fs.readdirSync(path.join(ROOT, 'data')).filter(f => f.endsWith('.json'))) {
+  collectImages(JSON.parse(fs.readFileSync(path.join(ROOT, 'data', file), 'utf8')), file);
+}
+for (const [image, refs] of imageRefs) {
+  if (!exactExists(image)) {
+    problems.push(`imagem ausente ou com caixa incorreta: ${image} (${[...refs].slice(0, 3).join(', ')})`);
+  }
 }
 
 if (warnings.length) {
