@@ -739,24 +739,36 @@
     yearEl.textContent = new Date().getFullYear();
 
     const mobileViewport = window.matchMedia('(max-width: 700px)');
+    const searchInput = document.getElementById('search-input');
     const showHeader = () => header.classList.remove('is-hidden');
+    const adaptHeader = () => {
+      showHeader();
+      if (searchInput) {
+        searchInput.placeholder = mobileViewport.matches ? 'Buscar…' : 'Buscar filmes e séries…';
+      }
+    };
     let lastScrollY = window.scrollY;
+
+    adaptHeader();
 
     window.addEventListener('scroll', () => {
       const y = window.scrollY;
       header.classList.toggle('scrolled', y > 12);
 
-      // No celular, o cabeçalho sai da tela ao descer e volta ao subir.
+      const delta = y - lastScrollY;
+      if (Math.abs(delta) < 6) return;
+
+      // No celular, o cabeçalho sai por completo ao descer e volta ao subir.
       if (mobileViewport.matches && mobileNav.hidden) {
-        if (y > 120 && y > lastScrollY) header.classList.add('is-hidden');
-        else if (y < lastScrollY || y <= 12) header.classList.remove('is-hidden');
+        if (y > 100 && delta > 0) header.classList.add('is-hidden');
+        else if (delta < 0 || y <= 12) header.classList.remove('is-hidden');
       } else {
         header.classList.remove('is-hidden');
       }
       lastScrollY = y;
     }, { passive: true });
 
-    mobileViewport.addEventListener('change', showHeader);
+    mobileViewport.addEventListener('change', adaptHeader);
 
     menuBtn.addEventListener('click', () => {
       const open = mobileNav.hidden;
