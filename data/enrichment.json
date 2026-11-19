@@ -1,0 +1,2564 @@
+{
+  "generatedAt": "2026-11-19T08:45:56.338Z",
+  "hasTmdbKey": false,
+  "items": {
+    "1-contra-todos-temporada-1": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=1%20Contra%20Todos%3A%20Temporada%201",
+      "justWatch": "https://www.justwatch.com/br/busca?q=1%20Contra%20Todos%3A%20Temporada%201",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=1%20Contra%20Todos%3A%20Temporada%201",
+      "letterboxd": null
+    },
+    "13-reasons-why-t1": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=13%20Reasons%20Why%20T1",
+      "justWatch": "https://www.justwatch.com/br/busca?q=13%20Reasons%20Why%20T1",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=13%20Reasons%20Why%20T1",
+      "letterboxd": null,
+      "tvmazeId": 7194,
+      "tvmazeUrl": "https://www.tvmaze.com/shows/7194/13-reasons-why",
+      "poster": "https://static.tvmaze.com/uploads/images/original_untouched/258/646815.jpg",
+      "rating": 7.1,
+      "summary": "13 Reasons Why is based on the New York Times bestselling YA book by Jay Asher, was created by Pulitzer Prize and Tony Award winner Brian Yorkey, who also wrote the pilot. 13 Reasons Why is the story of Hannah Baker, a high schooler who commits suicide. Clay receives a box of tapes from Hannah, his late classmate and crush after she kills herself. On the tapes, which get passed along to other students based on Hannah's instructions, Hannah reveals the 13 reasons why she took her own life.",
+      "officialSite": "https://www.netflix.com/title/80117470",
+      "network": "Netflix"
+    },
+    "13-reasons-why-t2": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=13%20Reasons%20Why%20T2",
+      "justWatch": "https://www.justwatch.com/br/busca?q=13%20Reasons%20Why%20T2",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=13%20Reasons%20Why%20T2",
+      "letterboxd": null,
+      "tvmazeId": 7194,
+      "tvmazeUrl": "https://www.tvmaze.com/shows/7194/13-reasons-why",
+      "poster": "https://static.tvmaze.com/uploads/images/original_untouched/258/646815.jpg",
+      "rating": 7.1,
+      "summary": "13 Reasons Why is based on the New York Times bestselling YA book by Jay Asher, was created by Pulitzer Prize and Tony Award winner Brian Yorkey, who also wrote the pilot. 13 Reasons Why is the story of Hannah Baker, a high schooler who commits suicide. Clay receives a box of tapes from Hannah, his late classmate and crush after she kills herself. On the tapes, which get passed along to other students based on Hannah's instructions, Hannah reveals the 13 reasons why she took her own life.",
+      "officialSite": "https://www.netflix.com/title/80117470",
+      "network": "Netflix"
+    },
+    "a-arvore-da-maldicao": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=A%20%C3%81rvore%20da%20Maldi%C3%A7%C3%A3o",
+      "justWatch": "https://www.justwatch.com/br/busca?q=A%20%C3%81rvore%20da%20Maldi%C3%A7%C3%A3o",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=A%20%C3%81rvore%20da%20Maldi%C3%A7%C3%A3o",
+      "letterboxd": "https://letterboxd.com/search/films/A%20%C3%81rvore%20da%20Maldi%C3%A7%C3%A3o/"
+    },
+    "a-ascensao-do-imperio": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=A%20Ascens%C3%A3o%20do%20Imp%C3%A9rio",
+      "justWatch": "https://www.justwatch.com/br/busca?q=A%20Ascens%C3%A3o%20do%20Imp%C3%A9rio",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=A%20Ascens%C3%A3o%20do%20Imp%C3%A9rio",
+      "letterboxd": "https://letterboxd.com/search/films/A%20Ascens%C3%A3o%20do%20Imp%C3%A9rio/"
+    },
+    "a-baba-rainha-da-morte": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=A%20Baba%3A%20Rainha%20da%20Morte",
+      "justWatch": "https://www.justwatch.com/br/busca?q=A%20Baba%3A%20Rainha%20da%20Morte",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=A%20Baba%3A%20Rainha%20da%20Morte",
+      "letterboxd": "https://letterboxd.com/search/films/A%20Baba%3A%20Rainha%20da%20Morte/"
+    },
+    "a-barraca-do-beijo": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=A%20Barraca%20do%20Beijo",
+      "justWatch": "https://www.justwatch.com/br/busca?q=A%20Barraca%20do%20Beijo",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=A%20Barraca%20do%20Beijo",
+      "letterboxd": "https://letterboxd.com/search/films/A%20Barraca%20do%20Beijo/"
+    },
+    "a-barraca-do-beijo-2": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=A%20Barraca%20do%20Beijo%202",
+      "justWatch": "https://www.justwatch.com/br/busca?q=A%20Barraca%20do%20Beijo%202",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=A%20Barraca%20do%20Beijo%202",
+      "letterboxd": "https://letterboxd.com/search/films/A%20Barraca%20do%20Beijo%202/"
+    },
+    "a-bela-e-a-fera-t1": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=A%20Bela%20e%20a%20Fera%20T1",
+      "justWatch": "https://www.justwatch.com/br/busca?q=A%20Bela%20e%20a%20Fera%20T1",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=A%20Bela%20e%20a%20Fera%20T1",
+      "letterboxd": null
+    },
+    "a-bela-e-a-fera-t2": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=A%20Bela%20e%20a%20Fera%20T2",
+      "justWatch": "https://www.justwatch.com/br/busca?q=A%20Bela%20e%20a%20Fera%20T2",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=A%20Bela%20e%20a%20Fera%20T2",
+      "letterboxd": null
+    },
+    "a-bela-e-a-fera-t3": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=A%20Bela%20e%20a%20Fera%20T3",
+      "justWatch": "https://www.justwatch.com/br/busca?q=A%20Bela%20e%20a%20Fera%20T3",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=A%20Bela%20e%20a%20Fera%20T3",
+      "letterboxd": null
+    },
+    "a-cabana": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=A%20Cabana",
+      "justWatch": "https://www.justwatch.com/br/busca?q=A%20Cabana",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=A%20Cabana",
+      "letterboxd": "https://letterboxd.com/search/films/A%20Cabana/"
+    },
+    "a-caverna-time-trap": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=A%20Caverna%3A%20Time%20Trap",
+      "justWatch": "https://www.justwatch.com/br/busca?q=A%20Caverna%3A%20Time%20Trap",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=A%20Caverna%3A%20Time%20Trap",
+      "letterboxd": "https://letterboxd.com/search/films/A%20Caverna%3A%20Time%20Trap/"
+    },
+    "a-cinco-passos-de-voce": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=A%20Cinco%20Passos%20de%20Voc%C3%AA",
+      "justWatch": "https://www.justwatch.com/br/busca?q=A%20Cinco%20Passos%20de%20Voc%C3%AA",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=A%20Cinco%20Passos%20de%20Voc%C3%AA",
+      "letterboxd": "https://letterboxd.com/search/films/A%20Cinco%20Passos%20de%20Voc%C3%AA/"
+    },
+    "a-escolha-perfeita": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=A%20Escolha%20Perfeita",
+      "justWatch": "https://www.justwatch.com/br/busca?q=A%20Escolha%20Perfeita",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=A%20Escolha%20Perfeita",
+      "letterboxd": "https://letterboxd.com/search/films/A%20Escolha%20Perfeita/"
+    },
+    "a-escolha-perfeita-2": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=A%20Escolha%20Perfeita%202",
+      "justWatch": "https://www.justwatch.com/br/busca?q=A%20Escolha%20Perfeita%202",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=A%20Escolha%20Perfeita%202",
+      "letterboxd": "https://letterboxd.com/search/films/A%20Escolha%20Perfeita%202/"
+    },
+    "a-espera-de-um-milagre": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=A%20Espera%20de%20Um%20Milagre",
+      "justWatch": "https://www.justwatch.com/br/busca?q=A%20Espera%20de%20Um%20Milagre",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=A%20Espera%20de%20Um%20Milagre",
+      "letterboxd": "https://letterboxd.com/search/films/A%20Espera%20de%20Um%20Milagre/"
+    },
+    "a-familia-do-futuro": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=A%20Fam%C3%ADlia%20do%20Futuro",
+      "justWatch": "https://www.justwatch.com/br/busca?q=A%20Fam%C3%ADlia%20do%20Futuro",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=A%20Fam%C3%ADlia%20do%20Futuro",
+      "letterboxd": "https://letterboxd.com/search/films/A%20Fam%C3%ADlia%20do%20Futuro/"
+    },
+    "a-forca-em-alerta": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=A%20For%C3%A7a%20em%20Alerta",
+      "justWatch": "https://www.justwatch.com/br/busca?q=A%20For%C3%A7a%20em%20Alerta",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=A%20For%C3%A7a%20em%20Alerta",
+      "letterboxd": "https://letterboxd.com/search/films/A%20For%C3%A7a%20em%20Alerta/"
+    },
+    "a-forca-em-alerta-2": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=A%20For%C3%A7a%20em%20Alerta%202",
+      "justWatch": "https://www.justwatch.com/br/busca?q=A%20For%C3%A7a%20em%20Alerta%202",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=A%20For%C3%A7a%20em%20Alerta%202",
+      "letterboxd": "https://letterboxd.com/search/films/A%20For%C3%A7a%20em%20Alerta%202/"
+    },
+    "a-gruta": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=A%20Gruta",
+      "justWatch": "https://www.justwatch.com/br/busca?q=A%20Gruta",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=A%20Gruta",
+      "letterboxd": "https://letterboxd.com/search/films/A%20Gruta/"
+    },
+    "a-hora-da-sua-morte": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=A%20Hora%20da%20Sua%20Morte",
+      "justWatch": "https://www.justwatch.com/br/busca?q=A%20Hora%20da%20Sua%20Morte",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=A%20Hora%20da%20Sua%20Morte",
+      "letterboxd": "https://letterboxd.com/search/films/A%20Hora%20da%20Sua%20Morte/"
+    },
+    "a-infancia-de-um-lider": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=A%20Inf%C3%A2ncia%20de%20Um%20L%C3%ADder",
+      "justWatch": "https://www.justwatch.com/br/busca?q=A%20Inf%C3%A2ncia%20de%20Um%20L%C3%ADder",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=A%20Inf%C3%A2ncia%20de%20Um%20L%C3%ADder",
+      "letterboxd": "https://letterboxd.com/search/films/A%20Inf%C3%A2ncia%20de%20Um%20L%C3%ADder/"
+    },
+    "a-licao-de-moremi": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=A%20Li%C3%A7%C3%A3o%20de%20Moremi",
+      "justWatch": "https://www.justwatch.com/br/busca?q=A%20Li%C3%A7%C3%A3o%20de%20Moremi",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=A%20Li%C3%A7%C3%A3o%20de%20Moremi",
+      "letterboxd": "https://letterboxd.com/search/films/A%20Li%C3%A7%C3%A3o%20de%20Moremi/"
+    },
+    "a-livraria": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=A%20Livraria",
+      "justWatch": "https://www.justwatch.com/br/busca?q=A%20Livraria",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=A%20Livraria",
+      "letterboxd": "https://letterboxd.com/search/films/A%20Livraria/"
+    },
+    "a-melhor-escolha": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=A%20Melhor%20Escolha",
+      "justWatch": "https://www.justwatch.com/br/busca?q=A%20Melhor%20Escolha",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=A%20Melhor%20Escolha",
+      "letterboxd": "https://letterboxd.com/search/films/A%20Melhor%20Escolha/"
+    },
+    "a-noite-do-jogo": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=A%20Noite%20do%20Jogo",
+      "justWatch": "https://www.justwatch.com/br/busca?q=A%20Noite%20do%20Jogo",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=A%20Noite%20do%20Jogo",
+      "letterboxd": "https://letterboxd.com/search/films/A%20Noite%20do%20Jogo/"
+    },
+    "a-noiva-cadaver": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=A%20Noiva%20Cad%C3%A1ver",
+      "justWatch": "https://www.justwatch.com/br/busca?q=A%20Noiva%20Cad%C3%A1ver",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=A%20Noiva%20Cad%C3%A1ver",
+      "letterboxd": "https://letterboxd.com/search/films/A%20Noiva%20Cad%C3%A1ver/"
+    },
+    "a-nova-furia-do-dragao": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=A%20Nova%20F%C3%BAria%20do%20Drag%C3%A3o",
+      "justWatch": "https://www.justwatch.com/br/busca?q=A%20Nova%20F%C3%BAria%20do%20Drag%C3%A3o",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=A%20Nova%20F%C3%BAria%20do%20Drag%C3%A3o",
+      "letterboxd": "https://letterboxd.com/search/films/A%20Nova%20F%C3%BAria%20do%20Drag%C3%A3o/"
+    },
+    "a-pequena-sereia": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=A%20Pequena%20Sereia",
+      "justWatch": "https://www.justwatch.com/br/busca?q=A%20Pequena%20Sereia",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=A%20Pequena%20Sereia",
+      "letterboxd": "https://letterboxd.com/search/films/A%20Pequena%20Sereia/"
+    },
+    "a-pequena-sereia-2": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=A%20Pequena%20Sereia%202",
+      "justWatch": "https://www.justwatch.com/br/busca?q=A%20Pequena%20Sereia%202",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=A%20Pequena%20Sereia%202",
+      "letterboxd": "https://letterboxd.com/search/films/A%20Pequena%20Sereia%202/"
+    },
+    "a-pequena-sereia-3": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=A%20Pequena%20Sereia%203",
+      "justWatch": "https://www.justwatch.com/br/busca?q=A%20Pequena%20Sereia%203",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=A%20Pequena%20Sereia%203",
+      "letterboxd": "https://letterboxd.com/search/films/A%20Pequena%20Sereia%203/"
+    },
+    "a-praia": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=A%20Praia",
+      "justWatch": "https://www.justwatch.com/br/busca?q=A%20Praia",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=A%20Praia",
+      "letterboxd": "https://letterboxd.com/search/films/A%20Praia/"
+    },
+    "a-princesa-e-o-sapo": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=A%20Princesa%20e%20o%20Sapo",
+      "justWatch": "https://www.justwatch.com/br/busca?q=A%20Princesa%20e%20o%20Sapo",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=A%20Princesa%20e%20o%20Sapo",
+      "letterboxd": "https://letterboxd.com/search/films/A%20Princesa%20e%20o%20Sapo/"
+    },
+    "a-procura-da-vinganca": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=%C3%80%20Procura%20da%20Vingan%C3%A7a",
+      "justWatch": "https://www.justwatch.com/br/busca?q=%C3%80%20Procura%20da%20Vingan%C3%A7a",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=%C3%80%20Procura%20da%20Vingan%C3%A7a",
+      "letterboxd": "https://letterboxd.com/search/films/%C3%80%20Procura%20da%20Vingan%C3%A7a/"
+    },
+    "a-ultima-musica": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=A%20%C3%9Altima%20M%C3%BAsica",
+      "justWatch": "https://www.justwatch.com/br/busca?q=A%20%C3%9Altima%20M%C3%BAsica",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=A%20%C3%9Altima%20M%C3%BAsica",
+      "letterboxd": "https://letterboxd.com/search/films/A%20%C3%9Altima%20M%C3%BAsica/"
+    },
+    "a-verdadeira-historia-de-ned-kelly": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=A%20Verdadeira%20Hist%C3%B3ria%20de%20Ned%20Kelly",
+      "justWatch": "https://www.justwatch.com/br/busca?q=A%20Verdadeira%20Hist%C3%B3ria%20de%20Ned%20Kelly",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=A%20Verdadeira%20Hist%C3%B3ria%20de%20Ned%20Kelly",
+      "letterboxd": "https://letterboxd.com/search/films/A%20Verdadeira%20Hist%C3%B3ria%20de%20Ned%20Kelly/"
+    },
+    "a-vizinhanca-assombrada": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=A%20Vizinhan%C3%A7a%20Assombrada",
+      "justWatch": "https://www.justwatch.com/br/busca?q=A%20Vizinhan%C3%A7a%20Assombrada",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=A%20Vizinhan%C3%A7a%20Assombrada",
+      "letterboxd": "https://letterboxd.com/search/films/A%20Vizinhan%C3%A7a%20Assombrada/"
+    },
+    "abraco": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Abra%C3%A7o",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Abra%C3%A7o",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Abra%C3%A7o",
+      "letterboxd": "https://letterboxd.com/search/films/Abra%C3%A7o/"
+    },
+    "adeus": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Adeus",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Adeus",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Adeus",
+      "letterboxd": "https://letterboxd.com/search/films/Adeus/"
+    },
+    "alex-strangelove": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Alex%20Strangelove",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Alex%20Strangelove",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Alex%20Strangelove",
+      "letterboxd": "https://letterboxd.com/search/films/Alex%20Strangelove/"
+    },
+    "alien-2-o-resgate": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Alien%202%20O%20Resgate",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Alien%202%20O%20Resgate",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Alien%202%20O%20Resgate",
+      "letterboxd": "https://letterboxd.com/search/films/Alien%202%20O%20Resgate/"
+    },
+    "amigos-para-sempre": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Amigos%20Para%20Sempre",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Amigos%20Para%20Sempre",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Amigos%20Para%20Sempre",
+      "letterboxd": "https://letterboxd.com/search/films/Amigos%20Para%20Sempre/"
+    },
+    "anelka-o-incompreendido": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Anelka%20O%20Incompreendido",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Anelka%20O%20Incompreendido",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Anelka%20O%20Incompreendido",
+      "letterboxd": "https://letterboxd.com/search/films/Anelka%20O%20Incompreendido/"
+    },
+    "anjos-da-noite": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Anjos%20da%20Noite",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Anjos%20da%20Noite",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Anjos%20da%20Noite",
+      "letterboxd": "https://letterboxd.com/search/films/Anjos%20da%20Noite/"
+    },
+    "anne-with-an-e-temporada-1": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Anne%20with%20an%20E%3A%20Temporada%201",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Anne%20with%20an%20E%3A%20Temporada%201",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Anne%20with%20an%20E%3A%20Temporada%201",
+      "letterboxd": null
+    },
+    "aprisionados": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Aprisionados",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Aprisionados",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Aprisionados",
+      "letterboxd": "https://letterboxd.com/search/films/Aprisionados/"
+    },
+    "aranha-na-teia": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Aranha%20na%20Teia",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Aranha%20na%20Teia",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Aranha%20na%20Teia",
+      "letterboxd": "https://letterboxd.com/search/films/Aranha%20na%20Teia/"
+    },
+    "armas-em-jogo": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Armas%20em%20Jogo",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Armas%20em%20Jogo",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Armas%20em%20Jogo",
+      "letterboxd": "https://letterboxd.com/search/films/Armas%20em%20Jogo/"
+    },
+    "arraste-me-para-o-inferno": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Arraste-me%20para%20o%20Inferno",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Arraste-me%20para%20o%20Inferno",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Arraste-me%20para%20o%20Inferno",
+      "letterboxd": "https://letterboxd.com/search/films/Arraste-me%20para%20o%20Inferno/"
+    },
+    "artemis-fowl-o-mundo-secreto": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Artemis%20Fowl%20-%20O%20Mundo%20Secreto",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Artemis%20Fowl%20-%20O%20Mundo%20Secreto",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Artemis%20Fowl%20-%20O%20Mundo%20Secreto",
+      "letterboxd": "https://letterboxd.com/search/films/Artemis%20Fowl%20-%20O%20Mundo%20Secreto/"
+    },
+    "as-apimentadas-desafio-mundial": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=As%20Apimentadas%20Desafio%20Mundial",
+      "justWatch": "https://www.justwatch.com/br/busca?q=As%20Apimentadas%20Desafio%20Mundial",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=As%20Apimentadas%20Desafio%20Mundial",
+      "letterboxd": "https://letterboxd.com/search/films/As%20Apimentadas%20Desafio%20Mundial/"
+    },
+    "as-apimentadas-entrar-para-ganhar": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=As%20Apimentadas%20Entrar%20para%20Ganhar",
+      "justWatch": "https://www.justwatch.com/br/busca?q=As%20Apimentadas%20Entrar%20para%20Ganhar",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=As%20Apimentadas%20Entrar%20para%20Ganhar",
+      "letterboxd": "https://letterboxd.com/search/films/As%20Apimentadas%20Entrar%20para%20Ganhar/"
+    },
+    "as-branquelas": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=As%20Branquelas",
+      "justWatch": "https://www.justwatch.com/br/busca?q=As%20Branquelas",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=As%20Branquelas",
+      "letterboxd": "https://letterboxd.com/search/films/As%20Branquelas/"
+    },
+    "as-patricinhas-de-beverly-hills": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=As%20Patricinhas%20de%20Beverly%20Hills",
+      "justWatch": "https://www.justwatch.com/br/busca?q=As%20Patricinhas%20de%20Beverly%20Hills",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=As%20Patricinhas%20de%20Beverly%20Hills",
+      "letterboxd": "https://letterboxd.com/search/films/As%20Patricinhas%20de%20Beverly%20Hills/"
+    },
+    "asfalto-de-sangue": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Asfalto%20de%20Sangue",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Asfalto%20de%20Sangue",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Asfalto%20de%20Sangue",
+      "letterboxd": "https://letterboxd.com/search/films/Asfalto%20de%20Sangue/"
+    },
+    "assombrada-pelo-passado": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Assombrada%20pelo%20Passado",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Assombrada%20pelo%20Passado",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Assombrada%20pelo%20Passado",
+      "letterboxd": "https://letterboxd.com/search/films/Assombrada%20pelo%20Passado/"
+    },
+    "ate-que-a-sorte-nos-separe": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=At%C3%A9%20que%20a%20Sorte%20Nos%20Separe",
+      "justWatch": "https://www.justwatch.com/br/busca?q=At%C3%A9%20que%20a%20Sorte%20Nos%20Separe",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=At%C3%A9%20que%20a%20Sorte%20Nos%20Separe",
+      "letterboxd": "https://letterboxd.com/search/films/At%C3%A9%20que%20a%20Sorte%20Nos%20Separe/"
+    },
+    "ate-que-a-sorte-nos-separe-2": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=At%C3%A9%20que%20a%20Sorte%20Nos%20Separe%202",
+      "justWatch": "https://www.justwatch.com/br/busca?q=At%C3%A9%20que%20a%20Sorte%20Nos%20Separe%202",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=At%C3%A9%20que%20a%20Sorte%20Nos%20Separe%202",
+      "letterboxd": "https://letterboxd.com/search/films/At%C3%A9%20que%20a%20Sorte%20Nos%20Separe%202/"
+    },
+    "ate-que-a-sorte-nos-separe-3": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=At%C3%A9%20que%20a%20Sorte%20Nos%20Separe%203",
+      "justWatch": "https://www.justwatch.com/br/busca?q=At%C3%A9%20que%20a%20Sorte%20Nos%20Separe%203",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=At%C3%A9%20que%20a%20Sorte%20Nos%20Separe%203",
+      "letterboxd": "https://letterboxd.com/search/films/At%C3%A9%20que%20a%20Sorte%20Nos%20Separe%203/"
+    },
+    "atras-da-linha-fuga-para-dunkirk": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Atr%C3%A1s%20da%20Linha%20-%20Fuga%20para%20Dunkirk",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Atr%C3%A1s%20da%20Linha%20-%20Fuga%20para%20Dunkirk",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Atr%C3%A1s%20da%20Linha%20-%20Fuga%20para%20Dunkirk",
+      "letterboxd": "https://letterboxd.com/search/films/Atr%C3%A1s%20da%20Linha%20-%20Fuga%20para%20Dunkirk/"
+    },
+    "attraction-2-invasao": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Attraction%202%20-%20Invas%C3%A3o",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Attraction%202%20-%20Invas%C3%A3o",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Attraction%202%20-%20Invas%C3%A3o",
+      "letterboxd": "https://letterboxd.com/search/films/Attraction%202%20-%20Invas%C3%A3o/"
+    },
+    "atypical-t1": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Atypical%20T1",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Atypical%20T1",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Atypical%20T1",
+      "letterboxd": null,
+      "tvmazeId": 22127,
+      "tvmazeUrl": "https://www.tvmaze.com/shows/22127/atypical",
+      "poster": "https://static.tvmaze.com/uploads/images/original_untouched/339/849013.jpg",
+      "rating": 7.9,
+      "summary": "Atypical is a coming of age story that follows Sam, an 18-year-old on the autistic spectrum as he searches for love and independence. While Sam is on his funny yet emotional journey of self-discovery, the rest of his family must grapple with change in their own lives as they all struggle with the central theme: what does it really mean to be normal?",
+      "officialSite": "https://www.netflix.com/title/80117540",
+      "network": "Netflix"
+    },
+    "atypical-t2": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Atypical%20T2",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Atypical%20T2",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Atypical%20T2",
+      "letterboxd": null,
+      "tvmazeId": 22127,
+      "tvmazeUrl": "https://www.tvmaze.com/shows/22127/atypical",
+      "poster": "https://static.tvmaze.com/uploads/images/original_untouched/339/849013.jpg",
+      "rating": 7.9,
+      "summary": "Atypical is a coming of age story that follows Sam, an 18-year-old on the autistic spectrum as he searches for love and independence. While Sam is on his funny yet emotional journey of self-discovery, the rest of his family must grapple with change in their own lives as they all struggle with the central theme: what does it really mean to be normal?",
+      "officialSite": "https://www.netflix.com/title/80117540",
+      "network": "Netflix"
+    },
+    "bad-boys-2": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Bad%20Boys%202",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Bad%20Boys%202",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Bad%20Boys%202",
+      "letterboxd": "https://letterboxd.com/search/films/Bad%20Boys%202/"
+    },
+    "bad-boys-para-sempre": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Bad%20Boys%20Para%20Sempre",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Bad%20Boys%20Para%20Sempre",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Bad%20Boys%20Para%20Sempre",
+      "letterboxd": "https://letterboxd.com/search/films/Bad%20Boys%20Para%20Sempre/"
+    },
+    "belle-e-sebastian-a-aventura-continua": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Belle%20e%20Sebastian%20-%20A%20Aventura%20Continua",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Belle%20e%20Sebastian%20-%20A%20Aventura%20Continua",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Belle%20e%20Sebastian%20-%20A%20Aventura%20Continua",
+      "letterboxd": "https://letterboxd.com/search/films/Belle%20e%20Sebastian%20-%20A%20Aventura%20Continua/"
+    },
+    "ben-10-contra-o-universo-o-filme": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Ben%2010%20Contra%20o%20Universo%20-%20O%20Filme",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Ben%2010%20Contra%20o%20Universo%20-%20O%20Filme",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Ben%2010%20Contra%20o%20Universo%20-%20O%20Filme",
+      "letterboxd": "https://letterboxd.com/search/films/Ben%2010%20Contra%20o%20Universo%20-%20O%20Filme/"
+    },
+    "ben-hur": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Ben-Hur",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Ben-Hur",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Ben-Hur",
+      "letterboxd": "https://letterboxd.com/search/films/Ben-Hur/"
+    },
+    "birdman-a-inesperada-virtude-da-ignorancia": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Birdman%20A%20Inesperada%20Virtude%20da%20Ignor%C3%A2ncia",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Birdman%20A%20Inesperada%20Virtude%20da%20Ignor%C3%A2ncia",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Birdman%20A%20Inesperada%20Virtude%20da%20Ignor%C3%A2ncia",
+      "letterboxd": "https://letterboxd.com/search/films/Birdman%20A%20Inesperada%20Virtude%20da%20Ignor%C3%A2ncia/"
+    },
+    "bons-de-bico": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Bons%20de%20Bico",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Bons%20de%20Bico",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Bons%20de%20Bico",
+      "letterboxd": "https://letterboxd.com/search/films/Bons%20de%20Bico/"
+    },
+    "born-racer": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Born%20Racer",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Born%20Racer",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Born%20Racer",
+      "letterboxd": "https://letterboxd.com/search/films/Born%20Racer/"
+    },
+    "brilho-eterno-de-uma-mente-sem-lembrancas": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Brilho%20Eterno%20de%20Uma%20Mente%20Sem%20Lembran%C3%A7as",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Brilho%20Eterno%20de%20Uma%20Mente%20Sem%20Lembran%C3%A7as",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Brilho%20Eterno%20de%20Uma%20Mente%20Sem%20Lembran%C3%A7as",
+      "letterboxd": "https://letterboxd.com/search/films/Brilho%20Eterno%20de%20Uma%20Mente%20Sem%20Lembran%C3%A7as/"
+    },
+    "brooklyn-nine-nine-t1": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Brooklyn%20Nine-Nine%20T1",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Brooklyn%20Nine-Nine%20T1",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Brooklyn%20Nine-Nine%20T1",
+      "letterboxd": null,
+      "tvmazeId": 49,
+      "tvmazeUrl": "https://www.tvmaze.com/shows/49/brooklyn-nine-nine",
+      "poster": "https://static.tvmaze.com/uploads/images/original_untouched/402/1007484.jpg",
+      "rating": 8.1,
+      "summary": "Brooklyn Nine-Nine is an ensemble comedy about a talented-but-carefree detective, a by-the-book police captain and their precinct colleagues. While based in the workplace, Brooklyn Nine-Nine is not really about the job – it's about the men and women behind the badge.",
+      "officialSite": "https://www.nbc.com/brooklyn-nine-nine",
+      "network": "NBC"
+    },
+    "brooklyn-nine-nine-t2": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Brooklyn%20Nine-Nine%20T2",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Brooklyn%20Nine-Nine%20T2",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Brooklyn%20Nine-Nine%20T2",
+      "letterboxd": null,
+      "tvmazeId": 49,
+      "tvmazeUrl": "https://www.tvmaze.com/shows/49/brooklyn-nine-nine",
+      "poster": "https://static.tvmaze.com/uploads/images/original_untouched/402/1007484.jpg",
+      "rating": 8.1,
+      "summary": "Brooklyn Nine-Nine is an ensemble comedy about a talented-but-carefree detective, a by-the-book police captain and their precinct colleagues. While based in the workplace, Brooklyn Nine-Nine is not really about the job – it's about the men and women behind the badge.",
+      "officialSite": "https://www.nbc.com/brooklyn-nine-nine",
+      "network": "NBC"
+    },
+    "brooklyn-nine-nine-t3": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Brooklyn%20Nine-Nine%20T3",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Brooklyn%20Nine-Nine%20T3",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Brooklyn%20Nine-Nine%20T3",
+      "letterboxd": null,
+      "tvmazeId": 49,
+      "tvmazeUrl": "https://www.tvmaze.com/shows/49/brooklyn-nine-nine",
+      "poster": "https://static.tvmaze.com/uploads/images/original_untouched/402/1007484.jpg",
+      "rating": 8.1,
+      "summary": "Brooklyn Nine-Nine is an ensemble comedy about a talented-but-carefree detective, a by-the-book police captain and their precinct colleagues. While based in the workplace, Brooklyn Nine-Nine is not really about the job – it's about the men and women behind the badge.",
+      "officialSite": "https://www.nbc.com/brooklyn-nine-nine",
+      "network": "NBC"
+    },
+    "bryan-banks-um-sonho-interrompido": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Bryan%20Banks%20Um%20Sonho%20Interrompido",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Bryan%20Banks%20Um%20Sonho%20Interrompido",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Bryan%20Banks%20Um%20Sonho%20Interrompido",
+      "letterboxd": "https://letterboxd.com/search/films/Bryan%20Banks%20Um%20Sonho%20Interrompido/"
+    },
+    "camp-rock": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Camp%20Rock",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Camp%20Rock",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Camp%20Rock",
+      "letterboxd": "https://letterboxd.com/search/films/Camp%20Rock/"
+    },
+    "carga-mortal": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Carga%20Mortal",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Carga%20Mortal",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Carga%20Mortal",
+      "letterboxd": "https://letterboxd.com/search/films/Carga%20Mortal/"
+    },
+    "carros-3": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Carros%203",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Carros%203",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Carros%203",
+      "letterboxd": "https://letterboxd.com/search/films/Carros%203/"
+    },
+    "cemiterio-maldito-2": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Cemit%C3%A9rio%20Maldito%202",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Cemit%C3%A9rio%20Maldito%202",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Cemit%C3%A9rio%20Maldito%202",
+      "letterboxd": "https://letterboxd.com/search/films/Cemit%C3%A9rio%20Maldito%202/"
+    },
+    "chuteira-preta-temporada-1": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Chuteira%20Preta%3A%20Temporada%201",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Chuteira%20Preta%3A%20Temporada%201",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Chuteira%20Preta%3A%20Temporada%201",
+      "letterboxd": null
+    },
+    "cinderela": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Cinderela",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Cinderela",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Cinderela",
+      "letterboxd": "https://letterboxd.com/search/films/Cinderela/"
+    },
+    "cinderela-e-o-principe-secreto": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Cinderela%20e%20o%20Pr%C3%ADncipe%20Secreto",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Cinderela%20e%20o%20Pr%C3%ADncipe%20Secreto",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Cinderela%20e%20o%20Pr%C3%ADncipe%20Secreto",
+      "letterboxd": "https://letterboxd.com/search/films/Cinderela%20e%20o%20Pr%C3%ADncipe%20Secreto/"
+    },
+    "circulo-de-fogo": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=C%C3%ADrculo%20de%20Fogo",
+      "justWatch": "https://www.justwatch.com/br/busca?q=C%C3%ADrculo%20de%20Fogo",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=C%C3%ADrculo%20de%20Fogo",
+      "letterboxd": "https://letterboxd.com/search/films/C%C3%ADrculo%20de%20Fogo/"
+    },
+    "circulo-de-fogo-a-revolta": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=C%C3%ADrculo%20de%20Fogo%20-%20A%20Revolta",
+      "justWatch": "https://www.justwatch.com/br/busca?q=C%C3%ADrculo%20de%20Fogo%20-%20A%20Revolta",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=C%C3%ADrculo%20de%20Fogo%20-%20A%20Revolta",
+      "letterboxd": "https://letterboxd.com/search/films/C%C3%ADrculo%20de%20Fogo%20-%20A%20Revolta/"
+    },
+    "com-amor-simon": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Com%20Amor%2C%20Simon",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Com%20Amor%2C%20Simon",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Com%20Amor%2C%20Simon",
+      "letterboxd": "https://letterboxd.com/search/films/Com%20Amor%2C%20Simon/"
+    },
+    "conflitos-em-familia": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Conflitos%20em%20Fam%C3%ADlia",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Conflitos%20em%20Fam%C3%ADlia",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Conflitos%20em%20Fam%C3%ADlia",
+      "letterboxd": "https://letterboxd.com/search/films/Conflitos%20em%20Fam%C3%ADlia/"
+    },
+    "convencao-das-bruxas": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Conven%C3%A7%C3%A3o%20das%20Bruxas",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Conven%C3%A7%C3%A3o%20das%20Bruxas",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Conven%C3%A7%C3%A3o%20das%20Bruxas",
+      "letterboxd": "https://letterboxd.com/search/films/Conven%C3%A7%C3%A3o%20das%20Bruxas/"
+    },
+    "copperman-um-heroi-especial": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Copperman%20-%20Um%20Her%C3%B3i%20Especial",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Copperman%20-%20Um%20Her%C3%B3i%20Especial",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Copperman%20-%20Um%20Her%C3%B3i%20Especial",
+      "letterboxd": "https://letterboxd.com/search/films/Copperman%20-%20Um%20Her%C3%B3i%20Especial/"
+    },
+    "coracoes-de-ferro": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Cora%C3%A7%C3%B5es%20de%20Ferro",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Cora%C3%A7%C3%B5es%20de%20Ferro",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Cora%C3%A7%C3%B5es%20de%20Ferro",
+      "letterboxd": "https://letterboxd.com/search/films/Cora%C3%A7%C3%B5es%20de%20Ferro/"
+    },
+    "crimes-de-familia": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Crimes%20de%20Fam%C3%ADlia",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Crimes%20de%20Fam%C3%ADlia",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Crimes%20de%20Fam%C3%ADlia",
+      "letterboxd": "https://letterboxd.com/search/films/Crimes%20de%20Fam%C3%ADlia/"
+    },
+    "curtindo-a-vida-adoidado": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Curtindo%20a%20Vida%20Adoidado",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Curtindo%20a%20Vida%20Adoidado",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Curtindo%20a%20Vida%20Adoidado",
+      "letterboxd": "https://letterboxd.com/search/films/Curtindo%20a%20Vida%20Adoidado/"
+    },
+    "dark-temporada-1": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Dark%3A%20Temporada%201",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Dark%3A%20Temporada%201",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Dark%3A%20Temporada%201",
+      "letterboxd": null
+    },
+    "decisao": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Decis%C3%A3o",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Decis%C3%A3o",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Decis%C3%A3o",
+      "letterboxd": "https://letterboxd.com/search/films/Decis%C3%A3o/"
+    },
+    "destruicao-los-angeles": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Destrui%C3%A7%C3%A3o%20-%20Los%20Angeles",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Destrui%C3%A7%C3%A3o%20-%20Los%20Angeles",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Destrui%C3%A7%C3%A3o%20-%20Los%20Angeles",
+      "letterboxd": "https://letterboxd.com/search/films/Destrui%C3%A7%C3%A3o%20-%20Los%20Angeles/"
+    },
+    "deuses-do-egito": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Deuses%20do%20Egito",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Deuses%20do%20Egito",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Deuses%20do%20Egito",
+      "letterboxd": "https://letterboxd.com/search/films/Deuses%20do%20Egito/"
+    },
+    "doces-ou-travessuras": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Doces%20ou%20Travessuras",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Doces%20ou%20Travessuras",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Doces%20ou%20Travessuras",
+      "letterboxd": "https://letterboxd.com/search/films/Doces%20ou%20Travessuras/"
+    },
+    "dois-irmaos": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Dois%20Irm%C3%A3os",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Dois%20Irm%C3%A3os",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Dois%20Irm%C3%A3os",
+      "letterboxd": "https://letterboxd.com/search/films/Dois%20Irm%C3%A3os/"
+    },
+    "dragon-ball-super-temporadas-1-a-5": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Dragon%20Ball%20Super%3A%20Temporadas%201%20a%205",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Dragon%20Ball%20Super%3A%20Temporadas%201%20a%205",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Dragon%20Ball%20Super%3A%20Temporadas%201%20a%205",
+      "letterboxd": null
+    },
+    "drones": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Drones",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Drones",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Drones",
+      "letterboxd": "https://letterboxd.com/search/films/Drones/"
+    },
+    "drug-king": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Drug%20King",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Drug%20King",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Drug%20King",
+      "letterboxd": "https://letterboxd.com/search/films/Drug%20King/"
+    },
+    "dynasty-temporada-1": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Dynasty%3A%20Temporada%201",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Dynasty%3A%20Temporada%201",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Dynasty%3A%20Temporada%201",
+      "letterboxd": null
+    },
+    "e-o-fim": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=%C3%89%20o%20Fim",
+      "justWatch": "https://www.justwatch.com/br/busca?q=%C3%89%20o%20Fim",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=%C3%89%20o%20Fim",
+      "letterboxd": "https://letterboxd.com/search/films/%C3%89%20o%20Fim/"
+    },
+    "e-se-fosse-verdade": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=E%20Se%20Fosse%20Verdade",
+      "justWatch": "https://www.justwatch.com/br/busca?q=E%20Se%20Fosse%20Verdade",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=E%20Se%20Fosse%20Verdade",
+      "letterboxd": "https://letterboxd.com/search/films/E%20Se%20Fosse%20Verdade/"
+    },
+    "ela-danca-eu-danco": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Ela%20Dan%C3%A7a%2C%20Eu%20Dan%C3%A7o",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Ela%20Dan%C3%A7a%2C%20Eu%20Dan%C3%A7o",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Ela%20Dan%C3%A7a%2C%20Eu%20Dan%C3%A7o",
+      "letterboxd": "https://letterboxd.com/search/films/Ela%20Dan%C3%A7a%2C%20Eu%20Dan%C3%A7o/"
+    },
+    "ela-danca-eu-danco-2": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Ela%20Dan%C3%A7a%2C%20Eu%20Dan%C3%A7o%202",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Ela%20Dan%C3%A7a%2C%20Eu%20Dan%C3%A7o%202",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Ela%20Dan%C3%A7a%2C%20Eu%20Dan%C3%A7o%202",
+      "letterboxd": "https://letterboxd.com/search/films/Ela%20Dan%C3%A7a%2C%20Eu%20Dan%C3%A7o%202/"
+    },
+    "ela-danca-eu-danco-3": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Ela%20Dan%C3%A7a%2C%20Eu%20Dan%C3%A7o%203",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Ela%20Dan%C3%A7a%2C%20Eu%20Dan%C3%A7o%203",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Ela%20Dan%C3%A7a%2C%20Eu%20Dan%C3%A7o%203",
+      "letterboxd": "https://letterboxd.com/search/films/Ela%20Dan%C3%A7a%2C%20Eu%20Dan%C3%A7o%203/"
+    },
+    "ela-danca-eu-danco-4": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Ela%20Dan%C3%A7a%2C%20Eu%20Dan%C3%A7o%204",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Ela%20Dan%C3%A7a%2C%20Eu%20Dan%C3%A7o%204",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Ela%20Dan%C3%A7a%2C%20Eu%20Dan%C3%A7o%204",
+      "letterboxd": "https://letterboxd.com/search/films/Ela%20Dan%C3%A7a%2C%20Eu%20Dan%C3%A7o%204/"
+    },
+    "ela-danca-eu-danco-5": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Ela%20Dan%C3%A7a%2C%20Eu%20Dan%C3%A7o%205",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Ela%20Dan%C3%A7a%2C%20Eu%20Dan%C3%A7o%205",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Ela%20Dan%C3%A7a%2C%20Eu%20Dan%C3%A7o%205",
+      "letterboxd": "https://letterboxd.com/search/films/Ela%20Dan%C3%A7a%2C%20Eu%20Dan%C3%A7o%205/"
+    },
+    "ela-e-o-cara": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Ela%20%C3%A9%20o%20Cara",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Ela%20%C3%A9%20o%20Cara",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Ela%20%C3%A9%20o%20Cara",
+      "letterboxd": "https://letterboxd.com/search/films/Ela%20%C3%A9%20o%20Cara/"
+    },
+    "enquanto-voce-dormia": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Enquanto%20Voc%C3%AA%20Dormia",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Enquanto%20Voc%C3%AA%20Dormia",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Enquanto%20Voc%C3%AA%20Dormia",
+      "letterboxd": "https://letterboxd.com/search/films/Enquanto%20Voc%C3%AA%20Dormia/"
+    },
+    "entre-facas-e-segredos": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Entre%20Facas%20e%20Segredos",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Entre%20Facas%20e%20Segredos",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Entre%20Facas%20e%20Segredos",
+      "letterboxd": "https://letterboxd.com/search/films/Entre%20Facas%20e%20Segredos/"
+    },
+    "escolhida": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Escolhida",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Escolhida",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Escolhida",
+      "letterboxd": "https://letterboxd.com/search/films/Escolhida/"
+    },
+    "espiritos-2-voce-nunca-esta-sozinho": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Esp%C3%ADritos%202%3A%20Voc%C3%AA%20Nunca%20Est%C3%A1%20Sozinho",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Esp%C3%ADritos%202%3A%20Voc%C3%AA%20Nunca%20Est%C3%A1%20Sozinho",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Esp%C3%ADritos%202%3A%20Voc%C3%AA%20Nunca%20Est%C3%A1%20Sozinho",
+      "letterboxd": "https://letterboxd.com/search/films/Esp%C3%ADritos%202%3A%20Voc%C3%AA%20Nunca%20Est%C3%A1%20Sozinho/"
+    },
+    "esquadrao-lobo": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Esquadr%C3%A3o%20Lobo",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Esquadr%C3%A3o%20Lobo",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Esquadr%C3%A3o%20Lobo",
+      "letterboxd": "https://letterboxd.com/search/films/Esquadr%C3%A3o%20Lobo/"
+    },
+    "estranha-presenca": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Estranha%20Presen%C3%A7a",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Estranha%20Presen%C3%A7a",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Estranha%20Presen%C3%A7a",
+      "letterboxd": "https://letterboxd.com/search/films/Estranha%20Presen%C3%A7a/"
+    },
+    "eu-ficar": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Eu%20Ficar",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Eu%20Ficar",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Eu%20Ficar",
+      "letterboxd": "https://letterboxd.com/search/films/Eu%20Ficar/"
+    },
+    "exodus-deuses-e-reis": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Exodus%20Deuses%20e%20Reis",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Exodus%20Deuses%20e%20Reis",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Exodus%20Deuses%20e%20Reis",
+      "letterboxd": "https://letterboxd.com/search/films/Exodus%20Deuses%20e%20Reis/"
+    },
+    "faca-a-coisa-certa": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Fa%C3%A7a%20a%20Coisa%20Certa",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Fa%C3%A7a%20a%20Coisa%20Certa",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Fa%C3%A7a%20a%20Coisa%20Certa",
+      "letterboxd": "https://letterboxd.com/search/films/Fa%C3%A7a%20a%20Coisa%20Certa/"
+    },
+    "faces-da-verdade": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Faces%20da%20Verdade",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Faces%20da%20Verdade",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Faces%20da%20Verdade",
+      "letterboxd": "https://letterboxd.com/search/films/Faces%20da%20Verdade/"
+    },
+    "falcao-negro-em-perigo": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Falc%C3%A3o%20Negro%20em%20Perigo",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Falc%C3%A3o%20Negro%20em%20Perigo",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Falc%C3%A3o%20Negro%20em%20Perigo",
+      "letterboxd": "https://letterboxd.com/search/films/Falc%C3%A3o%20Negro%20em%20Perigo/"
+    },
+    "fantasia": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Fantasia",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Fantasia",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Fantasia",
+      "letterboxd": "https://letterboxd.com/search/films/Fantasia/"
+    },
+    "ford-vs-ferrari": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Ford%20vs%20Ferrari",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Ford%20vs%20Ferrari",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Ford%20vs%20Ferrari",
+      "letterboxd": "https://letterboxd.com/search/films/Ford%20vs%20Ferrari/"
+    },
+    "formiguinhaz": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=FormiguinhaZ",
+      "justWatch": "https://www.justwatch.com/br/busca?q=FormiguinhaZ",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=FormiguinhaZ",
+      "letterboxd": "https://letterboxd.com/search/films/FormiguinhaZ/"
+    },
+    "freaks-um-de-nos": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Freaks%3A%20Um%20de%20N%C3%B3s",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Freaks%3A%20Um%20de%20N%C3%B3s",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Freaks%3A%20Um%20de%20N%C3%B3s",
+      "letterboxd": "https://letterboxd.com/search/films/Freaks%3A%20Um%20de%20N%C3%B3s/"
+    },
+    "fuga-de-auschwitz": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Fuga%20de%20Auschwitz",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Fuga%20de%20Auschwitz",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Fuga%20de%20Auschwitz",
+      "letterboxd": "https://letterboxd.com/search/films/Fuga%20de%20Auschwitz/"
+    },
+    "game-of-thrones-temporada-3": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Game%20of%20Thrones%3A%20Temporada%203",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Game%20of%20Thrones%3A%20Temporada%203",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Game%20of%20Thrones%3A%20Temporada%203",
+      "letterboxd": null
+    },
+    "garota-interrompida": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Garota%20Interrompida",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Garota%20Interrompida",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Garota%20Interrompida",
+      "letterboxd": "https://letterboxd.com/search/films/Garota%20Interrompida/"
+    },
+    "gigolo-europeu-por-acidente": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Gigol%C3%B4%20Europeu%20por%20Acidente",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Gigol%C3%B4%20Europeu%20por%20Acidente",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Gigol%C3%B4%20Europeu%20por%20Acidente",
+      "letterboxd": "https://letterboxd.com/search/films/Gigol%C3%B4%20Europeu%20por%20Acidente/"
+    },
+    "glee-temporada-1": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Glee%3A%20Temporada%201",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Glee%3A%20Temporada%201",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Glee%3A%20Temporada%201",
+      "letterboxd": null
+    },
+    "gostos-e-cores": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Gostos%20e%20Cores",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Gostos%20e%20Cores",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Gostos%20e%20Cores",
+      "letterboxd": "https://letterboxd.com/search/films/Gostos%20e%20Cores/"
+    },
+    "grito-silencioso": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Grito%20Silencioso",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Grito%20Silencioso",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Grito%20Silencioso",
+      "letterboxd": "https://letterboxd.com/search/films/Grito%20Silencioso/"
+    },
+    "halloween-a-lenda-de-jack": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Halloween%3A%20A%20Lenda%20de%20Jack",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Halloween%3A%20A%20Lenda%20de%20Jack",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Halloween%3A%20A%20Lenda%20de%20Jack",
+      "letterboxd": "https://letterboxd.com/search/films/Halloween%3A%20A%20Lenda%20de%20Jack/"
+    },
+    "hannah-montana": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Hannah%20Montana",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Hannah%20Montana",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Hannah%20Montana",
+      "letterboxd": "https://letterboxd.com/search/films/Hannah%20Montana/"
+    },
+    "historias-de-alem-tumulo": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Hist%C3%B3rias%20de%20Al%C3%A9m-T%C3%BAmulo",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Hist%C3%B3rias%20de%20Al%C3%A9m-T%C3%BAmulo",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Hist%C3%B3rias%20de%20Al%C3%A9m-T%C3%BAmulo",
+      "letterboxd": "https://letterboxd.com/search/films/Hist%C3%B3rias%20de%20Al%C3%A9m-T%C3%BAmulo/"
+    },
+    "homem-aranha-i": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Homem-Aranha%20I",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Homem-Aranha%20I",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Homem-Aranha%20I",
+      "letterboxd": "https://letterboxd.com/search/films/Homem-Aranha%20I/"
+    },
+    "homem-aranha-ii": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Homem-Aranha%20II",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Homem-Aranha%20II",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Homem-Aranha%20II",
+      "letterboxd": "https://letterboxd.com/search/films/Homem-Aranha%20II/"
+    },
+    "homem-aranha-iii": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Homem-Aranha%20III",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Homem-Aranha%20III",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Homem-Aranha%20III",
+      "letterboxd": "https://letterboxd.com/search/films/Homem-Aranha%20III/"
+    },
+    "homem-aranha-de-volta-ao-lar": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Homem-Aranha%3A%20De%20Volta%20ao%20Lar",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Homem-Aranha%3A%20De%20Volta%20ao%20Lar",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Homem-Aranha%3A%20De%20Volta%20ao%20Lar",
+      "letterboxd": "https://letterboxd.com/search/films/Homem-Aranha%3A%20De%20Volta%20ao%20Lar/"
+    },
+    "homem-aranha-longe-de-casa": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Homem-Aranha%3A%20Longe%20de%20Casa",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Homem-Aranha%3A%20Longe%20de%20Casa",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Homem-Aranha%3A%20Longe%20de%20Casa",
+      "letterboxd": "https://letterboxd.com/search/films/Homem-Aranha%3A%20Longe%20de%20Casa/"
+    },
+    "homem-aranha-sem-volta-para-casa": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Homem-Aranha%3A%20Sem%20Volta%20Para%20Casa",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Homem-Aranha%3A%20Sem%20Volta%20Para%20Casa",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Homem-Aranha%3A%20Sem%20Volta%20Para%20Casa",
+      "letterboxd": "https://letterboxd.com/search/films/Homem-Aranha%3A%20Sem%20Volta%20Para%20Casa/"
+    },
+    "inatividade-paranormal": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Inatividade%20Paranormal",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Inatividade%20Paranormal",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Inatividade%20Paranormal",
+      "letterboxd": "https://letterboxd.com/search/films/Inatividade%20Paranormal/"
+    },
+    "inatividade-paranormal-2": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Inatividade%20Paranormal%202",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Inatividade%20Paranormal%202",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Inatividade%20Paranormal%202",
+      "letterboxd": "https://letterboxd.com/search/films/Inatividade%20Paranormal%202/"
+    },
+    "jogos-mortais": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Jogos%20Mortais",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Jogos%20Mortais",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Jogos%20Mortais",
+      "letterboxd": "https://letterboxd.com/search/films/Jogos%20Mortais/"
+    },
+    "jogos-mortais-2": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Jogos%20Mortais%202",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Jogos%20Mortais%202",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Jogos%20Mortais%202",
+      "letterboxd": "https://letterboxd.com/search/films/Jogos%20Mortais%202/"
+    },
+    "jogos-mortais-3": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Jogos%20Mortais%203",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Jogos%20Mortais%203",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Jogos%20Mortais%203",
+      "letterboxd": "https://letterboxd.com/search/films/Jogos%20Mortais%203/"
+    },
+    "jogos-vorazes": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Jogos%20Vorazes",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Jogos%20Vorazes",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Jogos%20Vorazes",
+      "letterboxd": "https://letterboxd.com/search/films/Jogos%20Vorazes/"
+    },
+    "jogos-vorazes-a-esperanca-parte-1": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Jogos%20Vorazes%3A%20A%20Esperan%C3%A7a%20-%20Parte%201",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Jogos%20Vorazes%3A%20A%20Esperan%C3%A7a%20-%20Parte%201",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Jogos%20Vorazes%3A%20A%20Esperan%C3%A7a%20-%20Parte%201",
+      "letterboxd": "https://letterboxd.com/search/films/Jogos%20Vorazes%3A%20A%20Esperan%C3%A7a%20-%20Parte%201/"
+    },
+    "jogos-vorazes-a-esperanca-parte-2": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Jogos%20Vorazes%3A%20A%20Esperan%C3%A7a%20-%20Parte%202",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Jogos%20Vorazes%3A%20A%20Esperan%C3%A7a%20-%20Parte%202",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Jogos%20Vorazes%3A%20A%20Esperan%C3%A7a%20-%20Parte%202",
+      "letterboxd": "https://letterboxd.com/search/films/Jogos%20Vorazes%3A%20A%20Esperan%C3%A7a%20-%20Parte%202/"
+    },
+    "kadaver": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Kadaver",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Kadaver",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Kadaver",
+      "letterboxd": "https://letterboxd.com/search/films/Kadaver/"
+    },
+    "kamui-o-ninja-solitario-a-lenda-de-kamui": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Kamui%20o%20Ninja%20Solit%C3%A1rio%20-%20A%20Lenda%20de%20Kamui",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Kamui%20o%20Ninja%20Solit%C3%A1rio%20-%20A%20Lenda%20de%20Kamui",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Kamui%20o%20Ninja%20Solit%C3%A1rio%20-%20A%20Lenda%20de%20Kamui",
+      "letterboxd": "https://letterboxd.com/search/films/Kamui%20o%20Ninja%20Solit%C3%A1rio%20-%20A%20Lenda%20de%20Kamui/"
+    },
+    "la-casa-de-papel-temporada-2": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=La%20Casa%20de%20Papel%3A%20Temporada%202",
+      "justWatch": "https://www.justwatch.com/br/busca?q=La%20Casa%20de%20Papel%3A%20Temporada%202",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=La%20Casa%20de%20Papel%3A%20Temporada%202",
+      "letterboxd": null
+    },
+    "lenda-urbana": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Lenda%20Urbana",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Lenda%20Urbana",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Lenda%20Urbana",
+      "letterboxd": "https://letterboxd.com/search/films/Lenda%20Urbana/"
+    },
+    "lilo-stitch": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Lilo%20%26%20Stitch",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Lilo%20%26%20Stitch",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Lilo%20%26%20Stitch",
+      "letterboxd": "https://letterboxd.com/search/films/Lilo%20%26%20Stitch/"
+    },
+    "loja-de-unicornios": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Loja%20de%20Unic%C3%B3rnios",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Loja%20de%20Unic%C3%B3rnios",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Loja%20de%20Unic%C3%B3rnios",
+      "letterboxd": "https://letterboxd.com/search/films/Loja%20de%20Unic%C3%B3rnios/"
+    },
+    "los-expedientes-secretos-x-temporada-1": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Los%20Expedientes%20Secretos%20X%3A%20Temporada%201",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Los%20Expedientes%20Secretos%20X%3A%20Temporada%201",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Los%20Expedientes%20Secretos%20X%3A%20Temporada%201",
+      "letterboxd": null
+    },
+    "los-expedientes-secretos-x-temporada-10": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Los%20Expedientes%20Secretos%20X%3A%20Temporada%2010",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Los%20Expedientes%20Secretos%20X%3A%20Temporada%2010",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Los%20Expedientes%20Secretos%20X%3A%20Temporada%2010",
+      "letterboxd": null
+    },
+    "los-expedientes-secretos-x-temporada-11": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Los%20Expedientes%20Secretos%20X%3A%20Temporada%2011",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Los%20Expedientes%20Secretos%20X%3A%20Temporada%2011",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Los%20Expedientes%20Secretos%20X%3A%20Temporada%2011",
+      "letterboxd": null
+    },
+    "los-expedientes-secretos-x-temporada-2": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Los%20Expedientes%20Secretos%20X%3A%20Temporada%202",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Los%20Expedientes%20Secretos%20X%3A%20Temporada%202",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Los%20Expedientes%20Secretos%20X%3A%20Temporada%202",
+      "letterboxd": null
+    },
+    "los-expedientes-secretos-x-temporada-3": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Los%20Expedientes%20Secretos%20X%3A%20Temporada%203",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Los%20Expedientes%20Secretos%20X%3A%20Temporada%203",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Los%20Expedientes%20Secretos%20X%3A%20Temporada%203",
+      "letterboxd": null
+    },
+    "los-expedientes-secretos-x-temporada-4": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Los%20Expedientes%20Secretos%20X%3A%20Temporada%204",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Los%20Expedientes%20Secretos%20X%3A%20Temporada%204",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Los%20Expedientes%20Secretos%20X%3A%20Temporada%204",
+      "letterboxd": null
+    },
+    "los-expedientes-secretos-x-temporada-5": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Los%20Expedientes%20Secretos%20X%3A%20Temporada%205",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Los%20Expedientes%20Secretos%20X%3A%20Temporada%205",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Los%20Expedientes%20Secretos%20X%3A%20Temporada%205",
+      "letterboxd": null
+    },
+    "los-expedientes-secretos-x-temporada-6": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Los%20Expedientes%20Secretos%20X%3A%20Temporada%206",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Los%20Expedientes%20Secretos%20X%3A%20Temporada%206",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Los%20Expedientes%20Secretos%20X%3A%20Temporada%206",
+      "letterboxd": null
+    },
+    "los-expedientes-secretos-x-temporada-7": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Los%20Expedientes%20Secretos%20X%3A%20Temporada%207",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Los%20Expedientes%20Secretos%20X%3A%20Temporada%207",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Los%20Expedientes%20Secretos%20X%3A%20Temporada%207",
+      "letterboxd": null
+    },
+    "los-expedientes-secretos-x-temporada-8": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Los%20Expedientes%20Secretos%20X%3A%20Temporada%208",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Los%20Expedientes%20Secretos%20X%3A%20Temporada%208",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Los%20Expedientes%20Secretos%20X%3A%20Temporada%208",
+      "letterboxd": null
+    },
+    "los-expedientes-secretos-x-temporada-9": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Los%20Expedientes%20Secretos%20X%3A%20Temporada%209",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Los%20Expedientes%20Secretos%20X%3A%20Temporada%209",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Los%20Expedientes%20Secretos%20X%3A%20Temporada%209",
+      "letterboxd": null
+    },
+    "lua-de-jupiter": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Lua%20de%20J%C3%BApiter",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Lua%20de%20J%C3%BApiter",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Lua%20de%20J%C3%BApiter",
+      "letterboxd": "https://letterboxd.com/search/films/Lua%20de%20J%C3%BApiter/"
+    },
+    "luna-negra-temporada-1": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Luna%20Negra%3A%20Temporada%201",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Luna%20Negra%3A%20Temporada%201",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Luna%20Negra%3A%20Temporada%201",
+      "letterboxd": null
+    },
+    "mad-about-you-temporada-1": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Mad%20About%20You%3A%20Temporada%201",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Mad%20About%20You%3A%20Temporada%201",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Mad%20About%20You%3A%20Temporada%201",
+      "letterboxd": null
+    },
+    "mad-max": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Mad%20Max",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Mad%20Max",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Mad%20Max",
+      "letterboxd": "https://letterboxd.com/search/films/Mad%20Max/"
+    },
+    "mad-max-2-a-cacada-continua": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Mad%20Max%202%3A%20A%20Ca%C3%A7ada%20Continua",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Mad%20Max%202%3A%20A%20Ca%C3%A7ada%20Continua",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Mad%20Max%202%3A%20A%20Ca%C3%A7ada%20Continua",
+      "letterboxd": "https://letterboxd.com/search/films/Mad%20Max%202%3A%20A%20Ca%C3%A7ada%20Continua/"
+    },
+    "mad-max-3-alem-da-cupula-do-trovao": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Mad%20Max%203%3A%20Al%C3%A9m%20da%20C%C3%BApula%20do%20Trov%C3%A3o",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Mad%20Max%203%3A%20Al%C3%A9m%20da%20C%C3%BApula%20do%20Trov%C3%A3o",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Mad%20Max%203%3A%20Al%C3%A9m%20da%20C%C3%BApula%20do%20Trov%C3%A3o",
+      "letterboxd": "https://letterboxd.com/search/films/Mad%20Max%203%3A%20Al%C3%A9m%20da%20C%C3%BApula%20do%20Trov%C3%A3o/"
+    },
+    "mad-max-estrada-da-furia": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Mad%20Max%3A%20Estrada%20da%20F%C3%BAria",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Mad%20Max%3A%20Estrada%20da%20F%C3%BAria",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Mad%20Max%3A%20Estrada%20da%20F%C3%BAria",
+      "letterboxd": "https://letterboxd.com/search/films/Mad%20Max%3A%20Estrada%20da%20F%C3%BAria/"
+    },
+    "maestro": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Maestro",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Maestro",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Maestro",
+      "letterboxd": "https://letterboxd.com/search/films/Maestro/"
+    },
+    "malcolm-in-the-middle-temporada-1": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Malcolm%20in%20the%20Middle%3A%20Temporada%201",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Malcolm%20in%20the%20Middle%3A%20Temporada%201",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Malcolm%20in%20the%20Middle%3A%20Temporada%201",
+      "letterboxd": null
+    },
+    "malcolm-in-the-middle-temporada-2": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Malcolm%20in%20the%20Middle%3A%20Temporada%202",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Malcolm%20in%20the%20Middle%3A%20Temporada%202",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Malcolm%20in%20the%20Middle%3A%20Temporada%202",
+      "letterboxd": null
+    },
+    "malcolm-in-the-middle-temporada-3": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Malcolm%20in%20the%20Middle%3A%20Temporada%203",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Malcolm%20in%20the%20Middle%3A%20Temporada%203",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Malcolm%20in%20the%20Middle%3A%20Temporada%203",
+      "letterboxd": null
+    },
+    "maligna": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Maligna",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Maligna",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Maligna",
+      "letterboxd": "https://letterboxd.com/search/films/Maligna/"
+    },
+    "manda-chuva": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Manda%20Chuva",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Manda%20Chuva",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Manda%20Chuva",
+      "letterboxd": "https://letterboxd.com/search/films/Manda%20Chuva/"
+    },
+    "manifest": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Manifest",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Manifest",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Manifest",
+      "letterboxd": null,
+      "tvmazeId": 31365,
+      "tvmazeUrl": "https://www.tvmaze.com/shows/31365/manifest",
+      "poster": "https://static.tvmaze.com/uploads/images/original_untouched/462/1155059.jpg",
+      "rating": 7,
+      "summary": "When Montego Air Flight 828 landed safely after a turbulent but routine flight, the crew and passengers were relieved. But in the span of those few hours, the world had aged five years - and their friends, families and colleagues, after mourning their loss, had given up hope and moved on. Now, faced with the impossible, they're all given a second chance. But as their new realities become clear, a deeper mystery unfolds and some of the returned passengers soon realize they may be meant for something greater than they ever thought possible.",
+      "officialSite": "https://www.netflix.com/title/80241318",
+      "network": "Netflix"
+    },
+    "maria-e-joao-o-conto-das-bruxas": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Maria%20E%20Jo%C3%A3o%3A%20O%20Conto%20Das%20Bruxas",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Maria%20E%20Jo%C3%A3o%3A%20O%20Conto%20Das%20Bruxas",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Maria%20E%20Jo%C3%A3o%3A%20O%20Conto%20Das%20Bruxas",
+      "letterboxd": "https://letterboxd.com/search/films/Maria%20E%20Jo%C3%A3o%3A%20O%20Conto%20Das%20Bruxas/"
+    },
+    "mau-olhado": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Mau%20Olhado",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Mau%20Olhado",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Mau%20Olhado",
+      "letterboxd": "https://letterboxd.com/search/films/Mau%20Olhado/"
+    },
+    "maze-runner-a-cura-mortal": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Maze%20Runner%20A%20Cura%20Mortal",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Maze%20Runner%20A%20Cura%20Mortal",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Maze%20Runner%20A%20Cura%20Mortal",
+      "letterboxd": "https://letterboxd.com/search/films/Maze%20Runner%20A%20Cura%20Mortal/"
+    },
+    "maze-runner-correr-ou-morrer": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Maze%20Runner%20Correr%20ou%20Morrer",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Maze%20Runner%20Correr%20ou%20Morrer",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Maze%20Runner%20Correr%20ou%20Morrer",
+      "letterboxd": "https://letterboxd.com/search/films/Maze%20Runner%20Correr%20ou%20Morrer/"
+    },
+    "maze-runner-prova-de-fogo": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Maze%20Runner%20Prova%20de%20Fogo",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Maze%20Runner%20Prova%20de%20Fogo",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Maze%20Runner%20Prova%20de%20Fogo",
+      "letterboxd": "https://letterboxd.com/search/films/Maze%20Runner%20Prova%20de%20Fogo/"
+    },
+    "me-chama-de-bruna": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Me%20Chama%20de%20Bruna",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Me%20Chama%20de%20Bruna",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Me%20Chama%20de%20Bruna",
+      "letterboxd": null,
+      "tvmazeId": 34359,
+      "tvmazeUrl": "https://www.tvmaze.com/shows/34359/me-chama-de-bruna",
+      "poster": "https://static.tvmaze.com/uploads/images/original_untouched/142/355218.jpg",
+      "rating": null,
+      "summary": "A middle-class teen runs away from home and decides to work as a call girl. In little time, she becomes Bruna Surfistinha and gains notoriety after writing her routine on a blog.",
+      "officialSite": "https://foxplay.com/ar/show/FNGTVSeriesP5497",
+      "network": "FOX Premium"
+    },
+    "me-chame-pelo-seu-nome": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Me%20Chame%20Pelo%20Seu%20Nome",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Me%20Chame%20Pelo%20Seu%20Nome",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Me%20Chame%20Pelo%20Seu%20Nome",
+      "letterboxd": "https://letterboxd.com/search/films/Me%20Chame%20Pelo%20Seu%20Nome/"
+    },
+    "mentiras-perigosas": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Mentiras%20Perigosas",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Mentiras%20Perigosas",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Mentiras%20Perigosas",
+      "letterboxd": "https://letterboxd.com/search/films/Mentiras%20Perigosas/"
+    },
+    "meu-amigo-robo": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Meu%20Amigo%20Rob%C3%B4",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Meu%20Amigo%20Rob%C3%B4",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Meu%20Amigo%20Rob%C3%B4",
+      "letterboxd": "https://letterboxd.com/search/films/Meu%20Amigo%20Rob%C3%B4/"
+    },
+    "meus-vizinhos-sao-um-terror": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Meus%20Vizinhos%20S%C3%A3o%20um%20Terror",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Meus%20Vizinhos%20S%C3%A3o%20um%20Terror",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Meus%20Vizinhos%20S%C3%A3o%20um%20Terror",
+      "letterboxd": "https://letterboxd.com/search/films/Meus%20Vizinhos%20S%C3%A3o%20um%20Terror/"
+    },
+    "missao-presente-de-natal": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Miss%C3%A3o%20Presente%20de%20Natal",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Miss%C3%A3o%20Presente%20de%20Natal",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Miss%C3%A3o%20Presente%20de%20Natal",
+      "letterboxd": "https://letterboxd.com/search/films/Miss%C3%A3o%20Presente%20de%20Natal/"
+    },
+    "monstros-vs-alienigenas": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Monstros%20vs.%20Alien%C3%ADgenas",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Monstros%20vs.%20Alien%C3%ADgenas",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Monstros%20vs.%20Alien%C3%ADgenas",
+      "letterboxd": "https://letterboxd.com/search/films/Monstros%20vs.%20Alien%C3%ADgenas/"
+    },
+    "mulan-2": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Mulan%202",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Mulan%202",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Mulan%202",
+      "letterboxd": "https://letterboxd.com/search/films/Mulan%202/"
+    },
+    "nao-e-mais-um-besteirol-americano": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=N%C3%A3o%20%C3%89%20Mais%20um%20Besteirol%20Americano",
+      "justWatch": "https://www.justwatch.com/br/busca?q=N%C3%A3o%20%C3%89%20Mais%20um%20Besteirol%20Americano",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=N%C3%A3o%20%C3%89%20Mais%20um%20Besteirol%20Americano",
+      "letterboxd": "https://letterboxd.com/search/films/N%C3%A3o%20%C3%89%20Mais%20um%20Besteirol%20Americano/"
+    },
+    "nao-fale-com-estranhos": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=N%C3%A3o%20Fale%20com%20Estranhos",
+      "justWatch": "https://www.justwatch.com/br/busca?q=N%C3%A3o%20Fale%20com%20Estranhos",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=N%C3%A3o%20Fale%20com%20Estranhos",
+      "letterboxd": "https://letterboxd.com/search/films/N%C3%A3o%20Fale%20com%20Estranhos/"
+    },
+    "naruto-t1": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Naruto%20T1",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Naruto%20T1",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Naruto%20T1",
+      "letterboxd": null,
+      "tvmazeId": 495,
+      "tvmazeUrl": "https://www.tvmaze.com/shows/495/naruto",
+      "poster": "https://static.tvmaze.com/uploads/images/original_untouched/3/9744.jpg",
+      "rating": 7.8,
+      "summary": "Naruto closely follows the life of a boy who is feared and detested by the villagers of the hidden leaf village of Konoha. The distrust of the boy has little to do with the boy himself, but it's what's inside him that causes anxiety. Long before Naruto came to be, a Kyuubi (demon fox) with great fury and power waged war taking many lives. The battle ensued for a long time until a man known as the Fourth Hokage, Yondaime, the strongest ninja in Konoha, fiercely fought the Kyuubi. The fight was soon won by Yondaime as he sealed the evil demon in a human body. Thus the boy, Naruto, was born. As Naruto grows he decides to become the strongest ninja in Konoha in an effort to show everyone that he is not as they perceive him to be, but is a human being worthy of love and admiration. But the road to becoming Hokage, the title for the strongest ninja in Konoha, is a long and arduous one. It is a path filled with betrayal, pain, and loss; but with hard work, Naruto may achieve Hokage.",
+      "officialSite": "http://www.tv-tokyo.co.jp/anime/naruto/index2.html",
+      "network": "TV Tokyo"
+    },
+    "naruto-t2": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Naruto%20T2",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Naruto%20T2",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Naruto%20T2",
+      "letterboxd": null,
+      "tvmazeId": 495,
+      "tvmazeUrl": "https://www.tvmaze.com/shows/495/naruto",
+      "poster": "https://static.tvmaze.com/uploads/images/original_untouched/3/9744.jpg",
+      "rating": 7.8,
+      "summary": "Naruto closely follows the life of a boy who is feared and detested by the villagers of the hidden leaf village of Konoha. The distrust of the boy has little to do with the boy himself, but it's what's inside him that causes anxiety. Long before Naruto came to be, a Kyuubi (demon fox) with great fury and power waged war taking many lives. The battle ensued for a long time until a man known as the Fourth Hokage, Yondaime, the strongest ninja in Konoha, fiercely fought the Kyuubi. The fight was soon won by Yondaime as he sealed the evil demon in a human body. Thus the boy, Naruto, was born. As Naruto grows he decides to become the strongest ninja in Konoha in an effort to show everyone that he is not as they perceive him to be, but is a human being worthy of love and admiration. But the road to becoming Hokage, the title for the strongest ninja in Konoha, is a long and arduous one. It is a path filled with betrayal, pain, and loss; but with hard work, Naruto may achieve Hokage.",
+      "officialSite": "http://www.tv-tokyo.co.jp/anime/naruto/index2.html",
+      "network": "TV Tokyo"
+    },
+    "naruto-t3": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Naruto%20T3",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Naruto%20T3",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Naruto%20T3",
+      "letterboxd": null,
+      "tvmazeId": 495,
+      "tvmazeUrl": "https://www.tvmaze.com/shows/495/naruto",
+      "poster": "https://static.tvmaze.com/uploads/images/original_untouched/3/9744.jpg",
+      "rating": 7.8,
+      "summary": "Naruto closely follows the life of a boy who is feared and detested by the villagers of the hidden leaf village of Konoha. The distrust of the boy has little to do with the boy himself, but it's what's inside him that causes anxiety. Long before Naruto came to be, a Kyuubi (demon fox) with great fury and power waged war taking many lives. The battle ensued for a long time until a man known as the Fourth Hokage, Yondaime, the strongest ninja in Konoha, fiercely fought the Kyuubi. The fight was soon won by Yondaime as he sealed the evil demon in a human body. Thus the boy, Naruto, was born. As Naruto grows he decides to become the strongest ninja in Konoha in an effort to show everyone that he is not as they perceive him to be, but is a human being worthy of love and admiration. But the road to becoming Hokage, the title for the strongest ninja in Konoha, is a long and arduous one. It is a path filled with betrayal, pain, and loss; but with hard work, Naruto may achieve Hokage.",
+      "officialSite": "http://www.tv-tokyo.co.jp/anime/naruto/index2.html",
+      "network": "TV Tokyo"
+    },
+    "naruto-t4": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Naruto%20T4",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Naruto%20T4",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Naruto%20T4",
+      "letterboxd": null,
+      "tvmazeId": 495,
+      "tvmazeUrl": "https://www.tvmaze.com/shows/495/naruto",
+      "poster": "https://static.tvmaze.com/uploads/images/original_untouched/3/9744.jpg",
+      "rating": 7.8,
+      "summary": "Naruto closely follows the life of a boy who is feared and detested by the villagers of the hidden leaf village of Konoha. The distrust of the boy has little to do with the boy himself, but it's what's inside him that causes anxiety. Long before Naruto came to be, a Kyuubi (demon fox) with great fury and power waged war taking many lives. The battle ensued for a long time until a man known as the Fourth Hokage, Yondaime, the strongest ninja in Konoha, fiercely fought the Kyuubi. The fight was soon won by Yondaime as he sealed the evil demon in a human body. Thus the boy, Naruto, was born. As Naruto grows he decides to become the strongest ninja in Konoha in an effort to show everyone that he is not as they perceive him to be, but is a human being worthy of love and admiration. But the road to becoming Hokage, the title for the strongest ninja in Konoha, is a long and arduous one. It is a path filled with betrayal, pain, and loss; but with hard work, Naruto may achieve Hokage.",
+      "officialSite": "http://www.tv-tokyo.co.jp/anime/naruto/index2.html",
+      "network": "TV Tokyo"
+    },
+    "naruto-t5": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Naruto%20T5",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Naruto%20T5",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Naruto%20T5",
+      "letterboxd": null,
+      "tvmazeId": 495,
+      "tvmazeUrl": "https://www.tvmaze.com/shows/495/naruto",
+      "poster": "https://static.tvmaze.com/uploads/images/original_untouched/3/9744.jpg",
+      "rating": 7.8,
+      "summary": "Naruto closely follows the life of a boy who is feared and detested by the villagers of the hidden leaf village of Konoha. The distrust of the boy has little to do with the boy himself, but it's what's inside him that causes anxiety. Long before Naruto came to be, a Kyuubi (demon fox) with great fury and power waged war taking many lives. The battle ensued for a long time until a man known as the Fourth Hokage, Yondaime, the strongest ninja in Konoha, fiercely fought the Kyuubi. The fight was soon won by Yondaime as he sealed the evil demon in a human body. Thus the boy, Naruto, was born. As Naruto grows he decides to become the strongest ninja in Konoha in an effort to show everyone that he is not as they perceive him to be, but is a human being worthy of love and admiration. But the road to becoming Hokage, the title for the strongest ninja in Konoha, is a long and arduous one. It is a path filled with betrayal, pain, and loss; but with hard work, Naruto may achieve Hokage.",
+      "officialSite": "http://www.tv-tokyo.co.jp/anime/naruto/index2.html",
+      "network": "TV Tokyo"
+    },
+    "naruto-t6": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Naruto%20T6",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Naruto%20T6",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Naruto%20T6",
+      "letterboxd": null,
+      "tvmazeId": 495,
+      "tvmazeUrl": "https://www.tvmaze.com/shows/495/naruto",
+      "poster": "https://static.tvmaze.com/uploads/images/original_untouched/3/9744.jpg",
+      "rating": 7.8,
+      "summary": "Naruto closely follows the life of a boy who is feared and detested by the villagers of the hidden leaf village of Konoha. The distrust of the boy has little to do with the boy himself, but it's what's inside him that causes anxiety. Long before Naruto came to be, a Kyuubi (demon fox) with great fury and power waged war taking many lives. The battle ensued for a long time until a man known as the Fourth Hokage, Yondaime, the strongest ninja in Konoha, fiercely fought the Kyuubi. The fight was soon won by Yondaime as he sealed the evil demon in a human body. Thus the boy, Naruto, was born. As Naruto grows he decides to become the strongest ninja in Konoha in an effort to show everyone that he is not as they perceive him to be, but is a human being worthy of love and admiration. But the road to becoming Hokage, the title for the strongest ninja in Konoha, is a long and arduous one. It is a path filled with betrayal, pain, and loss; but with hard work, Naruto may achieve Hokage.",
+      "officialSite": "http://www.tv-tokyo.co.jp/anime/naruto/index2.html",
+      "network": "TV Tokyo"
+    },
+    "naruto-t7": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Naruto%20T7",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Naruto%20T7",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Naruto%20T7",
+      "letterboxd": null,
+      "tvmazeId": 495,
+      "tvmazeUrl": "https://www.tvmaze.com/shows/495/naruto",
+      "poster": "https://static.tvmaze.com/uploads/images/original_untouched/3/9744.jpg",
+      "rating": 7.8,
+      "summary": "Naruto closely follows the life of a boy who is feared and detested by the villagers of the hidden leaf village of Konoha. The distrust of the boy has little to do with the boy himself, but it's what's inside him that causes anxiety. Long before Naruto came to be, a Kyuubi (demon fox) with great fury and power waged war taking many lives. The battle ensued for a long time until a man known as the Fourth Hokage, Yondaime, the strongest ninja in Konoha, fiercely fought the Kyuubi. The fight was soon won by Yondaime as he sealed the evil demon in a human body. Thus the boy, Naruto, was born. As Naruto grows he decides to become the strongest ninja in Konoha in an effort to show everyone that he is not as they perceive him to be, but is a human being worthy of love and admiration. But the road to becoming Hokage, the title for the strongest ninja in Konoha, is a long and arduous one. It is a path filled with betrayal, pain, and loss; but with hard work, Naruto may achieve Hokage.",
+      "officialSite": "http://www.tv-tokyo.co.jp/anime/naruto/index2.html",
+      "network": "TV Tokyo"
+    },
+    "no-ritmo-indiano": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=No%20Ritmo%20Indiano",
+      "justWatch": "https://www.justwatch.com/br/busca?q=No%20Ritmo%20Indiano",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=No%20Ritmo%20Indiano",
+      "letterboxd": "https://letterboxd.com/search/films/No%20Ritmo%20Indiano/"
+    },
+    "no-vale-das-sombras": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=No%20Vale%20das%20Sombras",
+      "justWatch": "https://www.justwatch.com/br/busca?q=No%20Vale%20das%20Sombras",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=No%20Vale%20das%20Sombras",
+      "letterboxd": "https://letterboxd.com/search/films/No%20Vale%20das%20Sombras/"
+    },
+    "norbit": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Norbit",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Norbit",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Norbit",
+      "letterboxd": "https://letterboxd.com/search/films/Norbit/"
+    },
+    "nosso-ex-marido": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Nosso%20Ex-Marido",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Nosso%20Ex-Marido",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Nosso%20Ex-Marido",
+      "letterboxd": "https://letterboxd.com/search/films/Nosso%20Ex-Marido/"
+    },
+    "nunca-raramente-as-vezes-sempre": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Nunca%2C%20Raramente%2C%20As%20Vezes%2C%20Sempre",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Nunca%2C%20Raramente%2C%20As%20Vezes%2C%20Sempre",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Nunca%2C%20Raramente%2C%20As%20Vezes%2C%20Sempre",
+      "letterboxd": "https://letterboxd.com/search/films/Nunca%2C%20Raramente%2C%20As%20Vezes%2C%20Sempre/"
+    },
+    "o-acougueiro": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=O%20A%C3%A7ougueiro",
+      "justWatch": "https://www.justwatch.com/br/busca?q=O%20A%C3%A7ougueiro",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=O%20A%C3%A7ougueiro",
+      "letterboxd": "https://letterboxd.com/search/films/O%20A%C3%A7ougueiro/"
+    },
+    "o-amanhecer-mais-escuro": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=O%20Amanhecer%20Mais%20Escuro",
+      "justWatch": "https://www.justwatch.com/br/busca?q=O%20Amanhecer%20Mais%20Escuro",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=O%20Amanhecer%20Mais%20Escuro",
+      "letterboxd": "https://letterboxd.com/search/films/O%20Amanhecer%20Mais%20Escuro/"
+    },
+    "o-braco-direito": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=O%20Bra%C3%A7o%20Direito",
+      "justWatch": "https://www.justwatch.com/br/busca?q=O%20Bra%C3%A7o%20Direito",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=O%20Bra%C3%A7o%20Direito",
+      "letterboxd": "https://letterboxd.com/search/films/O%20Bra%C3%A7o%20Direito/"
+    },
+    "o-caminho-dificil": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=O%20Caminho%20Dif%C3%ADcil",
+      "justWatch": "https://www.justwatch.com/br/busca?q=O%20Caminho%20Dif%C3%ADcil",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=O%20Caminho%20Dif%C3%ADcil",
+      "letterboxd": "https://letterboxd.com/search/films/O%20Caminho%20Dif%C3%ADcil/"
+    },
+    "o-campeao-de-hitler": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=O%20Campe%C3%A3o%20de%20Hitler",
+      "justWatch": "https://www.justwatch.com/br/busca?q=O%20Campe%C3%A3o%20de%20Hitler",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=O%20Campe%C3%A3o%20de%20Hitler",
+      "letterboxd": "https://letterboxd.com/search/films/O%20Campe%C3%A3o%20de%20Hitler/"
+    },
+    "o-cobrador-de-dividas-2": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=O%20Cobrador%20de%20D%C3%ADvidas%202",
+      "justWatch": "https://www.justwatch.com/br/busca?q=O%20Cobrador%20de%20D%C3%ADvidas%202",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=O%20Cobrador%20de%20D%C3%ADvidas%202",
+      "letterboxd": "https://letterboxd.com/search/films/O%20Cobrador%20de%20D%C3%ADvidas%202/"
+    },
+    "o-corcunda-de-notre-dame": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=O%20Corcunda%20de%20Notre%20Dame",
+      "justWatch": "https://www.justwatch.com/br/busca?q=O%20Corcunda%20de%20Notre%20Dame",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=O%20Corcunda%20de%20Notre%20Dame",
+      "letterboxd": "https://letterboxd.com/search/films/O%20Corcunda%20de%20Notre%20Dame/"
+    },
+    "o-defensor": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=O%20Defensor",
+      "justWatch": "https://www.justwatch.com/br/busca?q=O%20Defensor",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=O%20Defensor",
+      "letterboxd": "https://letterboxd.com/search/films/O%20Defensor/"
+    },
+    "o-despertar-de-um-assassino": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=O%20Despertar%20de%20um%20Assassino",
+      "justWatch": "https://www.justwatch.com/br/busca?q=O%20Despertar%20de%20um%20Assassino",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=O%20Despertar%20de%20um%20Assassino",
+      "letterboxd": "https://letterboxd.com/search/films/O%20Despertar%20de%20um%20Assassino/"
+    },
+    "o-diario-da-princesa": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=O%20Di%C3%A1rio%20da%20Princesa",
+      "justWatch": "https://www.justwatch.com/br/busca?q=O%20Di%C3%A1rio%20da%20Princesa",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=O%20Di%C3%A1rio%20da%20Princesa",
+      "letterboxd": "https://letterboxd.com/search/films/O%20Di%C3%A1rio%20da%20Princesa/"
+    },
+    "o-doutrinador": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=O%20Doutrinador",
+      "justWatch": "https://www.justwatch.com/br/busca?q=O%20Doutrinador",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=O%20Doutrinador",
+      "letterboxd": "https://letterboxd.com/search/films/O%20Doutrinador/"
+    },
+    "o-espetacular-homem-aranha-1": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=O%20Espetacular%20Homem-Aranha%201",
+      "justWatch": "https://www.justwatch.com/br/busca?q=O%20Espetacular%20Homem-Aranha%201",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=O%20Espetacular%20Homem-Aranha%201",
+      "letterboxd": "https://letterboxd.com/search/films/O%20Espetacular%20Homem-Aranha%201/"
+    },
+    "o-espetacular-homem-aranha-2": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=O%20Espetacular%20Homem-Aranha%202",
+      "justWatch": "https://www.justwatch.com/br/busca?q=O%20Espetacular%20Homem-Aranha%202",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=O%20Espetacular%20Homem-Aranha%202",
+      "letterboxd": "https://letterboxd.com/search/films/O%20Espetacular%20Homem-Aranha%202/"
+    },
+    "o-grande-truque": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=O%20Grande%20Truque",
+      "justWatch": "https://www.justwatch.com/br/busca?q=O%20Grande%20Truque",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=O%20Grande%20Truque",
+      "letterboxd": "https://letterboxd.com/search/films/O%20Grande%20Truque/"
+    },
+    "o-grito": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=O%20Grito",
+      "justWatch": "https://www.justwatch.com/br/busca?q=O%20Grito",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=O%20Grito",
+      "letterboxd": "https://letterboxd.com/search/films/O%20Grito/"
+    },
+    "o-homem-da-palha": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=O%20Homem%20da%20Palha",
+      "justWatch": "https://www.justwatch.com/br/busca?q=O%20Homem%20da%20Palha",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=O%20Homem%20da%20Palha",
+      "letterboxd": "https://letterboxd.com/search/films/O%20Homem%20da%20Palha/"
+    },
+    "o-instituto-de-magica": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=O%20Instituto%20de%20M%C3%A1gica",
+      "justWatch": "https://www.justwatch.com/br/busca?q=O%20Instituto%20de%20M%C3%A1gica",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=O%20Instituto%20de%20M%C3%A1gica",
+      "letterboxd": "https://letterboxd.com/search/films/O%20Instituto%20de%20M%C3%A1gica/"
+    },
+    "o-lar-das-criancas-peculiares": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=O%20Lar%20das%20Crian%C3%A7as%20Peculiares",
+      "justWatch": "https://www.justwatch.com/br/busca?q=O%20Lar%20das%20Crian%C3%A7as%20Peculiares",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=O%20Lar%20das%20Crian%C3%A7as%20Peculiares",
+      "letterboxd": "https://letterboxd.com/search/films/O%20Lar%20das%20Crian%C3%A7as%20Peculiares/"
+    },
+    "o-lobisomem-sem-cortes": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=O%20Lobisomem%3A%20Sem%20Cortes",
+      "justWatch": "https://www.justwatch.com/br/busca?q=O%20Lobisomem%3A%20Sem%20Cortes",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=O%20Lobisomem%3A%20Sem%20Cortes",
+      "letterboxd": "https://letterboxd.com/search/films/O%20Lobisomem%3A%20Sem%20Cortes/"
+    },
+    "o-mal-entre-nos": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=O%20Mal%20Entre%20N%C3%B3s",
+      "justWatch": "https://www.justwatch.com/br/busca?q=O%20Mal%20Entre%20N%C3%B3s",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=O%20Mal%20Entre%20N%C3%B3s",
+      "letterboxd": "https://letterboxd.com/search/films/O%20Mal%20Entre%20N%C3%B3s/"
+    },
+    "o-menino-do-pijama-listrado": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=O%20Menino%20do%20Pijama%20Listrado",
+      "justWatch": "https://www.justwatch.com/br/busca?q=O%20Menino%20do%20Pijama%20Listrado",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=O%20Menino%20do%20Pijama%20Listrado",
+      "letterboxd": "https://letterboxd.com/search/films/O%20Menino%20do%20Pijama%20Listrado/"
+    },
+    "o-mentiroso": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=O%20Mentiroso",
+      "justWatch": "https://www.justwatch.com/br/busca?q=O%20Mentiroso",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=O%20Mentiroso",
+      "letterboxd": "https://letterboxd.com/search/films/O%20Mentiroso/"
+    },
+    "o-olho-do-demonio": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=O%20Olho%20do%20Dem%C3%B3nio",
+      "justWatch": "https://www.justwatch.com/br/busca?q=O%20Olho%20do%20Dem%C3%B3nio",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=O%20Olho%20do%20Dem%C3%B3nio",
+      "letterboxd": "https://letterboxd.com/search/films/O%20Olho%20do%20Dem%C3%B3nio/"
+    },
+    "o-patriota": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=O%20Patriota",
+      "justWatch": "https://www.justwatch.com/br/busca?q=O%20Patriota",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=O%20Patriota",
+      "letterboxd": "https://letterboxd.com/search/films/O%20Patriota/"
+    },
+    "o-pequenino": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=O%20Pequenino",
+      "justWatch": "https://www.justwatch.com/br/busca?q=O%20Pequenino",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=O%20Pequenino",
+      "letterboxd": "https://letterboxd.com/search/films/O%20Pequenino/"
+    },
+    "o-pequeno-spirou": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=O%20Pequeno%20Spirou",
+      "justWatch": "https://www.justwatch.com/br/busca?q=O%20Pequeno%20Spirou",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=O%20Pequeno%20Spirou",
+      "letterboxd": "https://letterboxd.com/search/films/O%20Pequeno%20Spirou/"
+    },
+    "o-poderoso-chefinho": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=O%20Poderoso%20Chefinho",
+      "justWatch": "https://www.justwatch.com/br/busca?q=O%20Poderoso%20Chefinho",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=O%20Poderoso%20Chefinho",
+      "letterboxd": "https://letterboxd.com/search/films/O%20Poderoso%20Chefinho/"
+    },
+    "o-relutante-fundamentalista": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=O%20Relutante%20Fundamentalista",
+      "justWatch": "https://www.justwatch.com/br/busca?q=O%20Relutante%20Fundamentalista",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=O%20Relutante%20Fundamentalista",
+      "letterboxd": "https://letterboxd.com/search/films/O%20Relutante%20Fundamentalista/"
+    },
+    "o-resgate-de-um-campeao": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=O%20Resgate%20de%20um%20Campe%C3%A3o",
+      "justWatch": "https://www.justwatch.com/br/busca?q=O%20Resgate%20de%20um%20Campe%C3%A3o",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=O%20Resgate%20de%20um%20Campe%C3%A3o",
+      "letterboxd": "https://letterboxd.com/search/films/O%20Resgate%20de%20um%20Campe%C3%A3o/"
+    },
+    "o-segredo-de-alcatraz": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=O%20Segredo%20de%20Alcatraz",
+      "justWatch": "https://www.justwatch.com/br/busca?q=O%20Segredo%20de%20Alcatraz",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=O%20Segredo%20de%20Alcatraz",
+      "letterboxd": "https://letterboxd.com/search/films/O%20Segredo%20de%20Alcatraz/"
+    },
+    "o-segredo-de-brokeback": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=O%20Segredo%20de%20Brokeback",
+      "justWatch": "https://www.justwatch.com/br/busca?q=O%20Segredo%20de%20Brokeback",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=O%20Segredo%20de%20Brokeback",
+      "letterboxd": "https://letterboxd.com/search/films/O%20Segredo%20de%20Brokeback/"
+    },
+    "o-silencio-de-melinda": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=O%20Sil%C3%AAncio%20de%20Melinda",
+      "justWatch": "https://www.justwatch.com/br/busca?q=O%20Sil%C3%AAncio%20de%20Melinda",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=O%20Sil%C3%AAncio%20de%20Melinda",
+      "letterboxd": "https://letterboxd.com/search/films/O%20Sil%C3%AAncio%20de%20Melinda/"
+    },
+    "obsessao-perigosa": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Obsess%C3%A3o%20Perigosa",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Obsess%C3%A3o%20Perigosa",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Obsess%C3%A3o%20Perigosa",
+      "letterboxd": "https://letterboxd.com/search/films/Obsess%C3%A3o%20Perigosa/"
+    },
+    "olhos-famintos-2": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Olhos%20Famintos%202",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Olhos%20Famintos%202",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Olhos%20Famintos%202",
+      "letterboxd": "https://letterboxd.com/search/films/Olhos%20Famintos%202/"
+    },
+    "olhos-famintos-3": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Olhos%20Famintos%203",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Olhos%20Famintos%203",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Olhos%20Famintos%203",
+      "letterboxd": "https://letterboxd.com/search/films/Olhos%20Famintos%203/"
+    },
+    "onda-de-choque": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Onda%20de%20Choque",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Onda%20de%20Choque",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Onda%20de%20Choque",
+      "letterboxd": "https://letterboxd.com/search/films/Onda%20de%20Choque/"
+    },
+    "os-estagiarios": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Os%20Estagi%C3%A1rios",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Os%20Estagi%C3%A1rios",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Os%20Estagi%C3%A1rios",
+      "letterboxd": "https://letterboxd.com/search/films/Os%20Estagi%C3%A1rios/"
+    },
+    "os-golfinhos-magicas": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Os%20Golfinhos%20M%C3%A1gicas",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Os%20Golfinhos%20M%C3%A1gicas",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Os%20Golfinhos%20M%C3%A1gicas",
+      "letterboxd": "https://letterboxd.com/search/films/Os%20Golfinhos%20M%C3%A1gicas/"
+    },
+    "os-incriveis": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Os%20Incr%C3%ADveis",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Os%20Incr%C3%ADveis",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Os%20Incr%C3%ADveis",
+      "letterboxd": "https://letterboxd.com/search/films/Os%20Incr%C3%ADveis/"
+    },
+    "os-smurfs": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Os%20Smurfs",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Os%20Smurfs",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Os%20Smurfs",
+      "letterboxd": "https://letterboxd.com/search/films/Os%20Smurfs/"
+    },
+    "os-smurfs-2": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Os%20Smurfs%202",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Os%20Smurfs%202",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Os%20Smurfs%202",
+      "letterboxd": "https://letterboxd.com/search/films/Os%20Smurfs%202/"
+    },
+    "os-smurfs-e-a-vila-perdida": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Os%20Smurfs%20e%20a%20Vila%20Perdida",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Os%20Smurfs%20e%20a%20Vila%20Perdida",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Os%20Smurfs%20e%20a%20Vila%20Perdida",
+      "letterboxd": "https://letterboxd.com/search/films/Os%20Smurfs%20e%20a%20Vila%20Perdida/"
+    },
+    "os-vampiros-que-se-mordam": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Os%20Vampiros%20Que%20Se%20Mordam",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Os%20Vampiros%20Que%20Se%20Mordam",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Os%20Vampiros%20Que%20Se%20Mordam",
+      "letterboxd": "https://letterboxd.com/search/films/Os%20Vampiros%20Que%20Se%20Mordam/"
+    },
+    "pantera-negra": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Pantera%20Negra",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Pantera%20Negra",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Pantera%20Negra",
+      "letterboxd": "https://letterboxd.com/search/films/Pantera%20Negra/"
+    },
+    "parque-do-inferno": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Parque%20do%20Inferno",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Parque%20do%20Inferno",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Parque%20do%20Inferno",
+      "letterboxd": "https://letterboxd.com/search/films/Parque%20do%20Inferno/"
+    },
+    "pearl-harbor": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Pearl%20Harbor",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Pearl%20Harbor",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Pearl%20Harbor",
+      "letterboxd": "https://letterboxd.com/search/films/Pearl%20Harbor/"
+    },
+    "pegando-fogo": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Pegando%20Fogo",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Pegando%20Fogo",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Pegando%20Fogo",
+      "letterboxd": "https://letterboxd.com/search/films/Pegando%20Fogo/"
+    },
+    "peter-pan-2-de-volta-a-terra-do-nunca": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Peter%20Pan%202%20De%20Volta%20%C3%A0%20Terra%20do%20Nunca",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Peter%20Pan%202%20De%20Volta%20%C3%A0%20Terra%20do%20Nunca",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Peter%20Pan%202%20De%20Volta%20%C3%A0%20Terra%20do%20Nunca",
+      "letterboxd": "https://letterboxd.com/search/films/Peter%20Pan%202%20De%20Volta%20%C3%A0%20Terra%20do%20Nunca/"
+    },
+    "piratas-do-caribe-2-o-bau-da-morte": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Piratas%20do%20Caribe%202%20O%20Ba%C3%BA%20da%20Morte",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Piratas%20do%20Caribe%202%20O%20Ba%C3%BA%20da%20Morte",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Piratas%20do%20Caribe%202%20O%20Ba%C3%BA%20da%20Morte",
+      "letterboxd": "https://letterboxd.com/search/films/Piratas%20do%20Caribe%202%20O%20Ba%C3%BA%20da%20Morte/"
+    },
+    "piratas-do-caribe-a-maldicao-do-perola-negra": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Piratas%20do%20Caribe%20A%20Maldi%C3%A7%C3%A3o%20do%20P%C3%A9rola%20Negra",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Piratas%20do%20Caribe%20A%20Maldi%C3%A7%C3%A3o%20do%20P%C3%A9rola%20Negra",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Piratas%20do%20Caribe%20A%20Maldi%C3%A7%C3%A3o%20do%20P%C3%A9rola%20Negra",
+      "letterboxd": "https://letterboxd.com/search/films/Piratas%20do%20Caribe%20A%20Maldi%C3%A7%C3%A3o%20do%20P%C3%A9rola%20Negra/"
+    },
+    "pocahontas": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Pocahontas",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Pocahontas",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Pocahontas",
+      "letterboxd": "https://letterboxd.com/search/films/Pocahontas/"
+    },
+    "pokemon-o-filme-o-poder-de-todos": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Pok%C3%A9mon%20O%20Filme%20-%20O%20Poder%20de%20Todos",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Pok%C3%A9mon%20O%20Filme%20-%20O%20Poder%20de%20Todos",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Pok%C3%A9mon%20O%20Filme%20-%20O%20Poder%20de%20Todos",
+      "letterboxd": "https://letterboxd.com/search/films/Pok%C3%A9mon%20O%20Filme%20-%20O%20Poder%20de%20Todos/"
+    },
+    "populacao-426": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Popula%C3%A7%C3%A3o%20426",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Popula%C3%A7%C3%A3o%20426",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Popula%C3%A7%C3%A3o%20426",
+      "letterboxd": "https://letterboxd.com/search/films/Popula%C3%A7%C3%A3o%20426/"
+    },
+    "power-rangers": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Power%20Rangers",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Power%20Rangers",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Power%20Rangers",
+      "letterboxd": "https://letterboxd.com/search/films/Power%20Rangers/"
+    },
+    "premonicao": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Premoni%C3%A7%C3%A3o",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Premoni%C3%A7%C3%A3o",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Premoni%C3%A7%C3%A3o",
+      "letterboxd": "https://letterboxd.com/search/films/Premoni%C3%A7%C3%A3o/"
+    },
+    "prisao-de-mulheres": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Pris%C3%A3o%20de%20Mulheres",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Pris%C3%A3o%20de%20Mulheres",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Pris%C3%A3o%20de%20Mulheres",
+      "letterboxd": "https://letterboxd.com/search/films/Pris%C3%A3o%20de%20Mulheres/"
+    },
+    "procurando-dory": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Procurando%20Dory",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Procurando%20Dory",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Procurando%20Dory",
+      "letterboxd": "https://letterboxd.com/search/films/Procurando%20Dory/"
+    },
+    "quando-os-anjos-dormem": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Quando%20os%20Anjos%20Dormem",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Quando%20os%20Anjos%20Dormem",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Quando%20os%20Anjos%20Dormem",
+      "letterboxd": "https://letterboxd.com/search/films/Quando%20os%20Anjos%20Dormem/"
+    },
+    "quase-18": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Quase%2018",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Quase%2018",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Quase%2018",
+      "letterboxd": "https://letterboxd.com/search/films/Quase%2018/"
+    },
+    "quebra-de-contrato": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Quebra%20de%20Contrato",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Quebra%20de%20Contrato",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Quebra%20de%20Contrato",
+      "letterboxd": "https://letterboxd.com/search/films/Quebra%20de%20Contrato/"
+    },
+    "querido-john": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Querido%20John",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Querido%20John",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Querido%20John",
+      "letterboxd": "https://letterboxd.com/search/films/Querido%20John/"
+    },
+    "rainha-de-copas": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Rainha%20de%20Copas",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Rainha%20de%20Copas",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Rainha%20de%20Copas",
+      "letterboxd": "https://letterboxd.com/search/films/Rainha%20de%20Copas/"
+    },
+    "resgate": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Resgate",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Resgate",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Resgate",
+      "letterboxd": "https://letterboxd.com/search/films/Resgate/"
+    },
+    "resident-evil-2-apocalipse": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Resident%20Evil%202%20Apocalipse",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Resident%20Evil%202%20Apocalipse",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Resident%20Evil%202%20Apocalipse",
+      "letterboxd": "https://letterboxd.com/search/films/Resident%20Evil%202%20Apocalipse/"
+    },
+    "resident-evil-3-a-extincao": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Resident%20Evil%203%20A%20Extin%C3%A7%C3%A3o",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Resident%20Evil%203%20A%20Extin%C3%A7%C3%A3o",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Resident%20Evil%203%20A%20Extin%C3%A7%C3%A3o",
+      "letterboxd": "https://letterboxd.com/search/films/Resident%20Evil%203%20A%20Extin%C3%A7%C3%A3o/"
+    },
+    "resident-evil-4-recomeco": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Resident%20Evil%204%20Recome%C3%A7o",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Resident%20Evil%204%20Recome%C3%A7o",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Resident%20Evil%204%20Recome%C3%A7o",
+      "letterboxd": "https://letterboxd.com/search/films/Resident%20Evil%204%20Recome%C3%A7o/"
+    },
+    "resident-evil-5-retribuicao": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Resident%20Evil%205%20Retribui%C3%A7%C3%A3o",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Resident%20Evil%205%20Retribui%C3%A7%C3%A3o",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Resident%20Evil%205%20Retribui%C3%A7%C3%A3o",
+      "letterboxd": "https://letterboxd.com/search/films/Resident%20Evil%205%20Retribui%C3%A7%C3%A3o/"
+    },
+    "resident-evil-o-hospedeiro-maldito": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Resident%20Evil%20O%20Hospedeiro%20Maldito",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Resident%20Evil%20O%20Hospedeiro%20Maldito",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Resident%20Evil%20O%20Hospedeiro%20Maldito",
+      "letterboxd": "https://letterboxd.com/search/films/Resident%20Evil%20O%20Hospedeiro%20Maldito/"
+    },
+    "robocop": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=RoboCop",
+      "justWatch": "https://www.justwatch.com/br/busca?q=RoboCop",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=RoboCop",
+      "letterboxd": "https://letterboxd.com/search/films/RoboCop/"
+    },
+    "rocketman": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Rocketman",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Rocketman",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Rocketman",
+      "letterboxd": "https://letterboxd.com/search/films/Rocketman/"
+    },
+    "rogue-2020": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Rogue%20(2020)",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Rogue%20(2020)",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Rogue%20(2020)",
+      "letterboxd": "https://letterboxd.com/search/films/Rogue%20(2020)/"
+    },
+    "rota-de-fuga-3": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Rota%20de%20Fuga%203",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Rota%20de%20Fuga%203",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Rota%20de%20Fuga%203",
+      "letterboxd": "https://letterboxd.com/search/films/Rota%20de%20Fuga%203/"
+    },
+    "seberg": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Seberg",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Seberg",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Seberg",
+      "letterboxd": "https://letterboxd.com/search/films/Seberg/"
+    },
+    "segundas-intencoes": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Segundas%20Inten%C3%A7%C3%B5es",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Segundas%20Inten%C3%A7%C3%B5es",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Segundas%20Inten%C3%A7%C3%B5es",
+      "letterboxd": "https://letterboxd.com/search/films/Segundas%20Inten%C3%A7%C3%B5es/"
+    },
+    "sempre-voce": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Sempre%20Voc%C3%AA",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Sempre%20Voc%C3%AA",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Sempre%20Voc%C3%AA",
+      "letterboxd": "https://letterboxd.com/search/films/Sempre%20Voc%C3%AA/"
+    },
+    "sex-education-t1": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Sex%20Education%20T1",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Sex%20Education%20T1",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Sex%20Education%20T1",
+      "letterboxd": null,
+      "tvmazeId": 36795,
+      "tvmazeUrl": "https://www.tvmaze.com/shows/36795/sex-education",
+      "poster": "https://static.tvmaze.com/uploads/images/original_untouched/483/1209495.jpg",
+      "rating": 7.8,
+      "summary": "Insecure Otis has all the answers when it comes to sex advice, thanks to his therapist mom. So rebel Maeve proposes a school sex-therapy clinic.",
+      "officialSite": "https://www.netflix.com/title/80197526",
+      "network": "Netflix"
+    },
+    "sex-education-t2": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Sex%20Education%20T2",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Sex%20Education%20T2",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Sex%20Education%20T2",
+      "letterboxd": null,
+      "tvmazeId": 36795,
+      "tvmazeUrl": "https://www.tvmaze.com/shows/36795/sex-education",
+      "poster": "https://static.tvmaze.com/uploads/images/original_untouched/483/1209495.jpg",
+      "rating": 7.8,
+      "summary": "Insecure Otis has all the answers when it comes to sex advice, thanks to his therapist mom. So rebel Maeve proposes a school sex-therapy clinic.",
+      "officialSite": "https://www.netflix.com/title/80197526",
+      "network": "Netflix"
+    },
+    "sexta-feira-muito-louca": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Sexta-Feira%20Muito%20Louca",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Sexta-Feira%20Muito%20Louca",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Sexta-Feira%20Muito%20Louca",
+      "letterboxd": "https://letterboxd.com/search/films/Sexta-Feira%20Muito%20Louca/"
+    },
+    "simplesmente-acontece": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Simplesmente%20Acontece",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Simplesmente%20Acontece",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Simplesmente%20Acontece",
+      "letterboxd": "https://letterboxd.com/search/films/Simplesmente%20Acontece/"
+    },
+    "sintonia-t1": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Sintonia%20T1",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Sintonia%20T1",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Sintonia%20T1",
+      "letterboxd": null,
+      "tvmazeId": 42760,
+      "tvmazeUrl": "https://www.tvmaze.com/shows/42760/sintonia",
+      "poster": "https://static.tvmaze.com/uploads/images/original_untouched/362/905246.jpg",
+      "rating": 4,
+      "summary": "Told through three different characters' perspectives, the story of Sintonia explores the interconnection of the music, drug traffic, and religion in São Paulo. In the quest to be somebody, many paths will converge.",
+      "officialSite": "https://www.netflix.com/title/80217315",
+      "network": "Netflix"
+    },
+    "sobrenatural-a-origem": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Sobrenatural%3A%20A%20Origem",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Sobrenatural%3A%20A%20Origem",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Sobrenatural%3A%20A%20Origem",
+      "letterboxd": "https://letterboxd.com/search/films/Sobrenatural%3A%20A%20Origem/"
+    },
+    "soldado-anonimo": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Soldado%20An%C3%B4nimo",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Soldado%20An%C3%B4nimo",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Soldado%20An%C3%B4nimo",
+      "letterboxd": "https://letterboxd.com/search/films/Soldado%20An%C3%B4nimo/"
+    },
+    "soldado-anonimo-2-campo-em-chamas": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Soldado%20An%C3%B4nimo%202%20Campo%20em%20Chamas",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Soldado%20An%C3%B4nimo%202%20Campo%20em%20Chamas",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Soldado%20An%C3%B4nimo%202%20Campo%20em%20Chamas",
+      "letterboxd": "https://letterboxd.com/search/films/Soldado%20An%C3%B4nimo%202%20Campo%20em%20Chamas/"
+    },
+    "soldado-anonimo-3": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Soldado%20An%C3%B4nimo%203",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Soldado%20An%C3%B4nimo%203",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Soldado%20An%C3%B4nimo%203",
+      "letterboxd": "https://letterboxd.com/search/films/Soldado%20An%C3%B4nimo%203/"
+    },
+    "sonho-olimpico": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Sonho%20Ol%C3%ADmpico",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Sonho%20Ol%C3%ADmpico",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Sonho%20Ol%C3%ADmpico",
+      "letterboxd": "https://letterboxd.com/search/films/Sonho%20Ol%C3%ADmpico/"
+    },
+    "star-wars-episodio-i-a-ameaca-fantasma": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Star%20Wars%20Epis%C3%B3dio%20I%20-%20A%20Amea%C3%A7a%20Fantasma",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Star%20Wars%20Epis%C3%B3dio%20I%20-%20A%20Amea%C3%A7a%20Fantasma",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Star%20Wars%20Epis%C3%B3dio%20I%20-%20A%20Amea%C3%A7a%20Fantasma",
+      "letterboxd": "https://letterboxd.com/search/films/Star%20Wars%20Epis%C3%B3dio%20I%20-%20A%20Amea%C3%A7a%20Fantasma/"
+    },
+    "star-wars-episodio-ii-ataque-dos-clones": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Star%20Wars%20Epis%C3%B3dio%20II%20-%20Ataque%20dos%20Clones",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Star%20Wars%20Epis%C3%B3dio%20II%20-%20Ataque%20dos%20Clones",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Star%20Wars%20Epis%C3%B3dio%20II%20-%20Ataque%20dos%20Clones",
+      "letterboxd": "https://letterboxd.com/search/films/Star%20Wars%20Epis%C3%B3dio%20II%20-%20Ataque%20dos%20Clones/"
+    },
+    "star-wars-episodio-iii-a-vinganca-dos-sith": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Star%20Wars%20Epis%C3%B3dio%20III%20-%20A%20Vingan%C3%A7a%20dos%20Sith",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Star%20Wars%20Epis%C3%B3dio%20III%20-%20A%20Vingan%C3%A7a%20dos%20Sith",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Star%20Wars%20Epis%C3%B3dio%20III%20-%20A%20Vingan%C3%A7a%20dos%20Sith",
+      "letterboxd": "https://letterboxd.com/search/films/Star%20Wars%20Epis%C3%B3dio%20III%20-%20A%20Vingan%C3%A7a%20dos%20Sith/"
+    },
+    "star-wars-episodio-iv-uma-nova-esperanca": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Star%20Wars%20Epis%C3%B3dio%20IV%20-%20Uma%20Nova%20Esperan%C3%A7a",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Star%20Wars%20Epis%C3%B3dio%20IV%20-%20Uma%20Nova%20Esperan%C3%A7a",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Star%20Wars%20Epis%C3%B3dio%20IV%20-%20Uma%20Nova%20Esperan%C3%A7a",
+      "letterboxd": "https://letterboxd.com/search/films/Star%20Wars%20Epis%C3%B3dio%20IV%20-%20Uma%20Nova%20Esperan%C3%A7a/"
+    },
+    "star-wars-episodio-vi-o-retorno-de-jedi": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Star%20Wars%20Epis%C3%B3dio%20VI%20-%20O%20Retorno%20de%20Jedi",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Star%20Wars%20Epis%C3%B3dio%20VI%20-%20O%20Retorno%20de%20Jedi",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Star%20Wars%20Epis%C3%B3dio%20VI%20-%20O%20Retorno%20de%20Jedi",
+      "letterboxd": "https://letterboxd.com/search/films/Star%20Wars%20Epis%C3%B3dio%20VI%20-%20O%20Retorno%20de%20Jedi/"
+    },
+    "star-wars-episodio-v-o-imperio-contra-ataca": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Star%20Wars%3A%20Epis%C3%B3dio%20V%20-%20O%20Imp%C3%A9rio%20Contra-Ataca",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Star%20Wars%3A%20Epis%C3%B3dio%20V%20-%20O%20Imp%C3%A9rio%20Contra-Ataca",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Star%20Wars%3A%20Epis%C3%B3dio%20V%20-%20O%20Imp%C3%A9rio%20Contra-Ataca",
+      "letterboxd": "https://letterboxd.com/search/films/Star%20Wars%3A%20Epis%C3%B3dio%20V%20-%20O%20Imp%C3%A9rio%20Contra-Ataca/"
+    },
+    "star-wars-episodio-viii-os-ultimos-jedi": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Star%20Wars%3A%20Epis%C3%B3dio%20VIII%20-%20Os%20%C3%9Altimos%20Jedi",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Star%20Wars%3A%20Epis%C3%B3dio%20VIII%20-%20Os%20%C3%9Altimos%20Jedi",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Star%20Wars%3A%20Epis%C3%B3dio%20VIII%20-%20Os%20%C3%9Altimos%20Jedi",
+      "letterboxd": "https://letterboxd.com/search/films/Star%20Wars%3A%20Epis%C3%B3dio%20VIII%20-%20Os%20%C3%9Altimos%20Jedi/"
+    },
+    "ted": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Ted",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Ted",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Ted",
+      "letterboxd": "https://letterboxd.com/search/films/Ted/"
+    },
+    "ted-2": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Ted%202",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Ted%202",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Ted%202",
+      "letterboxd": "https://letterboxd.com/search/films/Ted%202/"
+    },
+    "tempo-de-caca": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Tempo%20de%20Ca%C3%A7a",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Tempo%20de%20Ca%C3%A7a",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Tempo%20de%20Ca%C3%A7a",
+      "letterboxd": "https://letterboxd.com/search/films/Tempo%20de%20Ca%C3%A7a/"
+    },
+    "terapia-de-casais-para-amantes": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Terapia%20de%20Casais%20para%20Amantes",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Terapia%20de%20Casais%20para%20Amantes",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Terapia%20de%20Casais%20para%20Amantes",
+      "letterboxd": "https://letterboxd.com/search/films/Terapia%20de%20Casais%20para%20Amantes/"
+    },
+    "terror-em-mercy-falls": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Terror%20em%20Mercy%20Falls",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Terror%20em%20Mercy%20Falls",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Terror%20em%20Mercy%20Falls",
+      "letterboxd": "https://letterboxd.com/search/films/Terror%20em%20Mercy%20Falls/"
+    },
+    "the-dirt-confissoes-do-motley-crue": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=The%20Dirt%20Confiss%C3%B5es%20do%20Motley%20Crue",
+      "justWatch": "https://www.justwatch.com/br/busca?q=The%20Dirt%20Confiss%C3%B5es%20do%20Motley%20Crue",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=The%20Dirt%20Confiss%C3%B5es%20do%20Motley%20Crue",
+      "letterboxd": "https://letterboxd.com/search/films/The%20Dirt%20Confiss%C3%B5es%20do%20Motley%20Crue/"
+    },
+    "the-lodgers": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=The%20Lodgers",
+      "justWatch": "https://www.justwatch.com/br/busca?q=The%20Lodgers",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=The%20Lodgers",
+      "letterboxd": "https://letterboxd.com/search/films/The%20Lodgers/"
+    },
+    "the-walking-dead": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=The%20Walking%20Dead",
+      "justWatch": "https://www.justwatch.com/br/busca?q=The%20Walking%20Dead",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=The%20Walking%20Dead",
+      "letterboxd": "https://letterboxd.com/search/films/The%20Walking%20Dead/"
+    },
+    "this-is-us": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=This%20Is%20Us",
+      "justWatch": "https://www.justwatch.com/br/busca?q=This%20Is%20Us",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=This%20Is%20Us",
+      "letterboxd": null,
+      "tvmazeId": 17128,
+      "tvmazeUrl": "https://www.tvmaze.com/shows/17128/this-is-us",
+      "poster": "https://static.tvmaze.com/uploads/images/original_untouched/401/1003345.jpg",
+      "rating": 8,
+      "summary": "Sometimes life will surprise you. This refreshingly honest and provocative series follows a unique ensemble whose paths cross and their life stories intertwine in curious ways. We find several of them share the same birthday, and so much more than anyone would expect. From the writer and directors of \"Crazy, Stupid, Love\" comes a smart, modern dramedy that will challenge your everyday presumptions about the people you think you know.",
+      "officialSite": "http://www.nbc.com/this-is-us",
+      "network": "NBC"
+    },
+    "tinker-bell-2-o-tesouro-perdido": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Tinker%20Bell%202%3A%20O%20Tesouro%20Perdido",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Tinker%20Bell%202%3A%20O%20Tesouro%20Perdido",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Tinker%20Bell%202%3A%20O%20Tesouro%20Perdido",
+      "letterboxd": "https://letterboxd.com/search/films/Tinker%20Bell%202%3A%20O%20Tesouro%20Perdido/"
+    },
+    "tinker-bell-3-o-resgate-da-fada": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Tinker%20Bell%203%3A%20O%20Resgate%20da%20Fada",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Tinker%20Bell%203%3A%20O%20Resgate%20da%20Fada",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Tinker%20Bell%203%3A%20O%20Resgate%20da%20Fada",
+      "letterboxd": "https://letterboxd.com/search/films/Tinker%20Bell%203%3A%20O%20Resgate%20da%20Fada/"
+    },
+    "tinker-bell-4-o-segredo-das-fadas": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Tinker%20Bell%204%3A%20O%20Segredo%20das%20Fadas",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Tinker%20Bell%204%3A%20O%20Segredo%20das%20Fadas",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Tinker%20Bell%204%3A%20O%20Segredo%20das%20Fadas",
+      "letterboxd": "https://letterboxd.com/search/films/Tinker%20Bell%204%3A%20O%20Segredo%20das%20Fadas/"
+    },
+    "tinker-bell-6-o-monstro-da-terra-do-nunca": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Tinker%20Bell%206%3A%20O%20Monstro%20da%20Terra%20do%20Nunca",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Tinker%20Bell%206%3A%20O%20Monstro%20da%20Terra%20do%20Nunca",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Tinker%20Bell%206%3A%20O%20Monstro%20da%20Terra%20do%20Nunca",
+      "letterboxd": "https://letterboxd.com/search/films/Tinker%20Bell%206%3A%20O%20Monstro%20da%20Terra%20do%20Nunca/"
+    },
+    "tirando-a-maior-onda": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Tirando%20a%20Maior%20Onda",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Tirando%20a%20Maior%20Onda",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Tirando%20a%20Maior%20Onda",
+      "letterboxd": "https://letterboxd.com/search/films/Tirando%20a%20Maior%20Onda/"
+    },
+    "titanic": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Titanic",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Titanic",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Titanic",
+      "letterboxd": "https://letterboxd.com/search/films/Titanic/"
+    },
+    "tito-e-os-passaros": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Tito%20e%20os%20P%C3%A1ssaros",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Tito%20e%20os%20P%C3%A1ssaros",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Tito%20e%20os%20P%C3%A1ssaros",
+      "letterboxd": "https://letterboxd.com/search/films/Tito%20e%20os%20P%C3%A1ssaros/"
+    },
+    "tokyo-ghoul": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Tokyo%20Ghoul",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Tokyo%20Ghoul",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Tokyo%20Ghoul",
+      "letterboxd": "https://letterboxd.com/search/films/Tokyo%20Ghoul/"
+    },
+    "tolkien": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Tolkien",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Tolkien",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Tolkien",
+      "letterboxd": "https://letterboxd.com/search/films/Tolkien/"
+    },
+    "trafico-de-mulheres": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Tr%C3%A1fico%20de%20Mulheres",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Tr%C3%A1fico%20de%20Mulheres",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Tr%C3%A1fico%20de%20Mulheres",
+      "letterboxd": "https://letterboxd.com/search/films/Tr%C3%A1fico%20de%20Mulheres/"
+    },
+    "trocando-os-pes": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Trocando%20os%20P%C3%A9s",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Trocando%20os%20P%C3%A9s",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Trocando%20os%20P%C3%A9s",
+      "letterboxd": "https://letterboxd.com/search/films/Trocando%20os%20P%C3%A9s/"
+    },
+    "troia": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Troia",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Troia",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Troia",
+      "letterboxd": "https://letterboxd.com/search/films/Troia/"
+    },
+    "um-amor-para-recordar": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Um%20Amor%20Para%20Recordar",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Um%20Amor%20Para%20Recordar",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Um%20Amor%20Para%20Recordar",
+      "letterboxd": "https://letterboxd.com/search/films/Um%20Amor%20Para%20Recordar/"
+    },
+    "um-dia": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Um%20Dia",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Um%20Dia",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Um%20Dia",
+      "letterboxd": "https://letterboxd.com/search/films/Um%20Dia/"
+    },
+    "um-filho-que-caiu-do-ceu": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Um%20Filho%20Que%20Caiu%20do%20C%C3%A9u",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Um%20Filho%20Que%20Caiu%20do%20C%C3%A9u",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Um%20Filho%20Que%20Caiu%20do%20C%C3%A9u",
+      "letterboxd": "https://letterboxd.com/search/films/Um%20Filho%20Que%20Caiu%20do%20C%C3%A9u/"
+    },
+    "um-homem-contra-wall-street": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Um%20Homem%20Contra%20Wall%20Street",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Um%20Homem%20Contra%20Wall%20Street",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Um%20Homem%20Contra%20Wall%20Street",
+      "letterboxd": "https://letterboxd.com/search/films/Um%20Homem%20Contra%20Wall%20Street/"
+    },
+    "um-milhao-de-maneiras-de-pegar-na-pistola": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Um%20Milh%C3%A3o%20de%20Maneiras%20de%20Pegar%20na%20Pistola",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Um%20Milh%C3%A3o%20de%20Maneiras%20de%20Pegar%20na%20Pistola",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Um%20Milh%C3%A3o%20de%20Maneiras%20de%20Pegar%20na%20Pistola",
+      "letterboxd": "https://letterboxd.com/search/films/Um%20Milh%C3%A3o%20de%20Maneiras%20de%20Pegar%20na%20Pistola/"
+    },
+    "um-sonho-de-liberdade": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Um%20Sonho%20de%20Liberdade",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Um%20Sonho%20de%20Liberdade",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Um%20Sonho%20de%20Liberdade",
+      "letterboxd": "https://letterboxd.com/search/films/Um%20Sonho%20de%20Liberdade/"
+    },
+    "um-tira-acima-da-media": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Um%20Tira%20Acima%20Da%20M%C3%A9dia",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Um%20Tira%20Acima%20Da%20M%C3%A9dia",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Um%20Tira%20Acima%20Da%20M%C3%A9dia",
+      "letterboxd": "https://letterboxd.com/search/films/Um%20Tira%20Acima%20Da%20M%C3%A9dia/"
+    },
+    "uma-noite-de-crime": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Uma%20Noite%20de%20Crime",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Uma%20Noite%20de%20Crime",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Uma%20Noite%20de%20Crime",
+      "letterboxd": "https://letterboxd.com/search/films/Uma%20Noite%20de%20Crime/"
+    },
+    "uma-noite-de-crime-1": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Uma%20Noite%20de%20Crime%201",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Uma%20Noite%20de%20Crime%201",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Uma%20Noite%20de%20Crime%201",
+      "letterboxd": "https://letterboxd.com/search/films/Uma%20Noite%20de%20Crime%201/"
+    },
+    "uma-noite-de-crime-2": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Uma%20Noite%20de%20Crime%202",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Uma%20Noite%20de%20Crime%202",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Uma%20Noite%20de%20Crime%202",
+      "letterboxd": "https://letterboxd.com/search/films/Uma%20Noite%20de%20Crime%202/"
+    },
+    "uma-odisseia-no-espaco": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Uma%20Odisseia%20no%20Espa%C3%A7o",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Uma%20Odisseia%20no%20Espa%C3%A7o",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Uma%20Odisseia%20no%20Espa%C3%A7o",
+      "letterboxd": "https://letterboxd.com/search/films/Uma%20Odisseia%20no%20Espa%C3%A7o/"
+    },
+    "valente": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Valente",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Valente",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Valente",
+      "letterboxd": "https://letterboxd.com/search/films/Valente/"
+    },
+    "vampiros-vs-the-bronx": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Vampiros%20vs%20The%20Bronx",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Vampiros%20vs%20The%20Bronx",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Vampiros%20vs%20The%20Bronx",
+      "letterboxd": "https://letterboxd.com/search/films/Vampiros%20vs%20The%20Bronx/"
+    },
+    "vem-com-o-papai": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Vem%20Com%20o%20Papai",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Vem%20Com%20o%20Papai",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Vem%20Com%20o%20Papai",
+      "letterboxd": "https://letterboxd.com/search/films/Vem%20Com%20o%20Papai/"
+    },
+    "venom": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Venom",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Venom",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Venom",
+      "letterboxd": "https://letterboxd.com/search/films/Venom/"
+    },
+    "vida": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Vida",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Vida",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Vida",
+      "letterboxd": "https://letterboxd.com/search/films/Vida/"
+    },
+    "vida-na-natureza": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Vida%20Na%20Natureza",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Vida%20Na%20Natureza",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Vida%20Na%20Natureza",
+      "letterboxd": "https://letterboxd.com/search/films/Vida%20Na%20Natureza/"
+    },
+    "vinganca": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Vingan%C3%A7a",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Vingan%C3%A7a",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Vingan%C3%A7a",
+      "letterboxd": "https://letterboxd.com/search/films/Vingan%C3%A7a/"
+    },
+    "vou-nadar-ate-voce": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Vou%20Nadar%20At%C3%A9%20Voc%C3%AA",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Vou%20Nadar%20At%C3%A9%20Voc%C3%AA",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Vou%20Nadar%20At%C3%A9%20Voc%C3%AA",
+      "letterboxd": "https://letterboxd.com/search/films/Vou%20Nadar%20At%C3%A9%20Voc%C3%AA/"
+    },
+    "you-1-temporada": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=You%20(1%C2%AA%20Temporada)",
+      "justWatch": "https://www.justwatch.com/br/busca?q=You%20(1%C2%AA%20Temporada)",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=You%20(1%C2%AA%20Temporada)",
+      "letterboxd": null
+    },
+    "zoo-uma-amizade-maior-que-a-vida": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Zoo%20-%20Uma%20Amizade%20Maior%20que%20a%20Vida",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Zoo%20-%20Uma%20Amizade%20Maior%20que%20a%20Vida",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Zoo%20-%20Uma%20Amizade%20Maior%20que%20a%20Vida",
+      "letterboxd": "https://letterboxd.com/search/films/Zoo%20-%20Uma%20Amizade%20Maior%20que%20a%20Vida/"
+    },
+    "zumbilenio-o-parque-dos-monstros": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Zumbil%C3%AAnio%20O%20Parque%20dos%20Monstros",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Zumbil%C3%AAnio%20O%20Parque%20dos%20Monstros",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Zumbil%C3%AAnio%20O%20Parque%20dos%20Monstros",
+      "letterboxd": "https://letterboxd.com/search/films/Zumbil%C3%AAnio%20O%20Parque%20dos%20Monstros/"
+    },
+    "night-of-the-living-dead": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Night%20Of%20The%20Living%20Dead",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Night%20Of%20The%20Living%20Dead",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Night%20Of%20The%20Living%20Dead",
+      "letterboxd": "https://letterboxd.com/search/films/Night%20Of%20The%20Living%20Dead/",
+      "source": "Internet Archive",
+      "license": "Domínio público (CC0/CC Mark)"
+    },
+    "the-general": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=The%20General%20(1926)",
+      "justWatch": "https://www.justwatch.com/br/busca?q=The%20General%20(1926)",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=The%20General%20(1926)",
+      "letterboxd": "https://letterboxd.com/search/films/The%20General%20(1926)/",
+      "source": "Internet Archive",
+      "license": "Domínio público (CC0/CC Mark)"
+    },
+    "sherlock-jr": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Sherlock%20Jr.%201924",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Sherlock%20Jr.%201924",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Sherlock%20Jr.%201924",
+      "letterboxd": "https://letterboxd.com/search/films/Sherlock%20Jr.%201924/",
+      "source": "Internet Archive",
+      "license": "Domínio público (CC0/CC Mark)"
+    },
+    "steamboat-bill-jr": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Steamboat%20Bill%2C%20Jr.%20(1928)",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Steamboat%20Bill%2C%20Jr.%20(1928)",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Steamboat%20Bill%2C%20Jr.%20(1928)",
+      "letterboxd": "https://letterboxd.com/search/films/Steamboat%20Bill%2C%20Jr.%20(1928)/",
+      "source": "Internet Archive",
+      "license": "Domínio público (CC0/CC Mark)"
+    },
+    "the-gold-rush": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=The%20Gold%20Rush",
+      "justWatch": "https://www.justwatch.com/br/busca?q=The%20Gold%20Rush",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=The%20Gold%20Rush",
+      "letterboxd": "https://letterboxd.com/search/films/The%20Gold%20Rush/",
+      "source": "Internet Archive",
+      "license": "Domínio público (CC0/CC Mark)"
+    },
+    "the-pilgrim": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=The%20Pilgrim",
+      "justWatch": "https://www.justwatch.com/br/busca?q=The%20Pilgrim",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=The%20Pilgrim",
+      "letterboxd": "https://letterboxd.com/search/films/The%20Pilgrim/",
+      "source": "Internet Archive",
+      "license": "Domínio público (CC0/CC Mark)"
+    },
+    "metropolis": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Metropolis%20(1928%2C%20Channing%20Pollock%20Cut)",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Metropolis%20(1928%2C%20Channing%20Pollock%20Cut)",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Metropolis%20(1928%2C%20Channing%20Pollock%20Cut)",
+      "letterboxd": "https://letterboxd.com/search/films/Metropolis%20(1928%2C%20Channing%20Pollock%20Cut)/",
+      "source": "Internet Archive",
+      "license": "Domínio público (CC0/CC Mark)"
+    },
+    "nosferatu": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Street%20Fighter%20III%3A%203rd%20Strike%3A%20(RU)%20Benzo(aka)Lolo%20vs(NL)%20Nosferatu%20-%202023-01-03%2011%3A38%3A43",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Street%20Fighter%20III%3A%203rd%20Strike%3A%20(RU)%20Benzo(aka)Lolo%20vs(NL)%20Nosferatu%20-%202023-01-03%2011%3A38%3A43",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Street%20Fighter%20III%3A%203rd%20Strike%3A%20(RU)%20Benzo(aka)Lolo%20vs(NL)%20Nosferatu%20-%202023-01-03%2011%3A38%3A43",
+      "letterboxd": "https://letterboxd.com/search/films/Street%20Fighter%20III%3A%203rd%20Strike%3A%20(RU)%20Benzo(aka)Lolo%20vs(NL)%20Nosferatu%20-%202023-01-03%2011%3A38%3A43/",
+      "source": "Internet Archive",
+      "license": "Domínio público (CC0/CC Mark)"
+    },
+    "the-cabinet-of-dr-caligari": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=The%20Cabinet%20Of%20Dr.%20Caligari%20(1920)%20Esp",
+      "justWatch": "https://www.justwatch.com/br/busca?q=The%20Cabinet%20Of%20Dr.%20Caligari%20(1920)%20Esp",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=The%20Cabinet%20Of%20Dr.%20Caligari%20(1920)%20Esp",
+      "letterboxd": "https://letterboxd.com/search/films/The%20Cabinet%20Of%20Dr.%20Caligari%20(1920)%20Esp/",
+      "source": "Internet Archive",
+      "license": "Domínio público (CC0/CC Mark)"
+    },
+    "the-phantom-of-the-opera": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=The%20Phantom%20of%20the%20Opera%20(original%201925%20version%20in%20HD)",
+      "justWatch": "https://www.justwatch.com/br/busca?q=The%20Phantom%20of%20the%20Opera%20(original%201925%20version%20in%20HD)",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=The%20Phantom%20of%20the%20Opera%20(original%201925%20version%20in%20HD)",
+      "letterboxd": "https://letterboxd.com/search/films/The%20Phantom%20of%20the%20Opera%20(original%201925%20version%20in%20HD)/",
+      "source": "Internet Archive",
+      "license": "Domínio público (CC0/CC Mark)"
+    },
+    "the-hunchback-of-notre-dame": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=The%20Hunchback%20of%20Notre%20Dame%20(1923)",
+      "justWatch": "https://www.justwatch.com/br/busca?q=The%20Hunchback%20of%20Notre%20Dame%20(1923)",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=The%20Hunchback%20of%20Notre%20Dame%20(1923)",
+      "letterboxd": "https://letterboxd.com/search/films/The%20Hunchback%20of%20Notre%20Dame%20(1923)/",
+      "source": "Internet Archive",
+      "license": "Domínio público (CC0/CC Mark)"
+    },
+    "the-mark-of-zorro": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=The%20Mark%20of%20Zorro%20(1920)",
+      "justWatch": "https://www.justwatch.com/br/busca?q=The%20Mark%20of%20Zorro%20(1920)",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=The%20Mark%20of%20Zorro%20(1920)",
+      "letterboxd": "https://letterboxd.com/search/films/The%20Mark%20of%20Zorro%20(1920)/",
+      "source": "Internet Archive",
+      "license": "Domínio público (CC0/CC Mark)"
+    },
+    "the-ten-commandments": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=THE%20TEN%20COMMANDMENTS%20(%201923)%20SYNCED%20SYMPHONIC%20MUSIC",
+      "justWatch": "https://www.justwatch.com/br/busca?q=THE%20TEN%20COMMANDMENTS%20(%201923)%20SYNCED%20SYMPHONIC%20MUSIC",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=THE%20TEN%20COMMANDMENTS%20(%201923)%20SYNCED%20SYMPHONIC%20MUSIC",
+      "letterboxd": "https://letterboxd.com/search/films/THE%20TEN%20COMMANDMENTS%20(%201923)%20SYNCED%20SYMPHONIC%20MUSIC/",
+      "source": "Internet Archive",
+      "license": "Domínio público (CC0/CC Mark)"
+    },
+    "battleship-potemkin": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Pancernik%20Potiomkin%20(Bronienosiec%20Potiomkin%2C%20Battleship%20Potemkin%2C%201925)%20-%20re%C5%BC.%20Siergiej%20Eisenstein",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Pancernik%20Potiomkin%20(Bronienosiec%20Potiomkin%2C%20Battleship%20Potemkin%2C%201925)%20-%20re%C5%BC.%20Siergiej%20Eisenstein",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Pancernik%20Potiomkin%20(Bronienosiec%20Potiomkin%2C%20Battleship%20Potemkin%2C%201925)%20-%20re%C5%BC.%20Siergiej%20Eisenstein",
+      "letterboxd": "https://letterboxd.com/search/films/Pancernik%20Potiomkin%20(Bronienosiec%20Potiomkin%2C%20Battleship%20Potemkin%2C%201925)%20-%20re%C5%BC.%20Siergiej%20Eisenstein/",
+      "source": "Internet Archive",
+      "license": "Domínio público (CC0/CC Mark)"
+    },
+    "man-with-a-movie-camera": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Man%20With%20A%20Movie%20Camera",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Man%20With%20A%20Movie%20Camera",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Man%20With%20A%20Movie%20Camera",
+      "letterboxd": "https://letterboxd.com/search/films/Man%20With%20A%20Movie%20Camera/",
+      "source": "Internet Archive",
+      "license": "Domínio público (CC0/CC Mark)"
+    },
+    "berlin-symphony-of-a-great-city": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Berlin%3A%20Symphony%20of%20a%20Great%20City",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Berlin%3A%20Symphony%20of%20a%20Great%20City",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Berlin%3A%20Symphony%20of%20a%20Great%20City",
+      "letterboxd": "https://letterboxd.com/search/films/Berlin%3A%20Symphony%20of%20a%20Great%20City/",
+      "source": "Internet Archive",
+      "license": "Domínio público (CC0/CC Mark)"
+    },
+    "the-passion-of-joan-of-arc": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=The%20Passion%20Of%20Joan%20Of%20Arc%20(1928)%20FRENCH",
+      "justWatch": "https://www.justwatch.com/br/busca?q=The%20Passion%20Of%20Joan%20Of%20Arc%20(1928)%20FRENCH",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=The%20Passion%20Of%20Joan%20Of%20Arc%20(1928)%20FRENCH",
+      "letterboxd": "https://letterboxd.com/search/films/The%20Passion%20Of%20Joan%20Of%20Arc%20(1928)%20FRENCH/",
+      "source": "Internet Archive",
+      "license": "Domínio público (CC0/CC Mark)"
+    },
+    "the-last-laugh": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=The%20Last%20Laugh%20(1924)",
+      "justWatch": "https://www.justwatch.com/br/busca?q=The%20Last%20Laugh%20(1924)",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=The%20Last%20Laugh%20(1924)",
+      "letterboxd": "https://letterboxd.com/search/films/The%20Last%20Laugh%20(1924)/",
+      "source": "Internet Archive",
+      "license": "Domínio público (CC0/CC Mark)"
+    },
+    "waxworks": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Das%20Wachsfigurenkabinett%20%2F%20Waxworks%20(1924)",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Das%20Wachsfigurenkabinett%20%2F%20Waxworks%20(1924)",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Das%20Wachsfigurenkabinett%20%2F%20Waxworks%20(1924)",
+      "letterboxd": "https://letterboxd.com/search/films/Das%20Wachsfigurenkabinett%20%2F%20Waxworks%20(1924)/",
+      "source": "Internet Archive",
+      "license": "Domínio público (CC0/CC Mark)"
+    },
+    "intolerance": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Intolerance%3A%20Loves%20Struggle%20Throughout%20The%20Ages%20(1916)",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Intolerance%3A%20Loves%20Struggle%20Throughout%20The%20Ages%20(1916)",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Intolerance%3A%20Loves%20Struggle%20Throughout%20The%20Ages%20(1916)",
+      "letterboxd": "https://letterboxd.com/search/films/Intolerance%3A%20Loves%20Struggle%20Throughout%20The%20Ages%20(1916)/",
+      "source": "Internet Archive",
+      "license": "Domínio público (CC0/CC Mark)"
+    },
+    "a-trip-to-the-moon": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Le%20Voyage%20Dans%20La%20Lune%20(A%20Trip%20to%20the%20Moon)%20-%201902%20-%20Georges%20M%C3%A9li%C3%A8s",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Le%20Voyage%20Dans%20La%20Lune%20(A%20Trip%20to%20the%20Moon)%20-%201902%20-%20Georges%20M%C3%A9li%C3%A8s",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Le%20Voyage%20Dans%20La%20Lune%20(A%20Trip%20to%20the%20Moon)%20-%201902%20-%20Georges%20M%C3%A9li%C3%A8s",
+      "letterboxd": "https://letterboxd.com/search/films/Le%20Voyage%20Dans%20La%20Lune%20(A%20Trip%20to%20the%20Moon)%20-%201902%20-%20Georges%20M%C3%A9li%C3%A8s/",
+      "source": "Internet Archive",
+      "license": "Domínio público (CC0/CC Mark)"
+    },
+    "the-great-train-robbery": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=The%20Great%20Train%20Robbery%20(1903)",
+      "justWatch": "https://www.justwatch.com/br/busca?q=The%20Great%20Train%20Robbery%20(1903)",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=The%20Great%20Train%20Robbery%20(1903)",
+      "letterboxd": "https://letterboxd.com/search/films/The%20Great%20Train%20Robbery%20(1903)/",
+      "source": "Internet Archive",
+      "license": "Domínio público (CC0/CC Mark)"
+    },
+    "gertie-the-dinosaur": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Gertie%20the%20Dinosaur%20-%20Extraits%2Fexcerpts",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Gertie%20the%20Dinosaur%20-%20Extraits%2Fexcerpts",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Gertie%20the%20Dinosaur%20-%20Extraits%2Fexcerpts",
+      "letterboxd": null,
+      "source": "Internet Archive",
+      "license": "Domínio público (CC0/CC Mark)"
+    },
+    "fantasmagorie": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Fantasmagorie%20(1908)",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Fantasmagorie%20(1908)",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Fantasmagorie%20(1908)",
+      "letterboxd": null,
+      "source": "Internet Archive",
+      "license": "Domínio público (CC0/CC Mark)"
+    },
+    "steamboat-willie": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Steamboat%20Willie%20(4K)",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Steamboat%20Willie%20(4K)",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Steamboat%20Willie%20(4K)",
+      "letterboxd": null,
+      "source": "Internet Archive",
+      "license": "Domínio público (CC0/CC Mark)"
+    },
+    "plane-crazy": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Plane%20Crazy%20(1928)",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Plane%20Crazy%20(1928)",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Plane%20Crazy%20(1928)",
+      "letterboxd": null,
+      "source": "Internet Archive",
+      "license": "Domínio público (CC0/CC Mark)"
+    },
+    "the-gallopin-gaucho": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=The%20Gallopin'%20Gaucho-%20Mickey%20Mouse",
+      "justWatch": "https://www.justwatch.com/br/busca?q=The%20Gallopin'%20Gaucho-%20Mickey%20Mouse",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=The%20Gallopin'%20Gaucho-%20Mickey%20Mouse",
+      "letterboxd": null,
+      "source": "Internet Archive",
+      "license": "Domínio público (CC0/CC Mark)"
+    },
+    "snow-white-and-the-seven-dwarfs": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Snow%20White%20and%20the%20Seven%20Dwarfs%20-%20Bluddle-Uddle-Um-Dum%20(German%201938%2C%20Slow%20Motion)",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Snow%20White%20and%20the%20Seven%20Dwarfs%20-%20Bluddle-Uddle-Um-Dum%20(German%201938%2C%20Slow%20Motion)",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Snow%20White%20and%20the%20Seven%20Dwarfs%20-%20Bluddle-Uddle-Um-Dum%20(German%201938%2C%20Slow%20Motion)",
+      "letterboxd": null,
+      "source": "Internet Archive",
+      "license": "Domínio público (CC0/CC Mark)"
+    },
+    "felix-the-cat": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Felix%20The%20Cat%20Felix%20In%20The%20Swim%201922%20Restored",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Felix%20The%20Cat%20Felix%20In%20The%20Swim%201922%20Restored",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Felix%20The%20Cat%20Felix%20In%20The%20Swim%201922%20Restored",
+      "letterboxd": null,
+      "source": "Internet Archive",
+      "license": "Domínio público (CC0/CC Mark)"
+    },
+    "krazy-kat": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Krazy%20Kat%20Bray%20Cartoons",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Krazy%20Kat%20Bray%20Cartoons",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Krazy%20Kat%20Bray%20Cartoons",
+      "letterboxd": null,
+      "source": "Internet Archive",
+      "license": "Domínio público (CC0/CC Mark)"
+    },
+    "mutt-and-jeff": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Mutt%20And%20Jeff%20Cartoons",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Mutt%20And%20Jeff%20Cartoons",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Mutt%20And%20Jeff%20Cartoons",
+      "letterboxd": null,
+      "source": "Internet Archive",
+      "license": "Domínio público (CC0/CC Mark)"
+    },
+    "duck-and-cover": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Duck%20and%20Cover",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Duck%20and%20Cover",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Duck%20and%20Cover",
+      "letterboxd": "https://letterboxd.com/search/films/Duck%20and%20Cover/",
+      "source": "Internet Archive",
+      "license": "Domínio público"
+    },
+    "design-for-dreaming": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Design%20for%20Dreaming",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Design%20for%20Dreaming",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Design%20for%20Dreaming",
+      "letterboxd": "https://letterboxd.com/search/films/Design%20for%20Dreaming/",
+      "source": "Internet Archive",
+      "license": "Domínio público"
+    },
+    "why-we-fight": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Why%20We%20Fight%3A%20The%20Nazis%20Strike",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Why%20We%20Fight%3A%20The%20Nazis%20Strike",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Why%20We%20Fight%3A%20The%20Nazis%20Strike",
+      "letterboxd": "https://letterboxd.com/search/films/Why%20We%20Fight%3A%20The%20Nazis%20Strike/",
+      "source": "Internet Archive",
+      "license": "Domínio público"
+    },
+    "charade": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Charade%20(%201963)%20Cary%20Grant%20%26%20Audrey%20Hepburn%20Comedy%20Mystery%20Romance%20Thriller",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Charade%20(%201963)%20Cary%20Grant%20%26%20Audrey%20Hepburn%20Comedy%20Mystery%20Romance%20Thriller",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Charade%20(%201963)%20Cary%20Grant%20%26%20Audrey%20Hepburn%20Comedy%20Mystery%20Romance%20Thriller",
+      "letterboxd": "https://letterboxd.com/search/films/Charade%20(%201963)%20Cary%20Grant%20%26%20Audrey%20Hepburn%20Comedy%20Mystery%20Romance%20Thriller/",
+      "source": "Internet Archive",
+      "license": "Domínio público (CC0/CC Mark)"
+    },
+    "reefer-madness": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Reefer%20Madness%20(1936)%20%5BHQ%5D",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Reefer%20Madness%20(1936)%20%5BHQ%5D",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Reefer%20Madness%20(1936)%20%5BHQ%5D",
+      "letterboxd": "https://letterboxd.com/search/films/Reefer%20Madness%20(1936)%20%5BHQ%5D/",
+      "source": "Internet Archive",
+      "license": "Domínio público (CC0/CC Mark)"
+    },
+    "plan-9-from-outer-space": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Plan%209%20From%20Outer%20Space",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Plan%209%20From%20Outer%20Space",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Plan%209%20From%20Outer%20Space",
+      "letterboxd": "https://letterboxd.com/search/films/Plan%209%20From%20Outer%20Space/",
+      "source": "Internet Archive",
+      "license": "Domínio público (CC0/CC Mark)"
+    },
+    "the-vampire-bat": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=The%20Vampire%20Bat%20(1933)",
+      "justWatch": "https://www.justwatch.com/br/busca?q=The%20Vampire%20Bat%20(1933)",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=The%20Vampire%20Bat%20(1933)",
+      "letterboxd": "https://letterboxd.com/search/films/The%20Vampire%20Bat%20(1933)/",
+      "source": "Internet Archive",
+      "license": "Domínio público (CC0/CC Mark)"
+    },
+    "the-bat": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=1926%20The%20Bat%20(%20Roland%20West)%20Louise%20Fazenda%2C%20Jack%20Pickford%20VOSE",
+      "justWatch": "https://www.justwatch.com/br/busca?q=1926%20The%20Bat%20(%20Roland%20West)%20Louise%20Fazenda%2C%20Jack%20Pickford%20VOSE",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=1926%20The%20Bat%20(%20Roland%20West)%20Louise%20Fazenda%2C%20Jack%20Pickford%20VOSE",
+      "letterboxd": "https://letterboxd.com/search/films/1926%20The%20Bat%20(%20Roland%20West)%20Louise%20Fazenda%2C%20Jack%20Pickford%20VOSE/",
+      "source": "Internet Archive",
+      "license": "Domínio público (CC0/CC Mark)"
+    },
+    "carnival-of-souls": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Carnival%20of%20Souls%20(1962)%20Restored%20Public%20Domain%20Horror%20Classic",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Carnival%20of%20Souls%20(1962)%20Restored%20Public%20Domain%20Horror%20Classic",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Carnival%20of%20Souls%20(1962)%20Restored%20Public%20Domain%20Horror%20Classic",
+      "letterboxd": "https://letterboxd.com/search/films/Carnival%20of%20Souls%20(1962)%20Restored%20Public%20Domain%20Horror%20Classic/",
+      "source": "Internet Archive",
+      "license": "Domínio público (CC0/CC Mark)"
+    },
+    "cinderella": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Cinderella%20Or%20The%20Glass%20Slipper%20(Cendrillon%20Ou%20La%20Pantoufle%20Merveilleuse)%20(1913)",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Cinderella%20Or%20The%20Glass%20Slipper%20(Cendrillon%20Ou%20La%20Pantoufle%20Merveilleuse)%20(1913)",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Cinderella%20Or%20The%20Glass%20Slipper%20(Cendrillon%20Ou%20La%20Pantoufle%20Merveilleuse)%20(1913)",
+      "letterboxd": "https://letterboxd.com/search/films/Cinderella%20Or%20The%20Glass%20Slipper%20(Cendrillon%20Ou%20La%20Pantoufle%20Merveilleuse)%20(1913)/",
+      "source": "Internet Archive",
+      "license": "Domínio público (CC0/CC Mark)"
+    },
+    "the-adventures-of-prince-achmed": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=The%20Adventures%20of%20Prince%20Achmed%20(1926)",
+      "justWatch": "https://www.justwatch.com/br/busca?q=The%20Adventures%20of%20Prince%20Achmed%20(1926)",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=The%20Adventures%20of%20Prince%20Achmed%20(1926)",
+      "letterboxd": null,
+      "source": "Internet Archive",
+      "license": "Domínio público (CC0/CC Mark)"
+    },
+    "the-sinking-of-the-lusitania": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=The%20Sinking%20Of%20The%20Lusitania%20(1918)",
+      "justWatch": "https://www.justwatch.com/br/busca?q=The%20Sinking%20Of%20The%20Lusitania%20(1918)",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=The%20Sinking%20Of%20The%20Lusitania%20(1918)",
+      "letterboxd": null,
+      "source": "Internet Archive",
+      "license": "Domínio público (CC0/CC Mark)"
+    },
+    "the-impossible-voyage": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=Georges%20Melies's%20The%20Voyage%20Across%20The%20Impossible%20(1904)",
+      "justWatch": "https://www.justwatch.com/br/busca?q=Georges%20Melies's%20The%20Voyage%20Across%20The%20Impossible%20(1904)",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=Georges%20Melies's%20The%20Voyage%20Across%20The%20Impossible%20(1904)",
+      "letterboxd": "https://letterboxd.com/search/films/Georges%20Melies's%20The%20Voyage%20Across%20The%20Impossible%20(1904)/",
+      "source": "Internet Archive",
+      "license": "Domínio público (CC0/CC Mark)"
+    },
+    "the-kingdom-of-the-fairies": {
+      "tmdbSearch": "https://www.themoviedb.org/search?query=The%20Kingdom%20Of%20The%20Fairies%20(1903)%20Directed%20By%20Georges%20M%C3%A9li%C3%A8s",
+      "justWatch": "https://www.justwatch.com/br/busca?q=The%20Kingdom%20Of%20The%20Fairies%20(1903)%20Directed%20By%20Georges%20M%C3%A9li%C3%A8s",
+      "wikipedia": "https://pt.wikipedia.org/w/index.php?search=The%20Kingdom%20Of%20The%20Fairies%20(1903)%20Directed%20By%20Georges%20M%C3%A9li%C3%A8s",
+      "letterboxd": "https://letterboxd.com/search/films/The%20Kingdom%20Of%20The%20Fairies%20(1903)%20Directed%20By%20Georges%20M%C3%A9li%C3%A8s/",
+      "source": "Internet Archive",
+      "license": "Domínio público (CC0/CC Mark)"
+    }
+  }
+}

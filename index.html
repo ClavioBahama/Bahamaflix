@@ -1,641 +1,110 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Bahama Flix - Assista aos melhores filmes e séries">
-    <!-- Google AdSense Script -->
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1278895213529416" crossorigin="anonymous"></script>
-    <!-- Header Animado -->
-    <link rel="preconnect" href="https://cdn.jsdelivr.net">
-    <link rel="preconnect" href="https://cdnjs.cloudflare.com">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/style.css">
-    <title>Bahama Flix - Filmes e Séries</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    
-    <!-- Popunder Script -->
-    <script type='text/javascript' src='//pl26742386.profitableratecpm.com/55/0b/50/550b50e6d03ac93a807c12fafc884d89.js'></script>
-    
-    <!-- Social Bar Script -->
-    <script type='text/javascript' src='//pl26763802.profitableratecpm.com/db/01/f8/db01f8dba23b90c9790f5c8b918426ae.js'></script>
-    
-    <style>
-        /* Espaçamento adicional para anúncios */
-        .ad-container {
-            margin: 20px 0;
-            padding: 15px 0;
-            background: rgba(255,255,255,0.05);
-            border-radius: 5px;
-        }
-        .ad-container-bottom {
-            margin: 30px 0 10px 0;
-        }
-        .native-ad-container {
-            margin: 30px auto;
-            padding: 15px;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b0b0f">
+  <meta name="description" content="Bahama Flix — filmes, séries e desenhos com busca rápida, episódios por temporada e fontes identificadas.">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="BahamaFlix">
+  <title>Bahama Flix — Filmes e Séries</title>
+
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="apple-touch-icon" href="assets/icons/apple-touch-icon.png">
+
+  <link rel="preload" href="data/catalog.json" as="fetch" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 64 64%22><rect width=%2264%22 height=%2264%22 rx=%2212%22 fill=%22%23e50914%22/><text x=%2232%22 y=%2244%22 font-size=%2234%22 font-family=%22Arial%22 font-weight=%22bold%22 fill=%22white%22 text-anchor=%22middle%22>B</text></svg>">
 </head>
-<body class="bg-dark text-light">
+<body>
+  <a class="skip-link" href="#main">Pular para o conteúdo</a>
 
-    <header class="header-animated">
-        <div class="container-fluid d-flex justify-content-center align-items-center py-3">
-            <h1 class="logo-text m-0">
-                <span class="logo-part">B</span>
-                <span class="logo-part">a</span>
-                <span class="logo-part">h</span>
-                <span class="logo-part">a</span>
-                <span class="logo-part">m</span>
-                <span class="logo-part">a</span>
-                <span class="logo-space"> </span>
-                <span class="logo-part">F</span>
-                <span class="logo-part">l</span>
-                <span class="logo-part">i</span>
-                <span class="logo-part">x</span>
-            </h1>
-        </div>
-        
-        <!-- Banner 728x90 Topo -->
-        <div class="container-fluid ad-container text-center">
-            <script type="text/javascript">
-                atOptions = {
-                    'key' : '3112502e6a2563aff326830903a94b9b',
-                    'format' : 'iframe',
-                    'height' : 90,
-                    'width' : 728,
-                    'params' : {}
-                };
-            </script>
-            <script type="text/javascript" src="//www.highperformanceformat.com/3112502e6a2563aff326830903a94b9b/invoke.js"></script>
-        </div>
-        
-        <nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
-            <div id="no-results" class="alert alert-warning text-center my-4" role="alert" style="display: none;">Nenhum resultado encontrado. Tente procurar em Filtrar.</div>
-        </nav>
-    </header>
+  <header class="site-header" id="site-header">
+    <div class="header-inner">
+      <a class="brand" href="#/" title="Início">
+        <span class="brand-mark" aria-hidden="true">B</span>
+        <span class="brand-name">Bahama<span>Flix</span></span>
+      </a>
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">Bahama Flix</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarScroll">
-                <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
-                    <li class="nav-item"><a class="nav-link" href="Filmes.html"><i class="fas fa-film me-1"></i> Filmes</a></li>
-                    <li class="nav-item"><a class="nav-link" href="Series.html"><i class="fas fa-tv me-1"></i> Séries</a></li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            <i class="fas fa-list me-1"></i> Opções
-                        </a>
-                        <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarScrollingDropdown">
-                            <li><a class="dropdown-item" href="comedia.html"><i class="fas fa-laugh me-1"></i> Comédia</a></li>
-                            <li><a class="dropdown-item" href="Acao.html"><i class="fas fa-fire me-1"></i> Ação</a></li>
-                            <li><a class="dropdown-item" href="Animacao.html"><i class="fas fa-child me-1"></i> Desenhos</a></li>
-                            <li><a class="dropdown-item" href="Terror.html"><i class="fas fa-ghost me-1"></i> Terror</a></li>
-                            <li><a class="dropdown-item" href="avaliar.html"><i class="fas fa-star me-1"></i> Avaliar o Site</a></li> 
-                            <li><a class="dropdown-item" href="Site de Jogos"><i class="fas fa-gamepad me-1"></i> Jogos</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item">
-                        <button type="button" class="btn btn-outline-light" data-bs-toggle="modal" data-bs-target="#loginModal">
-                            <i class="fas fa-sign-in-alt me-1"></i> Logar
-                        </button>
-                    </li>
-                </ul>
-                <form class="d-flex">
-                    <input class="form-control me-2" type="search" placeholder="Escreva a sua pesquisa" aria-label="search">
-                    <button class="btn btn-outline-light" type="submit"><i class="fas fa-search"></i></button>
-                </form>
-            </div>
-        </div>
+      <nav class="main-nav" aria-label="Navegação principal">
+        <a href="#/" data-nav="home">Início</a>
+        <a href="#/filmes" data-nav="filmes">Filmes</a>
+        <a href="#/series" data-nav="series">Séries</a>
+        <a href="#/desenhos" data-nav="desenhos">Desenhos</a>
+        <a href="#/plataformas" data-nav="plataformas">Onde assistir</a>
+        <a href="#/generos" data-nav="generos">Gêneros</a>
+      </nav>
+
+      <div class="header-actions">
+        <form class="search-form" id="search-form" role="search" autocomplete="off">
+          <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M21 21l-4.35-4.35M17 10.5a6.5 6.5 0 11-13 0 6.5 6.5 0 0113 0z"/></svg>
+          <input id="search-input" name="q" type="search" placeholder="Buscar filmes e séries…" aria-label="Buscar filmes e séries" role="combobox" aria-autocomplete="list" aria-expanded="false" aria-controls="search-suggestions">
+          <kbd class="search-hint">/</kbd>
+          <div class="suggestions" id="search-suggestions" role="listbox" hidden></div>
+        </form>
+        <button class="icon-btn menu-btn" id="menu-btn" type="button" aria-label="Abrir menu" aria-expanded="false">
+          <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+        </button>
+      </div>
+    </div>
+    <nav class="mobile-nav" id="mobile-nav" aria-label="Navegação móvel" hidden>
+      <a href="#/">Início</a>
+      <a href="#/filmes">Filmes</a>
+      <a href="#/series">Séries</a>
+      <a href="#/desenhos">Desenhos</a>
+      <a href="#/plataformas">Onde assistir</a>
+      <a href="#/generos">Gêneros</a>
+      <a href="#/sobre">Sobre</a>
+      <a href="#/faq">FAQ</a>
     </nav>
+  </header>
 
-    <div class="container my-4" id="filmes">
-        <div class="d-flex justify-content-between align-items-center mb-3">
-            <h2 class="mb-0"><i class="fas fa-film me-2"></i> Filmes</h2>
-            <a href="Filmes.html" class="btn btn-sm btn-outline-light">Ver todos</a>
-        </div>
-        <div class="row g-3">
-            <!-- Primeiros 4 filmes -->
-            <div class="col-6 col-md-4 col-lg-3">
-                <div class="catalog-item h-100">
-                    <a href="Homems-Aranhas.html" class="d-block">
-                        <img src="Filmes/FT.F/spiderman_news_matchup.jpg" class="img-fluid" alt="Os Incríveis" loading="lazy">
-                        <div class="info-box">
-                            <h5>Todos os Homem-Aranha</h5>
-                            <div class="d-flex justify-content-between">
-                                <span class="badge bg-primary">HD</span>
-                                <span class="text-warning"><i class="fas fa-star"></i> 4.0</span>
-                            </div>
-                            <small class="text-muted">2002-2021 • Ação</small>
-                        </div>
-                    </a>
-                </div>
-            </div>
-            
-            <div class="col-6 col-md-4 col-lg-3">
-                <div class="catalog-item h-100">
-                    <a href="Arraste-me para o Inferno.html" class="d-block">
-                        <img src="FT.F/Arraste-me para o Inferno.jpg" class="img-fluid" alt="Arraste-me para o Inferno" loading="lazy">
-                        <div class="info-box">
-                            <h5>Arraste-me para o Inferno</h5>
-                            <div class="d-flex justify-content-between">
-                                <span class="badge bg-primary">HD</span>
-                                <span class="text-warning"><i class="fas fa-star"></i> 4.0</span>
-                            </div>
-                            <small class="text-muted">2009 • Terror</small>
-                        </div>
-                    </a>
-                </div>
-            </div>
-
-            <div class="col-6 col-md-4 col-lg-3">
-                <div class="catalog-item h-100">
-                    <a href="Ford vs Ferrari.html" class="d-block">
-                        <img src="FT.F/Ford vs Ferrari.jpg" class="img-fluid" alt="Ford vs Ferrari" loading="lazy">
-                        <div class="info-box">
-                            <h5>Ford vs Ferrari</h5>
-                            <div class="d-flex justify-content-between">
-                                <span class="badge bg-primary">HD</span>
-                                <span class="text-warning"><i class="fas fa-star"></i> 4.0</span>
-                            </div>
-                            <small class="text-muted">2019 • Ação/Drama</small>
-                        </div>
-                    </a>
-                </div>
-            </div>
-
-            <div class="col-6 col-md-4 col-lg-3">
-                <div class="catalog-item h-100">
-                    <a href="As Branquelas.html" class="d-block">
-                        <img src="FT.F/As Branquelas.jpg" class="img-fluid" alt="As Branquelas" loading="lazy">
-                        <div class="info-box">
-                            <h5>As Branquelas</h5>
-                            <div class="d-flex justify-content-between">
-                                <span class="badge bg-primary">HD</span>
-                                <span class="text-warning"><i class="fas fa-star"></i> 4.0</span>
-                            </div>
-                            <small class="text-muted">2004 • Comédia</small>
-                        </div>
-                    </a>
-                </div>
-            </div>
-        </div>
-        <div class="row g-3 mt-3">
-            <!-- Próximos 4 filmes -->
-            <div class="col-6 col-md-4 col-lg-3">
-                <div class="catalog-item h-100">
-                    <a href="Titanic.html" class="d-block">
-                        <img src="FT.F/Titanic.jpg" class="img-fluid" alt="Titanic" loading="lazy">
-                        <div class="info-box">
-                            <h5>Titanic</h5>
-                            <div class="d-flex justify-content-between">
-                                <span class="badge bg-primary">HD</span>
-                                <span class="text-warning"><i class="fas fa-star"></i> 4.0</span>
-                            </div>
-                            <small class="text-muted">1997 • Drama/Romance</small>
-                        </div>
-                    </a>
-                </div>
-            </div>
-
-            <div class="col-6 col-md-4 col-lg-3">
-                <div class="catalog-item h-100">
-                    <a href="A Noiva Cadáver.html" class="d-block">
-                        <img src="FT.F/A Noiva Cadáver.jpg" class="img-fluid" alt="A Noiva Cadáver" loading="lazy">
-                        <div class="info-box">
-                            <h5>A Noiva Cadáver</h5>
-                            <div class="d-flex justify-content-between">
-                                <span class="badge bg-primary">HD</span>
-                                <span class="text-warning"><i class="fas fa-star"></i> 4.0</span>
-                            </div>
-                            <small class="text-muted">2005 • Animação/Fantasia</small>
-                        </div>
-                    </a>
-                </div>
-            </div>
-            
-            <div class="col-6 col-md-4 col-lg-3">
-                <div class="catalog-item h-100">
-                    <a href="Tráfico de Mulheres.html" class="d-block">
-                        <img src="FT.F/Tráfico de Mulheres.jpg" class="img-fluid" alt="Tráfico de Mulheres" loading="lazy">
-                        <div class="info-box">
-                            <h5>Tráfico de Mulheres</h5>
-                            <div class="d-flex justify-content-between">
-                                <span class="badge bg-primary">HD</span>
-                                <span class="text-warning"><i class="fas fa-star"></i> 4.0</span>
-                            </div>
-                            <small class="text-muted"> • Drama/Suspense</small>
-                        </div>
-                    </a>
-                </div>
-            </div>
-
-            <div class="col-6 col-md-4 col-lg-3">
-                <div class="catalog-item h-100">
-                    <a href="Ben 10 Contra o Universo - O Filme.html" class="d-block">
-                        <img src="FT.F/Ben 10 Contra o Universo - O Filme.jpg" class="img-fluid" alt="Tolkien" loading="lazy">
-                        <div class="info-box">
-                            <h5>Ben 10 Contra o Universo</h5>
-                            <div class="d-flex justify-content-between">
-                                <span class="badge bg-primary">HD</span>
-                                <span class="text-warning"><i class="fas fa-star"></i> 4.0</span>
-                            </div>
-                            <small class="text-muted">2019 • Biografia/Drama</small>
-                        </div>
-                    </a>
-                </div>
-            </div>
-        </div>
+  <main id="main" tabindex="-1">
+    <div class="loading-state" id="loading-state">
+      <div class="spinner" aria-hidden="true"></div>
+      <p>Carregando catálogo…</p>
     </div>
+    <div id="app"></div>
+  </main>
 
-    <!-- Native Banner entre seções -->
-    <div class="native-ad-container text-center">
-        <script async="async" data-cfasync="false" src="//pl26742415.profitableratecpm.com/2a9dcac609e77d65882802826a4496c7/invoke.js"></script>
-        <div id="container-2a9dcac609e77d65882802826a4496c7"></div>
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <span class="brand-mark" aria-hidden="true">B</span>
+        <p>Um catálogo para descobrir boas histórias.</p>
+      </div>
+      <nav class="footer-links" aria-label="Links institucionais">
+        <a href="#/sobre">Sobre</a>
+        <a href="#/contato">Contato</a>
+        <a href="#/faq">FAQ</a>
+        <a href="#/plataformas">Onde assistir</a>
+        <a href="#/privacidade">Privacidade</a>
+        <a href="#/termos">Termos</a>
+        <a href="#/cookies">Cookies</a>
+      </nav>
+      <div class="footer-pwa">
+        <button class="btn btn-sm btn-ghost install-btn" id="install-btn" type="button" hidden>Instalar app</button>
+        <p class="footer-copy">© <span id="year"></span> Bahama Flix. Catálogo demonstrativo.</p>
+      </div>
     </div>
+  </footer>
 
-    <div class="container my-4" id="series">
-        <div class="d-flex justify-content-between align-items-center mb-3">
-            <h2 class="mb-0"><i class="fas fa-tv me-2"></i> Séries</h2>
-            <a href="Series.html" class="btn btn-sm btn-outline-light">Ver todos</a>
-        </div>
-        <div class="row g-3">
-            <div class="col-6 col-md-4 col-lg-3">
-                <div class="catalog-item h-100">
-                    <a href="Makcominmidles.html" class="d-block">
-                        <img src="FT.F/Malcominmidles.jpg" class="img-fluid" alt="Malcolm in the Middle" loading="lazy">
-                        <div class="info-box">
-                            <h5>Malcolm in the Middle</h5>
-                            <div class="d-flex justify-content-between">
-                                <span class="badge bg-success">Série</span>
-                                <span class="text-warning"><i class="fas fa-star"></i> 4.0</span>
-                            </div>
-                            <small class="text-muted">2000-2006 • Comédia • 3 Temporadas</small>
-                        </div>
-                    </a>
-                </div>
-            </div>
+  <div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
 
-            <div class="col-6 col-md-4 col-lg-3">
-                <div class="catalog-item h-100">
-                    <a href="Naruto.html" class="d-block">
-                        <img src="FT.F/Naruto-1.jpg" class="img-fluid" alt="Naruto" loading="lazy">
-                        <div class="info-box">
-                            <h5>Naruto</h5>
-                            <div class="d-flex justify-content-between">
-                                <span class="badge bg-success">Série</span>
-                                <span class="text-warning"><i class="fas fa-star"></i> 4.0</span>
-                            </div>
-                            <small class="text-muted">2002-2007 • Anime • 1 Temporada</small>
-                        </div>
-                    </a>
-                </div>
-            </div>
-
-            <div class="col-6 col-md-4 col-lg-3">
-                <div class="catalog-item h-100">
-                    <a href="Luna Negra T1.html" class="d-block">
-                        <img src="FT.F/Luna negra.jpg" class="img-fluid" alt="Luna Negra" loading="lazy">
-                        <div class="info-box">
-                            <h5>Luna Negra</h5>
-                            <div class="d-flex justify-content-between">
-                                <span class="badge bg-success">Série</span>
-                                <span class="text-warning"><i class="fas fa-star"></i> 4.0</span>
-                            </div>
-                            <small class="text-muted">2020 • Drama • 1 Temporada</small>
-                        </div>
-                    </a>
-                </div>
-            </div>
-
-            <div class="col-6 col-md-4 col-lg-3">
-                <div class="catalog-item h-100">
-                    <a href="Não Fale com Estranhos.html" class="d-block">
-                        <img src="FT.F/Nao fale com estranhos.jpg" class="img-fluid" alt="Não Fale com Estranhos" loading="lazy">
-                        <div class="info-box">
-                            <h5>Não Fale com Estranhos</h5>
-                            <div class="d-flex justify-content-between">
-                                <span class="badge bg-success">Série</span>
-                                <span class="text-warning"><i class="fas fa-star"></i> 4.0</span>
-                            </div>
-                            <small class="text-muted">2021 • Suspense • 1 Temporada</small>
-                        </div>
-                    </a>
-                </div>
-            </div>
-        </div>
-
-        <!-- Native Banner entre blocos de séries -->
-        <div class="row g-3 mt-3">
-            <div class="col-6 col-md-4 col-lg-3">
-                <div class="catalog-item h-100">
-                    <a href="Prisão de Mulheres.html" class="d-block">
-                        <img src="FT.F/Prisao de mulheres 1.jpg" class="img-fluid" alt="Prisão de Mulheres" loading="lazy">
-                        <div class="info-box">
-                            <h5>Prisão de Mulheres</h5>
-                            <div class="d-flex justify-content-between">
-                                <span class="badge bg-success">Série</span>
-                                <span class="text-warning"><i class="fas fa-star"></i> 4.0</span>
-                            </div>
-                            <small class="text-muted">2022 • Drama • 1 Temporada</small>
-                        </div>
-                    </a>
-                </div>
-            </div>
-
-            <div class="col-6 col-md-4 col-lg-3">
-                <div class="catalog-item h-100">
-                    <a href="You_1.html" class="d-block">
-                        <img src="FT.F/You 1.jpg" class="img-fluid" alt="You" loading="lazy">
-                        <div class="info-box">
-                            <h5>You</h5>
-                            <div class="d-flex justify-content-between">
-                                <span class="badge bg-success">Série</span>
-                                <span class="text-warning"><i class="fas fa-star"></i> 4.0</span>
-                            </div>
-                            <small class="text-muted">2018 • Thriller • 1 Temporada</small>
-                        </div>
-                    </a>
-                </div>
-            </div>
-
-            <div class="col-6 col-md-4 col-lg-3">
-                <div class="catalog-item h-100">
-                    <a href="The_Walking_Dead.html" class="d-block">
-                        <img src="FT.F/The Walkin Dead.jpg" class="img-fluid" alt="The Walking Dead" loading="lazy">
-                        <div class="info-box">
-                            <h5>The Walking Dead</h5>
-                            <div class="d-flex justify-content-between">
-                                <span class="badge bg-success">Série</span>
-                                <span class="text-warning"><i class="fas fa-star"></i> 4.0</span>
-                            </div>
-                            <small class="text-muted">2010-2017 • Terror/Drama • 7 Temporadas</small>
-                        </div>
-                    </a>
-                </div>
-            </div>
-
-            <div class="col-6 col-md-4 col-lg-3">
-                <div class="catalog-item h-100">
-                    <a href="Brooklyn Nine-Nine.html" class="d-block">
-                        <img src="Series/FT.F/Brooklyn Nine-Nine.jpg" class="img-fluid" alt="Série" loading="lazy">
-                        <div class="info-box">
-                            <h5>Brooklyn Nine-Nine</h5>
-                            <div class="d-flex justify-content-between">
-                                <span class="badge bg-success">Série</span>
-                                <span class="text-warning"><i class="fas fa-star"></i> 4.1</span>
-                            </div>
-                            <small class="text-muted">2013-2015 • Comedia • 3 Temporadas</small>
-                        </div>
-                    </a>
-                </div>
-            </div>
-        </div>
+  <noscript>
+    <div class="container" style="padding:40px 24px">
+      <div class="error-box" style="margin:0 auto">
+        <h2>JavaScript necessário</h2>
+        <p>Ative o JavaScript no navegador para explorar o catálogo do Bahama Flix.</p>
+      </div>
     </div>
-        <style>
-        /* Espaçamento adicional para anúncios */
-        .ad-container {
-            margin: 20px 0;
-            padding: 15px 0;
-            background: rgba(255,255,255,0.05);
-            border-radius: 5px;
-        }
-        .ad-container-bottom {
-            margin: 30px 0 10px 0;
-        }
-        .native-ad-container {
-            margin: 30px auto;
-            padding: 15px;
-        }
-    </style>
-    <!-- Adicione as outras séries seguindo o mesmo padrão -->
-             <!-- Banner 320x50 Topo -->
-        <div class="container-fluid ad-container text-center">
-<script type="text/javascript">
-	atOptions = {
-		'key' : 'bd3537b4b5ae256adcbf3fdb3658dd75',
-		'format' : 'iframe',
-		'height' : 50,
-		'width' : 320,
-		'params' : {}
-	};
-</script>
-<script type="text/javascript" src="//www.highperformanceformat.com/bd3537b4b5ae256adcbf3fdb3658dd75/invoke.js"></script>
-  </div>
+  </noscript>
 
- 
-    <div class="container my-4" id="desenho1">
-        <div class="d-flex justify-content-between align-items-center mb-3">
-            <h2 class="mb-0"><i class="fas fa-child me-2"></i> Filmes e Séries</h2>
-        </div>
-        <div class="row g-3">
-            <div class="col-6 col-md-4 col-lg-3">
-                <div class="catalog-item h-100">
-                    <a href="Grito Silencioso.html" class="d-block">
-                        <img src="FT.F/Grito Silencioso.jpg" class="img-fluid" alt="Grito Silencioso" loading="lazy">
-                        <div class="info-box">
-                            <h5>Grito Silencioso</h5>
-                            <div class="d-flex justify-content-between">
-                                <span class="badge bg-primary">HD</span>
-                                <span class="text-warning"><i class="fas fa-star"></i> 4.0</span>
-                            </div>
-                            <small class="text-muted">2023 • Drama</small>
-                        </div>
-                    </a>
-                </div>
-            </div>
-
-<div class="col-6 col-md-4 col-lg-3">
-    <div class="catalog-item h-100">
-        <a href="Uma_Noite_de_Crime.html" class="d-block">
-            <img src="FT.F/Uma Noite de Crime.jpg" class="img-fluid" alt="Uma Noite de Crime" loading="lazy">
-            <div class="info-box">
-                <h5>Uma Noite de Crime</h5>
-                <div class="d-flex justify-content-between">
-                    <span class="badge bg-primary">HD</span>
-                    <span class="text-warning"><i class="fas fa-star"></i> 4.0</span>
-                </div>
-                <small class="text-muted">2013 • Terror/Thriller</small>
-            </div>
-        </a>
-    </div>
-</div>
-
-<div class="col-6 col-md-4 col-lg-3">
-    <div class="catalog-item h-100">
-        <a href="A pequena sereia.html" class="d-block">
-            <img src="FT.F/A Pequena Sereia.jpg" class="img-fluid" alt="A Pequena Sereia" loading="lazy">
-            <div class="info-box">
-                <h5>A Pequena Sereia</h5>
-                <div class="d-flex justify-content-between">
-                    <span class="badge bg-primary">HD</span>
-                    <span class="text-warning"><i class="fas fa-star"></i> 4.0</span>
-                </div>
-                <small class="text-muted">1989 • Animação</small>
-            </div>
-        </a>
-    </div>
-</div>
-
-<div class="col-6 col-md-4 col-lg-3">
-    <div class="catalog-item h-100">
-        <a href="Sobrenatural_A_Origem.html" class="d-block">
-            <img src="FT.F/Sobrenatural A Origem.jpg" class="img-fluid" alt="Sobrenatural: A Origem" loading="lazy">
-            <div class="info-box">
-                <h5>Sobrenatural A Origem</h5>
-                <div class="d-flex justify-content-between">
-                    <span class="badge bg-primary">HD</span>
-                    <span class="text-warning"><i class="fas fa-star"></i> 4.0</span>
-                </div>
-                <small class="text-muted">2014 • Terror</small>
-            </div>
-        </a>
-    </div>
-</div>
-
-    <!-- Banner 468x60 no rodapé -->
-    <div class="container-fluid ad-container-bottom text-center">
-        <script type="text/javascript">
-            atOptions = {
-                'key' : '53d7ec1456f78138913ffe2ad8c879e0',
-                'format' : 'iframe',
-                'height' : 60,
-                'width' : 468,
-                'params' : {}
-            };
-        </script>
-        <script type="text/javascript" src="//www.highperformanceformat.com/53d7ec1456f78138913ffe2ad8c879e0/invoke.js"></script>
-    </div>
-    
-
-    <!-- Modal de Login -->
-    <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content bg-dark text-light">
-                <div class="modal-header border-secondary">
-                    <h5 class="modal-title" id="loginModalLabel"><i class="fas fa-sign-in-alt me-2"></i> Login</h5>
-                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    <form>
-                        <div class="mb-3">
-                            <label for="username" class="form-label">Usuário</label>
-                            <input type="text" class="form-control bg-secondary text-light" id="username" placeholder="Digite seu usuário" required>
-                        </div>
-                        <div class="mb-3">
-                            <label for="password" class="form-label">Senha</label>
-                            <input type="password" class="form-control bg-secondary text-light" id="password" placeholder="Digite sua senha" required>
-                        </div>
-                        <button type="submit" class="btn btn-primary w-100">Logar</button>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Footer -->
-    <footer class="bg-dark text-light py-4 mt-5">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-md-4 mb-4 mb-md-0 text-center">
-                    <h5 class="mb-3">Contato</h5>
-                    <p class="mb-1">
-                        <a href="mailto:claviochitsulete@icloud.com" class="text-light text-decoration-none">
-                            <i class="fas fa-envelope me-2"></i>claviochitsulete@icloud.com
-                        </a>
-                    </p>
-                    <p>
-                        <a href="tel:+25883384656" class="text-light text-decoration-none">
-                            <i class="fas fa-phone me-2"></i>(+258) 83 384 6565
-                        </a>
-                    </p>
-                </div>
-                
-                <div class="col-md-4 mb-4 mb-md-0 text-center">
-                    <h5 class="mb-3">Redes Sociais</h5>
-                    <div class="social-links">
-                        <a href="https://www.facebook.com/ranilde.paulo?mibextid=LQQJ4d" class="text-light mx-2" target="_blank">
-                            <i class="fab fa-facebook-f fa-lg"></i>
-                        </a>
-                        <a href="https://www.instagram.com/claviochitsulete?igsh=N2hvOWE0aWQyanht&utm_source=qr" class="text-light mx-2" target="_blank">
-                            <i class="fab fa-instagram fa-lg"></i>
-                        </a>
-                        <a href="https://wa.me/258847944630" class="text-light mx-2" target="_blank">
-                            <i class="fab fa-whatsapp fa-lg"></i>
-                        </a>
-                    </div>
-                </div>
-
-                <div class="col-md-4 text-center">
-                    <h5 class="mb-3">Links Úteis</h5>
-                    <p class="mb-1">
-                        <a href="privacidade.html" class="text-light text-decoration-none">Política de Privacidade</a>
-                    </p>
-                    <p>
-                        <a href="termos.html" class="text-light text-decoration-none">Termos de Uso</a>
-                    </p>
-                    <!-- Direct Link oculto -->
-                    <a href="https://www.profitableratecpm.com/huexcf8fte?key=17b7ff2b0406db4058d9a4f74cb2ea96" style="display:none;">Promoções</a>
-                </div>
-            </div>
-
-            <hr class="my-4 bg-secondary">
-            
-            <div class="row">
-                <div class="col text-center">
-                    <p class="mb-0 text-muted">© 2025 Bahama Flix. Todos os direitos reservados.</p>
-                </div>
-            </div>
-        </div>
-    </footer>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-    <script src="javascript/script.js"></script>
-    <script src="js/ads-manager.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js"></script>
-
-    <!-- CookieConsent Script -->
-    <script>
-    window.cookieconsent.initialise({
-        "palette": {
-            "popup": { "background": "#1a1a1a" },
-            "button": { "background": "#dc3545", "text": "#ffffff" }
-        },
-        "theme": "classic",
-        "position": "bottom-right",
-        "content": {
-            "message": "Este site usa cookies para melhorar sua experiência e exibir anúncios personalizados.",
-            "dismiss": "Entendi",
-            "link": "Saiba mais",
-            "href": "privacidade.html"
-        }
-    });
-    </script>
-
-    <!-- Adiciona hover effect nos links do footer -->
-    <style>
-    footer a:hover {
-        opacity: 0.8;
-        transition: opacity 0.3s ease;
-    }
-    
-    footer .social-links a {
-        display: inline-block;
-        width: 35px;
-        height: 35px;
-        line-height: 35px;
-        border-radius: 50%;
-        background-color: rgba(255, 255, 255, 0.1);
-        transition: all 0.3s ease;
-    }
-    
-    footer .social-links a:hover {
-        background-color: rgba(255, 255, 255, 0.2);
-        transform: translateY(-3px);
-    }
-    </style>
+  <script src="assets/js/catalog.js"></script>
+  <script src="assets/js/search.js"></script>
+  <script src="assets/js/app.js"></script>
+  <script src="assets/js/pwa.js"></script>
 </body>
 </html>

@@ -1,0 +1,833 @@
+{
+  "generatedAt": "2026-11-19T08:53:00.224Z",
+  "total": 24,
+  "series": [
+    {
+      "name": "1 Contra Todos",
+      "slug": "1-contra-todos",
+      "type": "Série",
+      "poster": "media/Series/FT.F/1 Contra Todos.jpg",
+      "synopsis": "Cadu, um advogado honesto, é preso injustamente e confundido com um traficante. Dentro da prisão, ele precisa sobreviver em um mundo perigoso de crime e corrupção, enquanto luta para provar sua inocência e proteger sua família do caos que se instaura.",
+      "genres": [],
+      "categories": [],
+      "seasonCount": 1,
+      "seasons": [
+        {
+          "number": 1,
+          "range": null,
+          "label": ": Temporada 1",
+          "title": "1 Contra Todos: Temporada 1",
+          "slug": "1-contra-todos-temporada-1",
+          "year": 2016,
+          "image": "media/Series/FT.F/1 Contra Todos.jpg",
+          "watchUrl": "https://drive.google.com/drive/folders/1rpHZUoyDYRWw5EWHGrYNYKaf-0EofqaB?usp=drive_link",
+          "synopsis": "Cadu, um advogado honesto, é preso injustamente e confundido com um traficante. Dentro da prisão, ele precisa sobreviver em um mundo perigoso de crime e corrupção, enquanto luta para provar sua inocência e proteger sua família do caos que se instaura."
+        }
+      ]
+    },
+    {
+      "name": "13 Reasons Why",
+      "slug": "13-reasons-why",
+      "type": "Série",
+      "poster": "media/Series/FT.F/13 Reasons Why T1.jpg",
+      "synopsis": "Clay Jensen recebe fitas cassetes de Hannah Baker, sua colega que se suicidou. Nelas, Hannah revela treze razões para sua decisão, apontando pessoas que a machucaram. Enquanto escuta, Clay descobre segredos sombrios da escola e enfrenta sua própria culpa, em uma jornada de luto e revelações.",
+      "genres": [],
+      "categories": [],
+      "seasonCount": 2,
+      "seasons": [
+        {
+          "number": 1,
+          "range": null,
+          "label": "T1",
+          "title": "13 Reasons Why T1",
+          "slug": "13-reasons-why-t1",
+          "year": 2017,
+          "image": "media/Series/FT.F/13 Reasons Why T1.jpg",
+          "watchUrl": "https://drive.google.com/drive/folders/1ZzotRgJ-n47lko05tNXo43bl9isaetXq?usp=drive_link",
+          "synopsis": "Clay Jensen recebe fitas cassetes de Hannah Baker, sua colega que se suicidou. Nelas, Hannah revela treze razões para sua decisão, apontando pessoas que a machucaram. Enquanto escuta, Clay descobre segredos sombrios da escola e enfrenta sua própria culpa, em uma jornada de luto e revelações."
+        },
+        {
+          "number": 2,
+          "range": null,
+          "label": "T2",
+          "title": "13 Reasons Why T2",
+          "slug": "13-reasons-why-t2",
+          "year": 2018,
+          "image": "media/Series/FT.F/13 Reasons Why T2.jpg",
+          "watchUrl": "https://drive.google.com/drive/folders/1fgRB1FTynuUC4qBwALswS6SqQ7GhgNym?usp=drive_link",
+          "synopsis": "Após o suicídio de Hannah, Clay e seus amigos lidam com um processo contra a escola. Polaroides misteriosas revelam mais segredos de abusos na Liberty High. Enquanto Clay busca justiça, outros enfrentam traumas e novas ameaças, em um ambiente marcado por culpa e recuperação."
+        }
+      ]
+    },
+    {
+      "name": "A Bela e a Fera",
+      "slug": "a-bela-e-a-fera",
+      "type": "Série",
+      "poster": "media/Series/FT.F/A Bela e a Fera T1.jpg",
+      "synopsis": "Catherine Chandler, uma detetive de homicídios, testemunha o assassinato de sua mãe e é salva por uma figura misteriosa. Anos depois, ela descobre Vincent Keller, um ex-soldado que se transforma em uma fera devido a experimentos militares. Juntos, eles investigam crimes em Nova York enquanto tentam proteger o segredo de Vincent e lidam com uma atração crescente, enfrentando perigos de uma organização que os persegue.",
+      "genres": [],
+      "categories": [],
+      "seasonCount": 3,
+      "seasons": [
+        {
+          "number": 1,
+          "range": null,
+          "label": "T1",
+          "title": "A Bela e a Fera T1",
+          "slug": "a-bela-e-a-fera-t1",
+          "year": 2012,
+          "image": "media/Series/FT.F/A Bela e a Fera T1.jpg",
+          "watchUrl": "https://drive.google.com/drive/folders/1fgRB1FTynuUC4qBwALswS6SqQ7GhgNym?usp=drive_link",
+          "synopsis": "Catherine Chandler, uma detetive de homicídios, testemunha o assassinato de sua mãe e é salva por uma figura misteriosa. Anos depois, ela descobre Vincent Keller, um ex-soldado que se transforma em uma fera devido a experimentos militares. Juntos, eles investigam crimes em Nova York enquanto tentam proteger o segredo de Vincent e lidam com uma atração crescente, enfrentando perigos de uma organização que os persegue."
+        },
+        {
+          "number": 2,
+          "range": null,
+          "label": "T2",
+          "title": "A Bela e a Fera T2",
+          "slug": "a-bela-e-a-fera-t2",
+          "year": 2013,
+          "image": "media/Series/FT.F/A Bela e a Fera T2.jpg",
+          "watchUrl": "https://drive.google.com/drive/folders/1fgRB1FTynuUC4qBwALswS6SqQ7GhgNym?usp=drive_link",
+          "synopsis": "Após os eventos da primeira temporada, Catherine e Vincent enfrentam novos desafios enquanto tentam manter seu relacionamento em segredo. Vincent luta para controlar sua natureza feral, enquanto Catherine descobre mais sobre os experimentos que o transformaram. A ameaça de uma organização sombria cresce, forçando-os a se unirem contra inimigos poderosos, ao mesmo tempo em que lidam com traições e revelações que testam sua confiança um no outro."
+        },
+        {
+          "number": 3,
+          "range": null,
+          "label": "T3",
+          "title": "A Bela e a Fera T3",
+          "slug": "a-bela-e-a-fera-t3",
+          "year": 2014,
+          "image": "media/Series/FT.F/A Bela e a Fera T3.jpg",
+          "watchUrl": "https://drive.google.com/drive/folders/1fgRB1FTynuUC4qBwALswS6SqQ7GhgNym?usp=drive_link",
+          "synopsis": "Na terceira temporada, Catherine e Vincent aprofundam seu relacionamento, mas enfrentam novas ameaças que colocam suas vidas em risco. Enquanto tentam construir um futuro juntos, eles descobrem segredos sobre os experimentos que criaram Vincent e enfrentam um inimigo poderoso que deseja explorar seus poderes. Com aliados e traições em jogo, o casal luta para proteger seu amor e sua humanidade em um mundo cheio de perigos sobrenaturais."
+        }
+      ]
+    },
+    {
+      "name": "Anne with an E",
+      "slug": "anne-with-an-e",
+      "type": "Série",
+      "poster": "media/Series/FT.F/Anne with an e T1.jpg",
+      "synopsis": "Anne Shirley, uma órfã imaginativa e falante, é adotada por engano pelos irmãos Marilla e Matthew Cuthbert em Green Gables. Enfrentando preconceitos e desafios, ela conquista a comunidade com sua energia, sonhos e espírito transformador.",
+      "genres": [],
+      "categories": [],
+      "seasonCount": 1,
+      "seasons": [
+        {
+          "number": 1,
+          "range": null,
+          "label": ": Temporada 1",
+          "title": "Anne with an E: Temporada 1",
+          "slug": "anne-with-an-e-temporada-1",
+          "year": 2017,
+          "image": "media/Series/FT.F/Anne with an e T1.jpg",
+          "watchUrl": "https://drive.google.com/drive/folders/1mFujSLEkIdbvT2M77oDAAQSXdekK1K_K?usp=drive_link",
+          "synopsis": "Anne Shirley, uma órfã imaginativa e falante, é adotada por engano pelos irmãos Marilla e Matthew Cuthbert em Green Gables. Enfrentando preconceitos e desafios, ela conquista a comunidade com sua energia, sonhos e espírito transformador."
+        }
+      ]
+    },
+    {
+      "name": "Atypical",
+      "slug": "atypical",
+      "type": "Série",
+      "poster": "media/Series/FT.F/Atypical T1.jpg",
+      "synopsis": "Sam, um adolescente autista de 18 anos, decide que está pronto para namorar, desafiando as dinâmicas de sua família. Sua jornada por independência e amor leva sua mãe, Elsa, a questionar sua própria vida, enquanto seu pai, Doug, tenta se conectar com ele. A irmã, Casey, equilibra sua vida escolar e afetiva. A primeira temporada de *Atypical* mistura humor e emoção, explorando aceitação e crescimento pessoal.",
+      "genres": [],
+      "categories": [],
+      "seasonCount": 2,
+      "seasons": [
+        {
+          "number": 1,
+          "range": null,
+          "label": "T1",
+          "title": "Atypical T1",
+          "slug": "atypical-t1",
+          "year": 2017,
+          "image": "media/Series/FT.F/Atypical T1.jpg",
+          "watchUrl": "https://drive.google.com/drive/folders/14wOS6NHGEzTEoPBS4eVJNlroH1JoyQnP?usp=drive_link",
+          "synopsis": "Sam, um adolescente autista de 18 anos, decide que está pronto para namorar, desafiando as dinâmicas de sua família. Sua jornada por independência e amor leva sua mãe, Elsa, a questionar sua própria vida, enquanto seu pai, Doug, tenta se conectar com ele. A irmã, Casey, equilibra sua vida escolar e afetiva. A primeira temporada de *Atypical* mistura humor e emoção, explorando aceitação e crescimento pessoal."
+        },
+        {
+          "number": 2,
+          "range": null,
+          "label": "T2",
+          "title": "Atypical T2",
+          "slug": "atypical-t2",
+          "year": 2018,
+          "image": "media/Series/FT.F/Atypical T2.jpg",
+          "watchUrl": "https://drive.google.com/drive/folders/1youTf4_N_BQnEvl9myM7Mld4W_D7UvK0?usp=drive_link",
+          "synopsis": "Na segunda temporada de *Atypical*, Sam se prepara para o último ano do ensino médio, enfrentando mudanças e novos desafios no espectro autista. Ele explora amizades e um possível romance, enquanto sua família lida com suas próprias crises: Elsa enfrenta as consequências de suas escolhas, Doug busca equilíbrio, e Casey considera uma nova escola. A série aprofunda os laços familiares com humor e sensibilidade."
+        }
+      ]
+    },
+    {
+      "name": "Brooklyn Nine-Nine",
+      "slug": "brooklyn-nine-nine",
+      "type": "Série",
+      "poster": "media/Series/FT.F/Brooklyn Nine-Nine T1.jpg",
+      "synopsis": "Jake Peralta, um detetive talentoso mas imaturo, adora resolver casos com métodos pouco convencionais na 99ª delegacia do Brooklyn. Sua vida vira de cabeça para baixo com a chegada do novo capitão, Ray Holt, um líder sério que exige disciplina. A primeira temporada apresenta a equipe excêntrica, incluindo Amy Santiago, Rosa Diaz e Terry Jeffords, enquanto eles enfrentam crimes e competições internas com muito humor.",
+      "genres": [],
+      "categories": [],
+      "seasonCount": 3,
+      "seasons": [
+        {
+          "number": 1,
+          "range": null,
+          "label": "T1",
+          "title": "Brooklyn Nine-Nine T1",
+          "slug": "brooklyn-nine-nine-t1",
+          "year": 2013,
+          "image": "media/Series/FT.F/Brooklyn Nine-Nine T1.jpg",
+          "watchUrl": "https://drive.google.com/drive/folders/1Ci3RowvIMnBauxrPfKqCZ_ElnvpvoZY7?usp=drive_link",
+          "synopsis": "Jake Peralta, um detetive talentoso mas imaturo, adora resolver casos com métodos pouco convencionais na 99ª delegacia do Brooklyn. Sua vida vira de cabeça para baixo com a chegada do novo capitão, Ray Holt, um líder sério que exige disciplina. A primeira temporada apresenta a equipe excêntrica, incluindo Amy Santiago, Rosa Diaz e Terry Jeffords, enquanto eles enfrentam crimes e competições internas com muito humor."
+        },
+        {
+          "number": 2,
+          "range": null,
+          "label": "T2",
+          "title": "Brooklyn Nine-Nine T2",
+          "slug": "brooklyn-nine-nine-t2",
+          "year": 2014,
+          "image": "media/Series/FT.F/Brooklyn Nine-Nine T2.jpg",
+          "watchUrl": "https://drive.google.com/drive/folders/1lHvKN5Y8afs8AExKaDB9y8o6-SG_-EVc?usp=drive_link",
+          "synopsis": "Na segunda temporada, Jake Peralta continua suas façanhas na 99ª delegacia, agora sob o comando do capitão Holt, que enfrenta desafios para manter sua autoridade. A equipe lida com casos hilários, como uma operação infiltrada de Jake, enquanto tensões românticas entre ele e Amy Santiago crescem. Com novos vilões e momentos de amizade, a temporada aprofunda a dinâmica do grupo com muito humor."
+        },
+        {
+          "number": 3,
+          "range": null,
+          "label": "T3",
+          "title": "Brooklyn Nine-Nine T3",
+          "slug": "brooklyn-nine-nine-t3",
+          "year": 2015,
+          "image": "media/Series/FT.F/Brooklyn Nine-Nine T3.jpg",
+          "watchUrl": "https://drive.google.com/drive/folders/1gLbN4GoDQtmEm9ts678J9wxPdyLloQsk",
+          "synopsis": "A terceira temporada de *Brooklyn Nine-Nine* traz a 99ª delegacia enfrentando novas mudanças, incluindo a chegada de um novo capitão temporário que sacode a equipe. Jake e Amy navegam seu relacionamento recém-iniciado, enquanto Holt enfrenta desafios fora da delegacia. Casos malucos, como uma perseguição a um criminoso astuto, mantêm o humor afiado, com a equipe unida por laços de amizade e rivalidades cômicas."
+        }
+      ]
+    },
+    {
+      "name": "Chuteira Preta",
+      "slug": "chuteira-preta",
+      "type": "Série",
+      "poster": "media/Series/FT.F/Chuteira preta.jpg",
+      "synopsis": "Um jovem jogador de futebol talentoso enfrenta os desafios da fama, corrupção e rivalidades no mundo do esporte. Enquanto busca seu lugar no time, ele lida com pressões pessoais e profissionais em uma jornada de superação.",
+      "genres": [],
+      "categories": [],
+      "seasonCount": 1,
+      "seasons": [
+        {
+          "number": 1,
+          "range": null,
+          "label": ": Temporada 1",
+          "title": "Chuteira Preta: Temporada 1",
+          "slug": "chuteira-preta-temporada-1",
+          "year": 2019,
+          "image": "media/Series/FT.F/Chuteira preta.jpg",
+          "watchUrl": "https://drive.google.com/drive/folders/1ZibvDgKPhGwrtPrUI-kbGKOke0oQRvUJ",
+          "synopsis": "Um jovem jogador de futebol talentoso enfrenta os desafios da fama, corrupção e rivalidades no mundo do esporte. Enquanto busca seu lugar no time, ele lida com pressões pessoais e profissionais em uma jornada de superação."
+        }
+      ]
+    },
+    {
+      "name": "Dark",
+      "slug": "dark",
+      "type": "Série",
+      "poster": "media/Series/FT.F/Dark.jpg",
+      "synopsis": "Em uma pequena cidade alemã, o desaparecimento de crianças revela segredos sombrios que conectam famílias através de gerações. A série explora temas de tempo, destino e mistério em uma narrativa complexa e envolvente.",
+      "genres": [],
+      "categories": [],
+      "seasonCount": 1,
+      "seasons": [
+        {
+          "number": 1,
+          "range": null,
+          "label": ": Temporada 1",
+          "title": "Dark: Temporada 1",
+          "slug": "dark-temporada-1",
+          "year": 2017,
+          "image": "media/Series/FT.F/Dark.jpg",
+          "watchUrl": "https://drive.google.com/drive/folders/1Po4OK1ZJTTMiuy0INuJBz5Of5WCoZSjv",
+          "synopsis": "Em uma pequena cidade alemã, o desaparecimento de crianças revela segredos sombrios que conectam famílias através de gerações. A série explora temas de tempo, destino e mistério em uma narrativa complexa e envolvente."
+        }
+      ]
+    },
+    {
+      "name": "Dragon Ball Super",
+      "slug": "dragon-ball-super",
+      "type": "Série",
+      "poster": "media/Series/FT.F/Dragon Ball Super T1 – T5.jpg",
+      "synopsis": "Goku e seus amigos enfrentam novos inimigos poderosos em batalhas épicas pelo universo. Com torneios intergalácticos e ameaças cósmicas, a série expande o universo de Dragon Ball com ação intensa e aventuras emocionantes.",
+      "genres": [],
+      "categories": [],
+      "seasonCount": 1,
+      "seasons": [
+        {
+          "number": 1,
+          "range": null,
+          "label": ": Temporadas 1 a 5",
+          "title": "Dragon Ball Super: Temporadas 1 a 5",
+          "slug": "dragon-ball-super-temporadas-1-a-5",
+          "year": null,
+          "image": "media/Series/FT.F/Dragon Ball Super T1 – T5.jpg",
+          "watchUrl": "https://drive.google.com/drive/folders/1pugHirc7v54UfHpHDUr_HN3Ux3wQYSnS",
+          "synopsis": "Goku e seus amigos enfrentam novos inimigos poderosos em batalhas épicas pelo universo. Com torneios intergalácticos e ameaças cósmicas, a série expande o universo de Dragon Ball com ação intensa e aventuras emocionantes."
+        }
+      ]
+    },
+    {
+      "name": "Dynasty",
+      "slug": "dynasty",
+      "type": "Série",
+      "poster": "media/Series/FT.F/Disnasty.jpg",
+      "synopsis": "Uma família rica e poderosa luta pelo controle de seu império empresarial, enquanto segredos, traições e rivalidades ameaçam desestabilizar suas vidas luxuosas. A temporada mergulha no drama e nas intrigas dos Carringtons.",
+      "genres": [],
+      "categories": [],
+      "seasonCount": 1,
+      "seasons": [
+        {
+          "number": 1,
+          "range": null,
+          "label": ": Temporada 1",
+          "title": "Dynasty: Temporada 1",
+          "slug": "dynasty-temporada-1",
+          "year": 2017,
+          "image": "media/Series/FT.F/Disnasty.jpg",
+          "watchUrl": "https://drive.google.com/drive/folders/1HEvE3ZNrAtaRRONaixyJaW9Tky0OZsUh",
+          "synopsis": "Uma família rica e poderosa luta pelo controle de seu império empresarial, enquanto segredos, traições e rivalidades ameaçam desestabilizar suas vidas luxuosas. A temporada mergulha no drama e nas intrigas dos Carringtons."
+        }
+      ]
+    },
+    {
+      "name": "Game of Thrones",
+      "slug": "game-of-thrones",
+      "type": "Série",
+      "poster": "media/Series/FT.F/Game of Thrones T3.jpg",
+      "synopsis": "As casas nobres de Westeros intensificam suas lutas pelo Trono de Ferro, com alianças frágeis e traições inesperadas. Enquanto isso, ameaças sobrenaturais se aproximam, colocando em risco todo o continente em uma temporada épica.",
+      "genres": [],
+      "categories": [],
+      "seasonCount": 1,
+      "seasons": [
+        {
+          "number": 3,
+          "range": null,
+          "label": ": Temporada 3",
+          "title": "Game of Thrones: Temporada 3",
+          "slug": "game-of-thrones-temporada-3",
+          "year": 2013,
+          "image": "media/Series/FT.F/Game of Thrones T3.jpg",
+          "watchUrl": "https://drive.google.com/drive/folders/10HwrpQp8Gh8Cn-FweLZXl3mbSEWDbMpm?usp=drive_link",
+          "synopsis": "As casas nobres de Westeros intensificam suas lutas pelo Trono de Ferro, com alianças frágeis e traições inesperadas. Enquanto isso, ameaças sobrenaturais se aproximam, colocando em risco todo o continente em uma temporada épica."
+        }
+      ]
+    },
+    {
+      "name": "Glee",
+      "slug": "glee",
+      "type": "Série",
+      "poster": "media/Series/FT.F/Glee.jpg",
+      "synopsis": "Um professor otimista revive o clube de coral de uma escola, reunindo um grupo de alunos talentosos e problemáticos. Juntos, eles enfrentam desafios pessoais e competições musicais, celebrando a diversidade e a arte.",
+      "genres": [],
+      "categories": [],
+      "seasonCount": 1,
+      "seasons": [
+        {
+          "number": 1,
+          "range": null,
+          "label": ": Temporada 1",
+          "title": "Glee: Temporada 1",
+          "slug": "glee-temporada-1",
+          "year": 2009,
+          "image": "media/Series/FT.F/Glee.jpg",
+          "watchUrl": "https://drive.google.com/drive/folders/1ZZwtOCdoHiCb_6znkPbcKZfULzvZEyAV",
+          "synopsis": "Um professor otimista revive o clube de coral de uma escola, reunindo um grupo de alunos talentosos e problemáticos. Juntos, eles enfrentam desafios pessoais e competições musicais, celebrando a diversidade e a arte."
+        }
+      ]
+    },
+    {
+      "name": "La Casa de Papel",
+      "slug": "la-casa-de-papel",
+      "type": "Série",
+      "poster": "media/Series/FT.F/La Casa de Papel T2.jpg",
+      "synopsis": "O grupo de assaltantes continua seu plano audacioso na Casa da Moeda, enfrentando novos obstáculos e dilemas morais. Com a polícia se aproximando, tensões internas ameaçam o sucesso do roubo em uma temporada cheia de suspense.",
+      "genres": [],
+      "categories": [],
+      "seasonCount": 1,
+      "seasons": [
+        {
+          "number": 2,
+          "range": null,
+          "label": ": Temporada 2",
+          "title": "La Casa de Papel: Temporada 2",
+          "slug": "la-casa-de-papel-temporada-2",
+          "year": 2017,
+          "image": "media/Series/FT.F/La Casa de Papel T2.jpg",
+          "watchUrl": "https://drive.google.com/drive/folders/1-Nai3c6sYI0Rw_pdgwxa-91u661B2xA5",
+          "synopsis": "O grupo de assaltantes continua seu plano audacioso na Casa da Moeda, enfrentando novos obstáculos e dilemas morais. Com a polícia se aproximando, tensões internas ameaçam o sucesso do roubo em uma temporada cheia de suspense."
+        }
+      ]
+    },
+    {
+      "name": "Los Expedientes Secretos X",
+      "slug": "los-expedientes-secretos-x",
+      "type": "Série",
+      "poster": "media/Series/FT.F/Los Expedientes Secretos X T1.jpg",
+      "synopsis": "Os agentes do FBI Fox Mulder e Dana Scully investigam casos paranormais e inexplicáveis, conhecidos como Arquivos X. Enquanto Mulder acredita em fenômenos sobrenaturais, Scully mantém uma abordagem cética, formando uma dupla que desvenda mistérios e conspirações.",
+      "genres": [],
+      "categories": [],
+      "seasonCount": 11,
+      "seasons": [
+        {
+          "number": 1,
+          "range": null,
+          "label": ": Temporada 1",
+          "title": "Los Expedientes Secretos X: Temporada 1",
+          "slug": "los-expedientes-secretos-x-temporada-1",
+          "year": 1993,
+          "image": "media/Series/FT.F/Los Expedientes Secretos X T1.jpg",
+          "watchUrl": "https://drive.google.com/drive/folders/1zr-rUj-Z0QTpKD7e1v6bKtQl5UjCfflK?usp=drive_link",
+          "synopsis": "Os agentes do FBI Fox Mulder e Dana Scully investigam casos paranormais e inexplicáveis, conhecidos como Arquivos X. Enquanto Mulder acredita em fenômenos sobrenaturais, Scully mantém uma abordagem cética, formando uma dupla que desvenda mistérios e conspirações."
+        },
+        {
+          "number": 2,
+          "range": null,
+          "label": ": Temporada 2",
+          "title": "Los Expedientes Secretos X: Temporada 2",
+          "slug": "los-expedientes-secretos-x-temporada-2",
+          "year": 1994,
+          "image": "media/Series/FT.F/Los Expedientes Secretos X T2.jpg",
+          "watchUrl": "https://drive.google.com/drive/folders/1b0zH7s8jZC4P18UTC0-SorC-0v8oA3nW?usp=drive_link",
+          "synopsis": "Mulder e Scully continuam suas investigações nos Arquivos X, enfrentando casos paranormais e aprofundando a conspiração alienígena. Com tensões crescentes e novos aliados, a temporada explora mistérios que desafiam a realidade."
+        },
+        {
+          "number": 3,
+          "range": null,
+          "label": ": Temporada 3",
+          "title": "Los Expedientes Secretos X: Temporada 3",
+          "slug": "los-expedientes-secretos-x-temporada-3",
+          "year": 1995,
+          "image": "media/Series/FT.F/Los Expedientes Secretos X T3.jpg",
+          "watchUrl": "https://drive.google.com/drive/folders/1tHc-BLPvKoQqEMDrfYExJcCDs17NPBhQ?usp=drive_link",
+          "synopsis": "A temporada expande a mitologia com revelações sobre abduções e experimentos governamentais. Mulder e Scully enfrentam casos paranormais intensos, enquanto desvendam segredos que desafiam suas crenças e os colocam em perigo."
+        },
+        {
+          "number": 4,
+          "range": null,
+          "label": ": Temporada 4",
+          "title": "Los Expedientes Secretos X: Temporada 4",
+          "slug": "los-expedientes-secretos-x-temporada-4",
+          "year": 1996,
+          "image": "media/Series/FT.F/Los Expedientes Secretos X T4.jpg",
+          "watchUrl": "https://drive.google.com/drive/folders/15L2p5N4bBFi-XEBBLnWphRsY1p9R7UgE?usp=drive_link",
+          "synopsis": "Arcos narrativos intensos, como o câncer de Scully, e episódios premiados marcam esta temporada. Mulder e Scully enfrentam conspirações alienígenas e casos paranormais, enquanto lidam com desafios pessoais e segredos governamentais."
+        },
+        {
+          "number": 5,
+          "range": null,
+          "label": ": Temporada 5",
+          "title": "Los Expedientes Secretos X: Temporada 5",
+          "slug": "los-expedientes-secretos-x-temporada-5",
+          "year": 1997,
+          "image": "media/Series/FT.F/Los Expedientes Secretos X T5.jpg",
+          "watchUrl": "https://drive.google.com/drive/folders/1bcmolKH74eRJcsZVhBrGGZFmUVFJ6efj?usp=drive_link",
+          "synopsis": "Prepara o terreno para o filme, com conspirações globais e momentos cruciais para Mulder e Scully. A temporada combina casos paranormais com avanços na mitologia alienígena, enquanto os agentes enfrentam novos inimigos."
+        },
+        {
+          "number": 6,
+          "range": null,
+          "label": ": Temporada 6",
+          "title": "Los Expedientes Secretos X: Temporada 6",
+          "slug": "los-expedientes-secretos-x-temporada-6",
+          "year": 1998,
+          "image": "media/Series/FT.F/Los Expedientes Secretos X T6.jpg",
+          "watchUrl": "https://drive.google.com/drive/folders/10uj3ZZnTkYPVOhXtB404ql9fT_n8SrFP?usp=drive_link",
+          "synopsis": "Mais episódios standalone, com humor e experimentação narrativa, marcam esta temporada. Mulder e Scully investigam casos paranormais, enquanto a mitologia alienígena continua a se desenvolver, trazendo novos desafios."
+        },
+        {
+          "number": 7,
+          "range": null,
+          "label": ": Temporada 7",
+          "title": "Los Expedientes Secretos X: Temporada 7",
+          "slug": "los-expedientes-secretos-x-temporada-7",
+          "year": 1999,
+          "image": "media/Series/FT.F/Los Expedientes Secretos X T7.jpg",
+          "watchUrl": "https://drive.google.com/drive/folders/1cmBy8thnm8sgVyVkjC-BQBpeLqMS5vOL?usp=drive_link",
+          "synopsis": "Explora o passado de Mulder e Scully, com desfechos emocionais e casos marcantes. A temporada combina episódios paranormais com avanços na mitologia, enquanto os agentes enfrentam revelações pessoais e conspirações."
+        },
+        {
+          "number": 8,
+          "range": null,
+          "label": ": Temporada 8",
+          "title": "Los Expedientes Secretos X: Temporada 8",
+          "slug": "los-expedientes-secretos-x-temporada-8",
+          "year": 2000,
+          "image": "media/Series/FT.F/Los Expedientes Secretos X T8.jpg",
+          "watchUrl": "https://drive.google.com/drive/folders/16AchT7n2EmsJnHgZCwvyxO8F6arL5Ykr?usp=drive_link",
+          "synopsis": "Com Mulder ausente, o agente John Doggett se junta a Scully para investigar os Arquivos X. A temporada explora novos mistérios paranormais e a busca por Mulder, enquanto Scully enfrenta desafios pessoais e conspirações governamentais."
+        },
+        {
+          "number": 9,
+          "range": null,
+          "label": ": Temporada 9",
+          "title": "Los Expedientes Secretos X: Temporada 9",
+          "slug": "los-expedientes-secretos-x-temporada-9",
+          "year": 2001,
+          "image": "media/Series/FT.F/Los Expedientes Secretos X T9.jpg",
+          "watchUrl": "https://drive.google.com/drive/folders/1t5Brq96Afc8ygZPyEb_YoQBnBeAgNfBM?usp=drive_link",
+          "synopsis": "Com Doggett e Reyes liderando os Arquivos X, a temporada foca em novos casos paranormais e no nascimento de William, filho de Scully. O retorno de Mulder traz respostas e desafios, encerrando a série original com emoção."
+        },
+        {
+          "number": 10,
+          "range": null,
+          "label": ": Temporada 10",
+          "title": "Los Expedientes Secretos X: Temporada 10",
+          "slug": "los-expedientes-secretos-x-temporada-10",
+          "year": 2016,
+          "image": "media/Series/FT.F/Los Expedientes Secretos X T10.jpg",
+          "watchUrl": "https://drive.google.com/drive/folders/16kUU63j4JZ6nP1R97P9KpawE_rVQheP-?usp=drive_link",
+          "synopsis": "Em um revival da série, Mulder e Scully retornam para investigar novos casos paranormais e revisitar a mitologia alienígena. Enfrentando ameaças modernas e segredos do passado, a temporada mistura nostalgia com novos mistérios."
+        },
+        {
+          "number": 11,
+          "range": null,
+          "label": ": Temporada 11",
+          "title": "Los Expedientes Secretos X: Temporada 11",
+          "slug": "los-expedientes-secretos-x-temporada-11",
+          "year": 2018,
+          "image": "media/Series/FT.F/Los Expedientes Secretos X T11.jpg",
+          "watchUrl": "https://drive.google.com/drive/folders/1RiP-PgbI1uDiJ26WTc8BNFQkF4nooaiw?usp=drive_link",
+          "synopsis": "Concluindo o revival, Mulder e Scully enfrentam novos casos paranormais e buscam respostas para a mitologia alienígena. Com episódios standalone e desfechos emocionais, a temporada encerra a jornada da dupla com mistérios e revelações."
+        }
+      ]
+    },
+    {
+      "name": "Luna Negra",
+      "slug": "luna-negra",
+      "type": "Série",
+      "poster": "media/Series/FT.F/Luna Negra.jpg",
+      "synopsis": "Uma jovem bruxa no século XVII enfrenta conflitos entre sua família e uma sociedade que teme a magia. Enquanto descobre seus poderes e segredos sombrios, ela luta por liberdade e identidade em um mundo de fantasia e perigos.",
+      "genres": [],
+      "categories": [],
+      "seasonCount": 1,
+      "seasons": [
+        {
+          "number": 1,
+          "range": null,
+          "label": ": Temporada 1",
+          "title": "Luna Negra: Temporada 1",
+          "slug": "luna-negra-temporada-1",
+          "year": 2020,
+          "image": "media/Series/FT.F/Luna Negra.jpg",
+          "watchUrl": "https://drive.google.com/drive/folders/1tXWJ2tsI0TlhLp3ra7o0bEqnBRPDTDbB",
+          "synopsis": "Uma jovem bruxa no século XVII enfrenta conflitos entre sua família e uma sociedade que teme a magia. Enquanto descobre seus poderes e segredos sombrios, ela luta por liberdade e identidade em um mundo de fantasia e perigos."
+        }
+      ]
+    },
+    {
+      "name": "Mad About You",
+      "slug": "mad-about-you",
+      "type": "Série",
+      "poster": "media/Series/FT.F/Mad About You.jpg",
+      "synopsis": "Paul e Jamie, um casal recém-casado em Nova York, navegam pelos altos e baixos da vida a dois. Com humor e momentos românticos, a série explora as pequenas e grandes aventuras do cotidiano de um casamento.",
+      "genres": [],
+      "categories": [],
+      "seasonCount": 1,
+      "seasons": [
+        {
+          "number": 1,
+          "range": null,
+          "label": ": Temporada 1",
+          "title": "Mad About You: Temporada 1",
+          "slug": "mad-about-you-temporada-1",
+          "year": 1992,
+          "image": "media/Series/FT.F/Mad About You.jpg",
+          "watchUrl": "https://drive.google.com/drive/folders/1eOlETM6fywsrrc_Ocl27AL2hIgzibFdt",
+          "synopsis": "Paul e Jamie, um casal recém-casado em Nova York, navegam pelos altos e baixos da vida a dois. Com humor e momentos românticos, a série explora as pequenas e grandes aventuras do cotidiano de um casamento."
+        }
+      ]
+    },
+    {
+      "name": "Malcolm in the Middle",
+      "slug": "malcolm-in-the-middle",
+      "type": "Série",
+      "poster": "media/Series/FT.F/Malcominmidles T1.jpg",
+      "synopsis": "Malcolm, um jovem gênio com QI elevado, tenta sobreviver à sua família disfuncional, composta por irmãos bagunceiros, uma mãe autoritária e um pai excêntrico. Entre confusões na escola e em casa, a temporada apresenta o humor caótico da vida familiar.",
+      "genres": [],
+      "categories": [],
+      "seasonCount": 3,
+      "seasons": [
+        {
+          "number": 1,
+          "range": null,
+          "label": ": Temporada 1",
+          "title": "Malcolm in the Middle: Temporada 1",
+          "slug": "malcolm-in-the-middle-temporada-1",
+          "year": 2000,
+          "image": "media/Series/FT.F/Malcominmidles T1.jpg",
+          "watchUrl": "https://drive.google.com/drive/folders/1904q4za7tbr_13q7_gd0kNGLDyzTIdRa?usp=drive_link",
+          "synopsis": "Malcolm, um jovem gênio com QI elevado, tenta sobreviver à sua família disfuncional, composta por irmãos bagunceiros, uma mãe autoritária e um pai excêntrico. Entre confusões na escola e em casa, a temporada apresenta o humor caótico da vida familiar."
+        },
+        {
+          "number": 2,
+          "range": null,
+          "label": ": Temporada 2",
+          "title": "Malcolm in the Middle: Temporada 2",
+          "slug": "malcolm-in-the-middle-temporada-2",
+          "year": 2001,
+          "image": "media/Series/FT.F/Malcominmidles T2.jpg",
+          "watchUrl": "https://drive.google.com/drive/folders/1Avj6NkfuKNi6h1BF1VNBWQWLywXsQ4tA?usp=drive_link",
+          "synopsis": "Malcolm enfrenta novos desafios na escola e em casa, enquanto sua família continua causando confusão. Entre rivalidades com os irmãos, planos mirabolantes e situações hilárias, a temporada aprofunda o caos cômico da vida familiar."
+        },
+        {
+          "number": 3,
+          "range": null,
+          "label": ": Temporada 3",
+          "title": "Malcolm in the Middle: Temporada 3",
+          "slug": "malcolm-in-the-middle-temporada-3",
+          "year": 2002,
+          "image": "media/Series/FT.F/Malcominmidles T3.jpg",
+          "watchUrl": "https://drive.google.com/drive/folders/1B1xWl0tbD3fYt17031vLKYJV17kU2-lk?usp=drive_link",
+          "synopsis": "A família de Malcolm enfrenta mudanças, como novos empregos e amizades, enquanto ele lida com a puberdade e as travessuras dos irmãos. Com situações cômicas e planos que sempre dão errado, a temporada mantém o humor característico da série."
+        }
+      ]
+    },
+    {
+      "name": "Manifest",
+      "slug": "manifest",
+      "type": "Série",
+      "poster": "media/Series/FT.F/Manifest.jpg",
+      "synopsis": "Quando o voo Montego Air 828 aterrissa misteriosamente após uma turbulência de rotina, os passageiros descobrem que o mundo envelheceu cinco anos e meio durante seu voo de algumas horas. Enquanto tentam se reintegrar à sociedade, alguns passageiros começam a experimentar vozes e visões estranhas, levando a descobertas perturbadoras sobre o que realmente aconteceu durante seu voo desaparecido.",
+      "genres": [],
+      "categories": [],
+      "seasonCount": 1,
+      "seasons": [
+        {
+          "number": 1,
+          "range": null,
+          "label": "Temporada 1",
+          "title": "Manifest",
+          "slug": "manifest",
+          "year": 2018,
+          "image": "media/Series/FT.F/Manifest.jpg",
+          "watchUrl": "https://drive.google.com/drive/folders/10rwSjSOVPZ9b3fk1G63DAslJ9bn7XEF-",
+          "synopsis": "Quando o voo Montego Air 828 aterrissa misteriosamente após uma turbulência de rotina, os passageiros descobrem que o mundo envelheceu cinco anos e meio durante seu voo de algumas horas. Enquanto tentam se reintegrar à sociedade, alguns passageiros começam a experimentar vozes e visões estranhas, levando a descobertas perturbadoras sobre o que realmente aconteceu durante seu voo desaparecido."
+        }
+      ]
+    },
+    {
+      "name": "Me Chama de Bruna",
+      "slug": "me-chama-de-bruna",
+      "type": "Série",
+      "poster": "media/Series/FT.F/Me Chama de Bruna.jpg",
+      "synopsis": "Baseada na história real de Bruna Surfistinha, esta série dramática acompanha a vida de Raquel, uma jovem de classe média que se torna uma das prostitutas mais famosas do Brasil. A narrativa explora sua transformação em Bruna, os desafios do mundo da prostituição de alto padrão e sua jornada de autodescoberta e empoderamento.",
+      "genres": [],
+      "categories": [],
+      "seasonCount": 1,
+      "seasons": [
+        {
+          "number": 1,
+          "range": null,
+          "label": "Temporada 1",
+          "title": "Me Chama de Bruna",
+          "slug": "me-chama-de-bruna",
+          "year": 2016,
+          "image": "media/Series/FT.F/Me Chama de Bruna.jpg",
+          "watchUrl": "https://drive.google.com/drive/folders/1P_X1M-jePM8zhlyge8mtK0mvJwHTrMXT",
+          "synopsis": "Baseada na história real de Bruna Surfistinha, esta série dramática acompanha a vida de Raquel, uma jovem de classe média que se torna uma das prostitutas mais famosas do Brasil. A narrativa explora sua transformação em Bruna, os desafios do mundo da prostituição de alto padrão e sua jornada de autodescoberta e empoderamento."
+        }
+      ]
+    },
+    {
+      "name": "Naruto",
+      "slug": "naruto",
+      "type": "Série",
+      "poster": "media/Series/FT.F/Naruto 1.jpg",
+      "synopsis": "Naruto Uzumaki, um jovem ninja da Vila da Folha, sonha em se tornar Hokage, o líder de sua vila. Carregando o espírito da Raposa de Nove Caudas, ele enfrenta preconceitos e desafios, formando laços com seus colegas Sasuke e Sakura enquanto aprende o verdadeiro significado de coragem.",
+      "genres": [],
+      "categories": [],
+      "seasonCount": 7,
+      "seasons": [
+        {
+          "number": 1,
+          "range": null,
+          "label": "T1",
+          "title": "Naruto T1",
+          "slug": "naruto-t1",
+          "year": 2002,
+          "image": "media/Series/FT.F/Naruto 1.jpg",
+          "watchUrl": "https://drive.google.com/drive/folders/1t-xpcVR1vrKlcvfaDVMN6OO4S1pHQ--p",
+          "synopsis": "Naruto Uzumaki, um jovem ninja da Vila da Folha, sonha em se tornar Hokage, o líder de sua vila. Carregando o espírito da Raposa de Nove Caudas, ele enfrenta preconceitos e desafios, formando laços com seus colegas Sasuke e Sakura enquanto aprende o verdadeiro significado de coragem."
+        },
+        {
+          "number": 2,
+          "range": null,
+          "label": "T2",
+          "title": "Naruto T2",
+          "slug": "naruto-t2",
+          "year": 2003,
+          "image": "media/Series/FT.F/Naruto 2.jpg",
+          "watchUrl": "https://drive.google.com/drive/mobile/folders/1NYrWQz2-kFzsbQPDdXCNM5ScLwxzGdQ2",
+          "synopsis": "Naruto e seus amigos enfrentam os Exames Chunin, uma competição que testa suas habilidades ninja. Enfrentando rivais poderosos como Gaara, Naruto desenvolve novas técnicas e descobre o valor da amizade, enquanto segredos sobre a Vila da Folha começam a surgir."
+        },
+        {
+          "number": 3,
+          "range": null,
+          "label": "T3",
+          "title": "Naruto T3",
+          "slug": "naruto-t3",
+          "year": 2004,
+          "image": "media/Series/FT.F/Naruto 3.jpg",
+          "watchUrl": "https://drive.google.com/drive/mobile/folders/1i8a6be3q8Z0d7snIsHL_DJ0O9txcQAtw",
+          "synopsis": "A Vila da Folha enfrenta uma invasão liderada pelo traiçoeiro Orochimaru, e Naruto se une aos ninjas para proteger seu lar. Em busca da lendária Tsunade, ele encara missões perigosas, mostrando crescimento e determinação em meio a batalhas épicas."
+        },
+        {
+          "number": 4,
+          "range": null,
+          "label": "T4",
+          "title": "Naruto T4",
+          "slug": "naruto-t4",
+          "year": 2005,
+          "image": "media/Series/FT.F/Naruto 4.jpg",
+          "watchUrl": "https://drive.google.com/drive/mobile/folders/1VS_D1oXQJnspFOgRK7FZfMDpr3iVrmIM",
+          "synopsis": "Naruto embarca em missões cada vez mais perigosas, enfrentando ninjas renegados e fortalecendo suas habilidades. Enquanto a ameaça de Orochimaru cresce, ele treina incansavelmente, determinado a provar seu valor e proteger aqueles que ama."
+        },
+        {
+          "number": 5,
+          "range": null,
+          "label": "T5",
+          "title": "Naruto T5",
+          "slug": "naruto-t5",
+          "year": 2006,
+          "image": "media/Series/FT.F/Naruto 5.jpg",
+          "watchUrl": "https://drive.google.com/drive/mobile/folders/12rzzfNIfy_35X3_zYVBe42UJbkLkRzxb",
+          "synopsis": "Após a deserção de Sasuke, Naruto parte em uma missão desesperada para trazê-lo de volta, enfrentando membros da misteriosa Akatsuki. Com desafios que testam seus limites emocionais e físicos, ele aprende lições valiosas sobre amizade e sacrifício."
+        },
+        {
+          "number": 6,
+          "range": null,
+          "label": "T6",
+          "title": "Naruto T6",
+          "slug": "naruto-t6",
+          "year": 2006,
+          "image": "media/Series/FT.F/Naruto 6.jpg",
+          "watchUrl": "https://drive.google.com/drive/mobile/folders/12OPGT3aMaBaIzBkhZ1o9PDUqKbknGg5d",
+          "synopsis": "Naruto e o Time 7 enfrentam novas missões que desafiam sua união e força. Enquanto enfrentam inimigos poderosos, Naruto aprimora suas técnicas ninja, determinado a superar obstáculos e manter a esperança de resgatar Sasuke, em aventuras cheias de ação."
+        },
+        {
+          "number": 7,
+          "range": null,
+          "label": "T7",
+          "title": "Naruto T7",
+          "slug": "naruto-t7",
+          "year": 2007,
+          "image": "media/Series/FT.F/Naruto 7.jpg",
+          "watchUrl": "https://drive.google.com/drive/mobile/folders/1JJHswN2XMViU8c8to_ZEjVRY3i3xNC3D",
+          "synopsis": "Naruto treina com o lendário Jiraiya, enfrentando membros da Akatsuki em batalhas que testam sua coragem e habilidade. Com a Vila da Folha em perigo, ele se aproxima de seu sonho de se tornar Hokage, enfrentando desafios que moldarão seu futuro."
+        }
+      ]
+    },
+    {
+      "name": "Sex Education",
+      "slug": "sex-education",
+      "type": "Série",
+      "poster": "media/Series/FT.F/Sex Education T1.jpg",
+      "synopsis": "Otis, um adolescente socialmente desajeitado, usa o conhecimento de sua mãe, uma terapeuta sexual, para abrir uma clínica improvisada na escola, ajudando colegas com questões amorosas e sexuais. Esta comédia dramática aborda temas adolescentes com humor e sensibilidade.",
+      "genres": [],
+      "categories": [],
+      "seasonCount": 2,
+      "seasons": [
+        {
+          "number": 1,
+          "range": null,
+          "label": "T1",
+          "title": "Sex Education T1",
+          "slug": "sex-education-t1",
+          "year": 2019,
+          "image": "media/Series/FT.F/Sex Education T1.jpg",
+          "watchUrl": "https://drive.google.com/drive/folders/14Otaig130nFqBVobfO38NFxNSdNLVnfV?usp=drive_link",
+          "synopsis": "Otis, um adolescente socialmente desajeitado, usa o conhecimento de sua mãe, uma terapeuta sexual, para abrir uma clínica improvisada na escola, ajudando colegas com questões amorosas e sexuais. Esta comédia dramática aborda temas adolescentes com humor e sensibilidade."
+        },
+        {
+          "number": 2,
+          "range": null,
+          "label": "T2",
+          "title": "Sex Education T2",
+          "slug": "sex-education-t2",
+          "year": 2020,
+          "image": "media/Series/FT.F/Sex Education T2.jpg",
+          "watchUrl": "https://drive.google.com/drive/folders/1oAJjUFul0kT76u2iOq2lRnsY8V7z2tz_?usp=drive_link",
+          "synopsis": "Na segunda temporada, Otis enfrenta novos desafios amorosos e familiares enquanto a clínica sexual ganha popularidade na escola. Novas amizades e conflitos emergem, trazendo mais humor e emoção a esta série que explora a adolescência com autenticidade."
+        }
+      ]
+    },
+    {
+      "name": "Sintonia",
+      "slug": "sintonia",
+      "type": "Série",
+      "poster": "media/Series/FT.F/Sintonia.jpg",
+      "synopsis": "Ambientada nas periferias de São Paulo, \"Sintonia\" acompanha três amigos de infância: Doni, Nando e Rita, que seguem caminhos diferentes na busca por dinheiro, poder e reconhecimento. Enquanto Doni busca sucesso como MC no mundo do funk, Nando entra para o tráfico de drogas e Rita encontra propósito na religião. A série retrata de forma autêntica os desafios, sonhos e realidades de jovens da periferia, explorando temas como amizade, lealdade, crime, música e fé em um cenário urbano brasileiro.",
+      "genres": [],
+      "categories": [],
+      "seasonCount": 1,
+      "seasons": [
+        {
+          "number": 1,
+          "range": null,
+          "label": "T1",
+          "title": "Sintonia T1",
+          "slug": "sintonia-t1",
+          "year": 2019,
+          "image": "media/Series/FT.F/Sintonia.jpg",
+          "watchUrl": "https://drive.google.com/drive/folders/18TnqzLMFXKh1mZszBa_Ocfn4goAP8EV5",
+          "synopsis": "Ambientada nas periferias de São Paulo, \"Sintonia\" acompanha três amigos de infância: Doni, Nando e Rita, que seguem caminhos diferentes na busca por dinheiro, poder e reconhecimento. Enquanto Doni busca sucesso como MC no mundo do funk, Nando entra para o tráfico de drogas e Rita encontra propósito na religião. A série retrata de forma autêntica os desafios, sonhos e realidades de jovens da periferia, explorando temas como amizade, lealdade, crime, música e fé em um cenário urbano brasileiro."
+        }
+      ]
+    },
+    {
+      "name": "This Is Us",
+      "slug": "this-is-us",
+      "type": "Série",
+      "poster": "media/Series/FT.F/This Is Us.jpg",
+      "synopsis": "This Is Us acompanha a vida da família Pearson através de diferentes linhas temporais. A série retrata as histórias de Jack e Rebecca como pais de trigêmeos (Kevin, Kate e Randall), mostrando como suas escolhas e eventos afetam as vidas dos filhos no presente. Com uma narrativa emocionante e não-linear, a série explora temas como adoção, obesidade, carreira, traumas de infância e relacionamentos familiares, construindo uma trama comovente sobre as conexões que nos unem e os desafios que enfrentamos ao longo da vida.",
+      "genres": [],
+      "categories": [],
+      "seasonCount": 1,
+      "seasons": [
+        {
+          "number": 1,
+          "range": null,
+          "label": "Temporada 1",
+          "title": "This Is Us",
+          "slug": "this-is-us",
+          "year": 2016,
+          "image": "media/Series/FT.F/This Is Us.jpg",
+          "watchUrl": "https://drive.google.com/drive/folders/1NQLZZUhLVrXFNh2m1BIXgyqC-fLx9hh-",
+          "synopsis": "This Is Us acompanha a vida da família Pearson através de diferentes linhas temporais. A série retrata as histórias de Jack e Rebecca como pais de trigêmeos (Kevin, Kate e Randall), mostrando como suas escolhas e eventos afetam as vidas dos filhos no presente. Com uma narrativa emocionante e não-linear, a série explora temas como adoção, obesidade, carreira, traumas de infância e relacionamentos familiares, construindo uma trama comovente sobre as conexões que nos unem e os desafios que enfrentamos ao longo da vida."
+        }
+      ]
+    },
+    {
+      "name": "You",
+      "slug": "you",
+      "type": "Série",
+      "poster": "media/FT.F/You 1.jpg",
+      "synopsis": "Um gerente de livraria aparentemente charmoso, Joe Goldberg, desenvolve uma obsessão perigosa por uma aspirante a escritora, levando a uma série de eventos perturbadores e manipulativos neste thriller psicológico.",
+      "genres": [],
+      "categories": [],
+      "seasonCount": 1,
+      "seasons": [
+        {
+          "number": 1,
+          "range": null,
+          "label": "(1ª Temporada)",
+          "title": "You (1ª Temporada)",
+          "slug": "you-1-temporada",
+          "year": 2018,
+          "image": "media/FT.F/You 1.jpg",
+          "watchUrl": "https://is.gd/8d5lx3",
+          "synopsis": "Um gerente de livraria aparentemente charmoso, Joe Goldberg, desenvolve uma obsessão perigosa por uma aspirante a escritora, levando a uma série de eventos perturbadores e manipulativos neste thriller psicológico."
+        }
+      ]
+    }
+  ]
+}
