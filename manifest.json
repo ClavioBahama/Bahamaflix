@@ -1,0 +1,65 @@
+{
+  "id": "./",
+  "name": "Bahama Flix — Filmes e Séries",
+  "short_name": "BahamaFlix",
+  "description": "Catálogo rápido de filmes, séries e desenhos, com busca, episódios por temporada e fontes identificadas.",
+  "lang": "pt-BR",
+  "dir": "ltr",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "display_override": ["window-controls-overlay", "standalone", "minimal-ui"],
+  "orientation": "any",
+  "background_color": "#0b0b0f",
+  "theme_color": "#0b0b0f",
+  "categories": ["entertainment", "video"],
+  "icons": [
+    {
+      "src": "assets/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/icons/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "assets/icons/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Buscar títulos",
+      "short_name": "Buscar",
+      "description": "Abrir a busca do catálogo",
+      "url": "./#/busca",
+      "icons": [{ "src": "assets/icons/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Séries",
+      "short_name": "Séries",
+      "description": "Navegar pelas séries e temporadas",
+      "url": "./#/series",
+      "icons": [{ "src": "assets/icons/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Onde assistir",
+      "short_name": "Onde assistir",
+      "description": "Ver serviços e fontes verificadas",
+      "url": "./#/plataformas",
+      "icons": [{ "src": "assets/icons/icon-192.png", "sizes": "192x192" }]
+    }
+  ]
+}

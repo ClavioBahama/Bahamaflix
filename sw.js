@@ -8,7 +8,7 @@ const asset = (path) => new URL(path, ROOT).href;
 
 const PRECACHE = [
   '', 'index.html', '404.html',
-  'manifest.webmanifest',
+  'manifest.webmanifest', 'manifest.json',
   'assets/css/style.css',
   'assets/js/catalog.js',
   'assets/js/search.js',

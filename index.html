@@ -3,20 +3,97 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Bahama Flix — Filmes, Séries e Desenhos</title>
+  <meta name="description" content="Catálogo de filmes, séries e desenhos com busca rápida, episódios por temporada e fontes identificadas. Descubra o que assistir hoje.">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <link rel="canonical" href="https://www.bahamaflix.de5.net/">
+
   <meta name="theme-color" content="#0b0b0f">
-  <meta name="description" content="Bahama Flix — filmes, séries e desenhos com busca rápida, episódios por temporada e fontes identificadas.">
+  <meta name="color-scheme" content="dark">
   <meta name="mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="apple-mobile-web-app-title" content="BahamaFlix">
-  <title>Bahama Flix — Filmes e Séries</title>
 
-  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 64 64%22><rect width=%2264%22 height=%2264%22 rx=%2212%22 fill=%22%23e50914%22/><text x=%2232%22 y=%2244%22 font-size=%2234%22 font-family=%22Arial%22 font-weight=%22bold%22 fill=%22white%22 text-anchor=%22middle%22>B</text></svg>">
   <link rel="apple-touch-icon" href="assets/icons/apple-touch-icon.png">
+  <link rel="manifest" href="manifest.json">
+
+  <!-- Pré-visualização no WhatsApp, Telegram, Facebook e redes sociais -->
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:site_name" content="Bahama Flix">
+  <meta property="og:title" content="Bahama Flix — Filmes, Séries e Desenhos">
+  <meta property="og:description" content="Catálogo de filmes, séries e desenhos com busca rápida, episódios por temporada e fontes identificadas. Descubra o que assistir hoje.">
+  <meta property="og:url" content="https://www.bahamaflix.de5.net/">
+  <meta property="og:image" content="https://www.bahamaflix.de5.net/docs/screenshots/og-image.png">
+  <meta property="og:image:secure_url" content="https://www.bahamaflix.de5.net/docs/screenshots/og-image.png">
+  <meta property="og:image:type" content="image/png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Bahama Flix — catálogo de filmes, séries e desenhos">
+
+  <!-- Cartão do Twitter / X -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Bahama Flix — Filmes, Séries e Desenhos">
+  <meta name="twitter:description" content="Catálogo de filmes, séries e desenhos com busca rápida, episódios por temporada e fontes identificadas. Descubra o que assistir hoje.">
+  <meta name="twitter:image" content="https://www.bahamaflix.de5.net/docs/screenshots/og-image.png">
+  <meta name="twitter:image:alt" content="Bahama Flix — catálogo de filmes, séries e desenhos">
 
   <link rel="preload" href="data/catalog.json" as="fetch" crossorigin="anonymous">
   <link rel="stylesheet" href="assets/css/style.css">
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 64 64%22><rect width=%2264%22 height=%2264%22 rx=%2212%22 fill=%22%23e50914%22/><text x=%2232%22 y=%2244%22 font-size=%2234%22 font-family=%22Arial%22 font-weight=%22bold%22 fill=%22white%22 text-anchor=%22middle%22>B</text></svg>">
+
+  <!-- Dados estruturados para o Google entender o site -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://www.bahamaflix.de5.net/#organization",
+        "name": "Bahama Flix",
+        "url": "https://www.bahamaflix.de5.net/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.bahamaflix.de5.net/assets/icons/icon-512.png",
+          "width": 512,
+          "height": 512
+        }
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://www.bahamaflix.de5.net/#website",
+        "url": "https://www.bahamaflix.de5.net/",
+        "name": "Bahama Flix",
+        "description": "Catálogo de filmes, séries e desenhos com busca rápida, episódios por temporada e fontes identificadas.",
+        "inLanguage": "pt-BR",
+        "publisher": { "@id": "https://www.bahamaflix.de5.net/#organization" },
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": {
+            "@type": "EntryPoint",
+            "urlTemplate": "https://www.bahamaflix.de5.net/#/busca?q={search_term_string}"
+          },
+          "query-input": "required name=search_term_string"
+        }
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://www.bahamaflix.de5.net/#webpage",
+        "url": "https://www.bahamaflix.de5.net/",
+        "name": "Bahama Flix — Filmes, Séries e Desenhos",
+        "description": "Catálogo de filmes, séries e desenhos com busca rápida, episódios por temporada e fontes identificadas.",
+        "inLanguage": "pt-BR",
+        "isPartOf": { "@id": "https://www.bahamaflix.de5.net/#website" },
+        "primaryImageOfPage": {
+          "@type": "ImageObject",
+          "url": "https://www.bahamaflix.de5.net/docs/screenshots/og-image.png"
+        }
+      }
+    ]
+  }
+  </script>
 </head>
 <body>
   <a class="skip-link" href="#main">Pular para o conteúdo</a>

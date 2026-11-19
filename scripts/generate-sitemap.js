@@ -6,7 +6,7 @@ const fs = require('fs');
 const path = require('path');
 
 const ROOT = path.resolve(__dirname, '..');
-const SITE = (process.env.SITE_URL || 'https://claviobahama.github.io/Bahamaflix').replace(/\/$/, '');
+const SITE = (process.env.SITE_URL || 'https://www.bahamaflix.de5.net').replace(/\/$/, '');
 const read = (file, fallback) => {
   const full = path.join(ROOT, 'data', file);
   return fs.existsSync(full) ? JSON.parse(fs.readFileSync(full, 'utf8')) : fallback;

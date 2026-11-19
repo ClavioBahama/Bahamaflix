@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 Disallow: /archive/
 
-Sitemap: https://claviobahama.github.io/Bahamaflix/sitemap.xml
+Sitemap: https://www.bahamaflix.de5.net/sitemap.xml

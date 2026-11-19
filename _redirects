@@ -1,0 +1,4 @@
+# Redireciona o domínio do Netlify para o endereço principal (301 permanente).
+# A ordem importa: a raiz primeiro, depois todos os caminhos.
+/   https://www.bahamaflix.de5.net/ 301!
+/*  https://www.bahamaflix.de5.net/:splat 301!

@@ -635,7 +635,7 @@
     "a-bela-e-a-fera": {
       "tvmazeId": 155,
       "tvmazeUrl": "https://www.tvmaze.com/shows/155/beauty-the-beast",
-      "officialSite": "http://www.cwtv.com/shows/beauty-and-the-beast",
+      "officialSite": "https://www.cwtv.com/shows/beauty-and-the-beast",
       "seasons": [
         {
           "key": "1",
@@ -4058,7 +4058,7 @@
     "dynasty": {
       "tvmazeId": 21656,
       "tvmazeUrl": "https://www.tvmaze.com/shows/21656/dynasty",
-      "officialSite": "http://www.cwtv.com/shows/dynasty/",
+      "officialSite": "https://www.cwtv.com/shows/dynasty/",
       "seasons": [
         {
           "key": "1",
@@ -4851,7 +4851,7 @@
     "game-of-thrones": {
       "tvmazeId": 82,
       "tvmazeUrl": "https://www.tvmaze.com/shows/82/game-of-thrones",
-      "officialSite": "http://www.hbo.com/game-of-thrones",
+      "officialSite": "https://www.hbo.com/game-of-thrones",
       "seasons": [
         {
           "key": "1",
@@ -5417,7 +5417,7 @@
     "glee": {
       "tvmazeId": 8,
       "tvmazeUrl": "https://www.tvmaze.com/shows/8/glee",
-      "officialSite": "http://www.fox.com/glee",
+      "officialSite": "https://www.fox.com/glee",
       "seasons": [
         {
           "key": "1",
@@ -6625,7 +6625,7 @@
     "los-expedientes-secretos-x": {
       "tvmazeId": 430,
       "tvmazeUrl": "https://www.tvmaze.com/shows/430/the-x-files",
-      "officialSite": "http://www.fox.com/the-x-files",
+      "officialSite": "https://www.fox.com/the-x-files",
       "seasons": [
         {
           "key": "1",
@@ -11392,7 +11392,7 @@
     "naruto": {
       "tvmazeId": 495,
       "tvmazeUrl": "https://www.tvmaze.com/shows/495/naruto",
-      "officialSite": "http://www.tv-tokyo.co.jp/anime/naruto/index2.html",
+      "officialSite": "https://www.tv-tokyo.co.jp/anime/naruto/index2.html",
       "seasons": [
         {
           "key": "2002",
@@ -13491,7 +13491,7 @@
     "this-is-us": {
       "tvmazeId": 17128,
       "tvmazeUrl": "https://www.tvmaze.com/shows/17128/this-is-us",
-      "officialSite": "http://www.nbc.com/this-is-us",
+      "officialSite": "https://www.nbc.com/this-is-us",
       "seasons": [
         {
           "key": "1",
